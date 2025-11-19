@@ -1,0 +1,240 @@
+═══════════════════════════════════════════════════════════════
+  GDOT VIDEO GENERATOR - OpenAI API Integration
+═══════════════════════════════════════════════════════════════
+
+✅ OpenAI API support is now FULLY INTEGRATED!
+
+You can now use EITHER Groq OR OpenAI as your LLM provider.
+
+═══════════════════════════════════════════════════════════════
+  QUICK SETUP (3 Steps)
+═══════════════════════════════════════════════════════════════
+
+1️⃣  Get your OpenAI API key:
+   → Go to: https://platform.openai.com/api-keys
+   → Click "Create new secret key"
+   → Copy the key (starts with sk-...)
+
+2️⃣  Edit your .env file:
+   → Open: .env (or copy from env.example)
+   → Add these lines:
+   
+   LLM_PROVIDER=openai
+   OPENAI_API_KEY=sk-your-actual-key-here
+
+3️⃣  Install OpenAI package (if not already):
+   pip install openai>=1.0.0
+   
+   OR just run:
+   pip install -r requirements.txt
+
+═══════════════════════════════════════════════════════════════
+  COMPLETE .ENV EXAMPLE FOR OPENAI
+═══════════════════════════════════════════════════════════════
+
+# API Keys - Using OpenAI
+LLM_PROVIDER=openai
+OPENAI_API_KEY=sk-your-key-here
+SERPAPI_KEY=your_serpapi_key_here
+
+# Paths
+MANIM_PATH=manim
+EDGE_TTS_VOICE=en-US-GuyNeural
+DB_PATH=./data/md_videos.db
+CHECKPOINT_DIR=./data/checkpoints
+LOGS_PATH=./data/errors.json
+
+# Application Settings
+MAX_RETRIES_PER_STEP=3
+MAX_TOTAL_RETRIES=10
+ERROR_THRESHOLD_DEGRADED=5
+
+═══════════════════════════════════════════════════════════════
+  RUN THE APPLICATION
+═══════════════════════════════════════════════════════════════
+
+streamlit run app.py
+
+The UI will show:
+  🤖 LLM Provider: OPENAI
+  ✓ OpenAI API Key configured
+
+═══════════════════════════════════════════════════════════════
+  WHAT CHANGED?
+═══════════════════════════════════════════════════════════════
+
+✅ workflow.py
+   - Added call_llm() function that auto-detects provider
+   - Supports both OpenAI and Groq with same interface
+   - Default model: gpt-4o-mini (fast & affordable)
+   - Alternative models: gpt-4, gpt-4-turbo, gpt-3.5-turbo
+
+✅ app.py (Streamlit UI)
+   - Detects LLM provider from .env
+   - Shows correct API key status in sidebar
+   - Displays "Powered by OPENAI + Manim" footer
+
+✅ api.py (FastAPI)
+   - Validates correct API key based on provider
+   - Health endpoint shows active provider
+   - Startup message shows both API key statuses
+
+✅ requirements.txt
+   - Added openai>=1.0.0 package
+
+✅ env.example
+   - Added OPENAI_API_KEY field
+   - Added LLM_PROVIDER setting
+
+═══════════════════════════════════════════════════════════════
+  OPENAI vs GROQ - WHICH TO USE?
+═══════════════════════════════════════════════════════════════
+
+Use OPENAI if you want:
+  ✅ Best quality output
+  ✅ More reliable script generation
+  ✅ Professional-grade videos
+  ✅ Better code generation
+  
+  Cost: ~$0.02-0.05 per video (GPT-4o-mini)
+        ~$0.10-0.30 per video (GPT-4)
+
+Use GROQ if you want:
+  ✅ FREE (with limits)
+  ✅ Very fast inference
+  ✅ Good for testing/development
+  ✅ No billing required
+  
+  Cost: FREE (30 req/min, 14k tokens/min)
+
+RECOMMENDATION:
+  - Development: Use Groq (free, fast)
+  - Production: Use OpenAI (best quality, minimal cost)
+
+═══════════════════════════════════════════════════════════════
+  SWITCHING BETWEEN PROVIDERS
+═══════════════════════════════════════════════════════════════
+
+Edit .env file and change LLM_PROVIDER:
+
+For OpenAI:
+  LLM_PROVIDER=openai
+  OPENAI_API_KEY=sk-your-key-here
+
+For Groq:
+  LLM_PROVIDER=groq
+  GROQ_API_KEY=gsk-your-key-here
+
+Then restart the application.
+
+═══════════════════════════════════════════════════════════════
+  VERIFY SETUP
+═══════════════════════════════════════════════════════════════
+
+Run the test script:
+  python test_installation.py
+
+It will check:
+  ✓ LLM provider setting
+  ✓ OpenAI API key configuration
+  ✓ Package installation
+  ✓ API connectivity
+
+═══════════════════════════════════════════════════════════════
+  CHANGING OPENAI MODELS
+═══════════════════════════════════════════════════════════════
+
+Default model: gpt-4o-mini (recommended)
+
+To use a different model, edit workflow.py line 319:
+
+  response = client.chat.completions.create(
+      model="gpt-4",  # Change this line
+      messages=[{"role": "user", "content": prompt}],
+      max_tokens=max_tokens,
+      temperature=0.7
+  )
+
+Available models:
+  - gpt-4o-mini   : Fast, affordable (RECOMMENDED)
+  - gpt-4o        : Latest GPT-4 optimized
+  - gpt-4         : Highest quality, more expensive
+  - gpt-4-turbo   : Fast GPT-4 variant
+  - gpt-3.5-turbo : Cheapest, lower quality
+
+═══════════════════════════════════════════════════════════════
+  TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+❌ "OpenAI API Key missing"
+   → Check .env file has: OPENAI_API_KEY=sk-...
+   → Check .env file has: LLM_PROVIDER=openai
+   → No quotes around values
+   → Restart application
+
+❌ "Incorrect API key provided"
+   → Generate new key at platform.openai.com/api-keys
+   → Copy entire key (starts with sk-)
+   → Update .env file
+   → Save and restart
+
+❌ "Rate limit exceeded"
+   → Add billing info at platform.openai.com/account/billing
+   → Wait for rate limit reset
+   → Check usage limits
+
+❌ "You exceeded your current quota"
+   → Add credits to OpenAI account
+   → Set usage limits in dashboard
+   → Or switch to Groq (free)
+
+═══════════════════════════════════════════════════════════════
+  COST ESTIMATES (OpenAI)
+═══════════════════════════════════════════════════════════════
+
+GPT-4o-mini (RECOMMENDED):
+  Input:  $0.15 / 1M tokens
+  Output: $0.60 / 1M tokens
+  Per video: ~$0.02 - $0.05
+
+GPT-4:
+  Input:  $5.00 / 1M tokens
+  Output: $15.00 / 1M tokens
+  Per video: ~$0.10 - $0.30
+
+GPT-3.5-turbo:
+  Input:  $0.50 / 1M tokens
+  Output: $1.50 / 1M tokens
+  Per video: ~$0.01 - $0.03
+
+═══════════════════════════════════════════════════════════════
+  SUPPORT & DOCUMENTATION
+═══════════════════════════════════════════════════════════════
+
+Detailed Guide:
+  → See: OPENAI_SETUP.md
+
+OpenAI Resources:
+  → API Docs: https://platform.openai.com/docs
+  → Pricing: https://openai.com/api/pricing
+  → Dashboard: https://platform.openai.com
+
+Application Docs:
+  → README.md      : General setup
+  → QUICKSTART.md  : 5-minute setup
+  → ARCHITECTURE.md: Technical details
+
+═══════════════════════════════════════════════════════════════
+  SUMMARY
+═══════════════════════════════════════════════════════════════
+
+✅ OpenAI fully integrated and working
+✅ Easy switching between OpenAI and Groq
+✅ Same workflow, different providers
+✅ No code changes needed by users
+✅ All documentation updated
+
+Just set LLM_PROVIDER=openai in .env and you're good to go!
+
+═══════════════════════════════════════════════════════════════
+
