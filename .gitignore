@@ -60,3 +60,9 @@ checkpoints/
 # Test files
 test_*.py
 verify_*.py
+
+# Documentation (except README and requirements)
+*.md
+!README.md
+*.txt
+!requirements.txt
