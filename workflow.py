@@ -910,6 +910,9 @@ def step_10_merge_and_finalize(ctx: WorkflowContext) -> str:
     if not ctx.silent_video_path:
         raise ValueError("No video available to merge")
     
+    video = None
+    audio = None
+    
     try:
         from moviepy.editor import VideoFileClip, AudioFileClip, AudioClip, concatenate_audioclips
         
@@ -957,6 +960,12 @@ def step_10_merge_and_finalize(ctx: WorkflowContext) -> str:
             logger=None
         )
         
+        # Close video and audio to release resources and cleanup temp files
+        if video:
+            video.close()
+        if audio:
+            audio.close()
+        
         ctx.final_video_path = str(final_path)
         
         # Update job in database
@@ -984,12 +993,55 @@ def step_10_merge_and_finalize(ctx: WorkflowContext) -> str:
         # Cleanup checkpoints
         cleanup_checkpoints(ctx.job_id)
         
+        # Cleanup any leftover MoviePy temp files
+        cleanup_moviepy_temp_files(ctx.job_id)
+        
         return str(final_path)
         
     except ImportError as e:
         raise ImportError(f"Missing library: {e}. Install with: pip install moviepy")
     except Exception as e:
         raise Exception(f"Merge error: {e}")
+    finally:
+        # Ensure resources are always released
+        if video:
+            try:
+                video.close()
+            except:
+                pass
+        if audio:
+            try:
+                audio.close()
+            except:
+                pass
+
+
+def cleanup_moviepy_temp_files(job_id: str):
+    """Cleanup any leftover MoviePy temporary files"""
+    try:
+        import glob
+        # MoviePy creates temp files with pattern: *TEMP_MPY*.mp4
+        temp_pattern = f"*{job_id}*TEMP_MPY*.mp4"
+        for temp_file in glob.glob(temp_pattern):
+            try:
+                if os.path.exists(temp_file):
+                    os.remove(temp_file)
+                    log_info(job_id, 10, f"Cleaned up temp file: {temp_file}")
+            except Exception as e:
+                log_warning(job_id, 10, f"Could not remove temp file {temp_file}: {e}")
+        
+        # Also check in current directory for any orphaned temp files
+        for temp_file in glob.glob("*TEMP_MPY*.mp4"):
+            try:
+                # Remove if file is older than 1 hour
+                file_age = time.time() - os.path.getmtime(temp_file)
+                if file_age > 3600:  # 1 hour
+                    os.remove(temp_file)
+                    log_info(job_id, 10, f"Cleaned up old temp file: {temp_file}")
+            except Exception as e:
+                log_warning(job_id, 10, f"Could not remove old temp file {temp_file}: {e}")
+    except Exception as e:
+        log_warning(job_id, 10, f"Cleanup error: {e}")
 
 
 # ============================================================================

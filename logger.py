@@ -9,16 +9,24 @@ import os
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Any, Optional
+from logging.handlers import RotatingFileHandler
 from dotenv import load_dotenv
 
 load_dotenv()
 
-# Configure Python logging
+# Configure Python logging with rotation
+log_handler = RotatingFileHandler(
+    'app.log',
+    maxBytes=10*1024*1024,  # 10 MB
+    backupCount=3  # Keep 3 backup files
+)
+log_handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('app.log'),
+        log_handler,
         logging.StreamHandler()
     ]
 )
@@ -228,4 +236,5 @@ def cleanup_checkpoints(job_id: str) -> None:
         logger.info(f"Cleaned up checkpoints for job {job_id}")
     except Exception as e:
         logger.error(f"Failed to cleanup checkpoints: {e}")
+
 

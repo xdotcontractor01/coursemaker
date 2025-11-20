@@ -92,6 +92,22 @@ st.markdown("""
 create_tables()
 ensure_logs_dir()
 
+# Cleanup orphaned MoviePy temp files on startup
+def cleanup_temp_files():
+    """Remove any orphaned MoviePy temporary files"""
+    import glob
+    try:
+        for temp_file in glob.glob("*TEMP_MPY*.mp4"):
+            try:
+                os.remove(temp_file)
+                print(f"Cleaned up orphaned temp file: {temp_file}")
+            except Exception as e:
+                print(f"Could not remove temp file {temp_file}: {e}")
+    except Exception as e:
+        print(f"Cleanup error: {e}")
+
+cleanup_temp_files()
+
 # Session state initialization
 if 'workflow_running' not in st.session_state:
     st.session_state.workflow_running = False

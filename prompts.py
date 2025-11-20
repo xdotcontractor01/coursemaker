@@ -57,6 +57,13 @@ Requirements:
 - Include self.wait() calls with appropriate durations
 - Clean, readable code with comments
 
+CRITICAL CODE QUALITY RULES:
+- ALWAYS define variables BEFORE using them (e.g., define 'title' before using it in next_to())
+- Use consistent variable names throughout (check spelling and capitalization)
+- Every variable reference must have a matching definition above it
+- If you use .next_to(variable_name, ...), ensure 'variable_name' is defined earlier
+- Test your variable references mentally before generating the script
+
 Also generate a timings JSON object with format:
 {{"slides": [{{"slide_no": 1, "duration": 25, "title": "Introduction"}}, ...]}}
 
