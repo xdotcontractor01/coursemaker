@@ -8,10 +8,12 @@ import json
 import re
 import subprocess
 import time
+import requests
 from pathlib import Path
 from datetime import datetime
 from dotenv import load_dotenv
 from openai import OpenAI
+from layout_manager import LayoutManager, LayoutType
 
 # Load environment variables
 load_dotenv()
@@ -468,6 +470,295 @@ class BridgeDesignManual(Scene):
     print_success("Base script generated")
     return base_script, timings, tokens
 
+def step_4_suggest_images(summary, timings):
+    """Step 4: Suggest relevant images for slides"""
+    print_step(4, "Suggest Images for Slides")
+    
+    if not SERPAPI_KEY:
+        print_info("No SERPAPI_KEY found, skipping image suggestions")
+        return []
+    
+    slides_info = "\n".join([
+        f"Slide {s.get('slide_no', i+1)}: {s.get('title', 'Content')} ({s.get('duration', 25)}s)"
+        for i, s in enumerate(timings)
+    ])
+    
+    prompt = f"""{SYSTEM_GDOT}
+
+Task: Suggest relevant images for each slide in an educational video about bridge construction.
+
+REQUIREMENTS:
+- Suggest 1-2 images per slide (skip title/conclusion slides)
+- Images should support the content, not distract
+- Provide specific search queries for SerpAPI
+- Choose appropriate layout type for each image
+
+AVAILABLE LAYOUT TYPES:
+- background_only: Subtle background image at 25% opacity (best for text-heavy slides)
+- split_left: Image on left, content on right (good for comparisons)
+- split_right: Content on left, image on right (best for showing examples)
+- sidebar_right: Small image on right side (minimal distraction)
+
+Slide Information:
+{slides_info}
+
+Content Summary:
+{summary}
+
+Provide JSON output ONLY (no other text):
+[
+  {{
+    "slide_no": 2,
+    "query": "bridge steel beam construction site",
+    "layout": "split_right",
+    "purpose": "Show actual bridge beams during explanation"
+  }},
+  ...
+]
+
+Only suggest images for slides 2-5 (skip title and conclusion). Be selective - not every slide needs an image.
+"""
+    
+    print_info("Calling LLM for image suggestions...")
+    content, tokens = call_llm(prompt, max_tokens=800)
+    
+    print_info(f"Tokens used: {tokens}")
+    
+    # Extract JSON
+    try:
+        json_match = re.search(r'\[.*\]', content, re.DOTALL)
+        if json_match:
+            suggestions = json.loads(json_match.group(0))
+        else:
+            suggestions = json.loads(content)
+    except json.JSONDecodeError as e:
+        print_error(f"Could not parse image suggestions: {e}")
+        print_info("Response: " + content[:200])
+        return []
+    
+    # Save suggestions
+    suggestions_file = TEST_DIR / 'images.json'
+    suggestions_file.write_text(json.dumps(suggestions, indent=2))
+    print_info(f"Suggestions saved to: {suggestions_file}")
+    
+    print_info(f"Suggested {len(suggestions)} images")
+    for sugg in suggestions:
+        slide = sugg.get('slide_no')
+        query = sugg.get('query', '')
+        layout = sugg.get('layout', 'background_only')
+        print_info(f"  Slide {slide}: '{query}' [layout: {layout}]")
+    
+    print_success("Image suggestions generated")
+    return suggestions, tokens
+
+def step_5_download_images(suggestions):
+    """Step 5: Download images using SerpAPI"""
+    print_step(5, "Download Images")
+    
+    if not suggestions:
+        print_info("No image suggestions, skipping download")
+        return {}
+    
+    if not SERPAPI_KEY:
+        print_error("SERPAPI_KEY not configured")
+        return {}
+    
+    # Create images directory
+    images_dir = TEST_DIR / 'images'
+    images_dir.mkdir(exist_ok=True)
+    
+    downloaded = {}
+    
+    for i, sugg in enumerate(suggestions):
+        slide_no = sugg.get('slide_no')
+        query = sugg.get('query', '')
+        layout = sugg.get('layout', 'background_only')
+        
+        print_info(f"Downloading image for slide {slide_no}: '{query}'")
+        
+        try:
+            # Search SerpAPI
+            serpapi_url = "https://serpapi.com/search"
+            params = {
+                'engine': 'google_images',
+                'q': query,
+                'api_key': SERPAPI_KEY,
+                'num': 2  # Get 2 results as backup
+            }
+            
+            response = requests.get(serpapi_url, params=params, timeout=30)
+            if response.status_code != 200:
+                print_error(f"SerpAPI request failed: {response.status_code}")
+                continue
+            
+            data = response.json()
+            images_results = data.get('images_results', [])
+            
+            if not images_results:
+                print_error(f"No images found for query: {query}")
+                continue
+            
+            # Try to download first result
+            for img_result in images_results[:2]:  # Try first 2
+                img_url = img_result.get('original') or img_result.get('thumbnail')
+                if not img_url:
+                    continue
+                
+                # Download image
+                try:
+                    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+                    img_response = requests.get(img_url, headers=headers, timeout=15, stream=True)
+                    
+                    if img_response.status_code == 200:
+                        # Save image
+                        ext = '.jpg'
+                        if '.png' in img_url.lower():
+                            ext = '.png'
+                        
+                        filename = f"slide_{slide_no}_image{ext}"
+                        filepath = images_dir / filename
+                        
+                        with open(filepath, 'wb') as f:
+                            for chunk in img_response.iter_content(chunk_size=8192):
+                                f.write(chunk)
+                        
+                        if filepath.exists() and filepath.stat().st_size > 0:
+                            downloaded[slide_no] = {
+                                'path': str(filepath),
+                                'layout': layout,
+                                'query': query
+                            }
+                            size_kb = filepath.stat().st_size / 1024
+                            print_success(f"Downloaded {filename} ({size_kb:.2f} KB)")
+                            break  # Successfully downloaded, move to next
+                    
+                except Exception as e:
+                    print_error(f"Failed to download image: {e}")
+                    continue
+            
+            time.sleep(1)  # Be respectful to API
+            
+        except Exception as e:
+            print_error(f"Error processing slide {slide_no}: {e}")
+            continue
+    
+    print_success(f"Downloaded {len(downloaded)} images successfully")
+    return downloaded
+
+def step_6_inject_images(base_script, downloaded_images, timings):
+    """Step 6: Inject images into Manim script with smart layouts"""
+    print_step(6, "Inject Images into Script")
+    
+    if not downloaded_images:
+        print_info("No images to inject, using original script")
+        return base_script
+    
+    print_info(f"Injecting {len(downloaded_images)} images into script")
+    
+    # Strategy: We need to intelligently inject images AND their display animations
+    # The key is finding where the first animation happens in each slide and inject image before it
+    
+    lines = base_script.split('\n')
+    modified_lines = []
+    current_slide = 0
+    slide_image_injected = {}  # Track if we've injected for this slide
+    
+    for i, line in enumerate(lines):
+        # Detect slide start
+        if line.strip().startswith('# Slide'):
+            slide_match = re.search(r'# Slide (\d+)', line)
+            if slide_match:
+                current_slide = int(slide_match.group(1))
+                slide_image_injected[current_slide] = False
+        
+        # Add the original line
+        modified_lines.append(line)
+        
+        # Check if this is the first self.play() in a slide with an image
+        # We want to inject the image loading and display RIGHT BEFORE the first play
+        if (line.strip().startswith('self.play(') and 
+            current_slide in downloaded_images and 
+            not slide_image_injected.get(current_slide, False)):
+            
+            # Inject image code BEFORE this line (so we need to insert before we added it)
+            modified_lines.pop()  # Remove the self.play line we just added
+            
+            img_data = downloaded_images[current_slide]
+            img_path = img_data['path']
+            layout_str = img_data['layout']
+            layout = LayoutType(layout_str)
+            
+            print_info(f"Injecting image for slide {current_slide} with layout: {layout_str}")
+            
+            # Get the indentation from the current line
+            indent = len(line) - len(line.lstrip())
+            indent_str = ' ' * indent
+            
+            # Build image code
+            img_code_lines = [
+                f"{indent_str}# [AUTO-INJECTED] Image for slide {current_slide}",
+                f"{indent_str}img_{current_slide} = ImageMobject(r\"{img_path}\")",
+            ]
+            
+            if layout == LayoutType.BACKGROUND_ONLY:
+                img_code_lines.extend([
+                    f"{indent_str}img_{current_slide}.scale_to_fit_width(config.frame_width)",
+                    f"{indent_str}img_{current_slide}.scale_to_fit_height(config.frame_height)",
+                    f"{indent_str}img_{current_slide}.set_opacity(0.25)",
+                    f"{indent_str}self.add(img_{current_slide})  # Background layer",
+                    ""
+                ])
+            else:
+                # Non-background: position and animate
+                regions = LayoutManager.get_layout_regions(layout, has_title=True)
+                img_region = regions['image']
+                img_code_lines.extend([
+                    f"{indent_str}img_{current_slide}.scale_to_fit_width({img_region.width:.2f})",
+                    f"{indent_str}img_{current_slide}.scale_to_fit_height({img_region.height:.2f})",
+                    f"{indent_str}img_{current_slide}.move_to(RIGHT * {img_region.center[0]:.2f} + UP * {img_region.center[1]:.2f})",
+                    f"{indent_str}self.play(FadeIn(img_{current_slide}), run_time=0.5)  # Show image",
+                    ""
+                ])
+            
+            # Add image code
+            modified_lines.extend(img_code_lines)
+            
+            # Now add back the original self.play() line
+            modified_lines.append(line)
+            
+            # Mark as injected
+            slide_image_injected[current_slide] = True
+            
+            # Also need to add fadeout at the end of the slide
+            # Find the slide's fadeout and add image to it
+        
+        # Handle fadeout - add image to the fadeout group
+        elif (line.strip().startswith('self.play(FadeOut(') and 
+              current_slide in downloaded_images and 
+              slide_image_injected.get(current_slide, False)):
+            
+            # Modify the fadeout to include the image
+            # Replace "FadeOut(VGroup(" with "FadeOut(Group(" and add image
+            if 'VGroup' in line:
+                # Change VGroup to Group for ImageMobject compatibility
+                modified_line = line.replace('VGroup(', 'Group(')
+                # Add image to the fadeout
+                modified_line = modified_line.replace('), run_time', f', img_{current_slide}), run_time')
+                modified_lines[-1] = modified_line
+    
+    final_script = '\n'.join(modified_lines)
+    
+    # Save modified script
+    modified_file = TEST_DIR / 'render_script.py'
+    modified_file.write_text(final_script, encoding='utf-8')
+    print_info(f"Modified script saved to: {modified_file}")
+    
+    # Count injected images
+    injected_count = final_script.count('[AUTO-INJECTED]')
+    print_success(f"Injected {injected_count} images with display animations")
+    
+    return final_script
+
 def step_7_render_video(script_content):
     """Step 7: Render video with Manim"""
     print_step(7, "Render Silent Video")
@@ -803,18 +1094,18 @@ def main():
         base_script, timings, tokens = step_3_generate_base_script(summary)
         total_tokens += tokens
         
-        # Skip steps 4-6 (image related) for now
-        print_step(4, "Suggest Images (SKIPPED)")
-        print_info("Skipping image suggestions for this test")
+        # Step 4: Suggest images
+        suggestions, tokens_4 = step_4_suggest_images(summary, timings)
+        total_tokens += tokens_4
         
-        print_step(5, "Fetch Images (SKIPPED)")
-        print_info("Skipping image fetching for this test")
+        # Step 5: Download images
+        downloaded_images = step_5_download_images(suggestions)
         
-        print_step(6, "Inject Images (SKIPPED)")
-        print_info("Skipping image injection for this test")
+        # Step 6: Inject images into script
+        final_script = step_6_inject_images(base_script, downloaded_images, timings)
         
-        # Step 7
-        video_path = step_7_render_video(base_script)
+        # Step 7: Render video (with images!)
+        video_path = step_7_render_video(final_script)
         
         # Step 8
         narrations, tokens = step_8_generate_narration(summary, timings)
@@ -855,7 +1146,10 @@ def main():
         print("="*80)
         
         # Check generated script for quality
-        script_file = TEST_DIR / 'base_script.py'
+        script_file = TEST_DIR / 'render_script.py'
+        if not script_file.exists():
+            script_file = TEST_DIR / 'base_script.py'
+        
         if script_file.exists():
             script_content = script_file.read_text()
             
@@ -867,6 +1161,10 @@ def main():
             polygons = script_content.count('Polygon(')
             total_shapes = rectangles + circles + arrows + lines + polygons
             
+            # Count images
+            image_count = script_content.count('ImageMobject(')
+            injected_count = script_content.count('[AUTO-INJECTED]')
+            
             # Count text elements
             text_count = script_content.count('Text(')
             vgroups = script_content.count('VGroup')
@@ -875,42 +1173,48 @@ def main():
             print(f"  Shapes: {total_shapes} (Rectangles: {rectangles}, Circles: {circles}, Arrows: {arrows}, Lines: {lines}, Polygons: {polygons})")
             print(f"  Text objects: {text_count}")
             print(f"  VGroups: {vgroups}")
+            print(f"  Images: {image_count} ({injected_count} auto-injected)")
             print(f"  White background: {'YES' if 'WHITE' in script_content else 'NO'}")
             
             # Quality assessment
             print(f"\nQuality Assessment:")
             if total_shapes >= 15:
-                print(f"  Visual Richness: EXCELLENT ✓ ({total_shapes} shapes)")
+                print(f"  Visual Richness: EXCELLENT ({total_shapes} shapes)")
             elif total_shapes >= 10:
-                print(f"  Visual Richness: GOOD ✓ ({total_shapes} shapes)")
+                print(f"  Visual Richness: GOOD ({total_shapes} shapes)")
             elif total_shapes >= 5:
                 print(f"  Visual Richness: FAIR (~{total_shapes} shapes, could be better)")
             else:
-                print(f"  Visual Richness: POOR ✗ (only {total_shapes} shapes)")
+                print(f"  Visual Richness: POOR (only {total_shapes} shapes)")
             
             if text_count >= 10:
-                print(f"  Text Content: GOOD ✓ ({text_count} text elements)")
+                print(f"  Text Content: GOOD ({text_count} text elements)")
             else:
-                print(f"  Text Content: NEEDS MORE ✗ ({text_count} text elements)")
+                print(f"  Text Content: NEEDS MORE ({text_count} text elements)")
             
             if vgroups >= 3:
-                print(f"  Organization: EXCELLENT ✓ ({vgroups} VGroups)")
+                print(f"  Organization: EXCELLENT ({vgroups} VGroups)")
             else:
                 print(f"  Organization: BASIC ({vgroups} VGroups)")
+            
+            if image_count > 0:
+                print(f"  Images: INTEGRATED ({image_count} images, {injected_count} auto-placed)")
+            else:
+                print(f"  Images: NONE")
         
         # Audio check
         if audio_files:
             print(f"\nAudio:")
-            print(f"  Clips generated: {len(audio_files)} ✓")
+            print(f"  Clips generated: {len(audio_files)}")
             total_size = sum(f.stat().st_size for f in audio_files)
             print(f"  Total audio size: {total_size / 1024:.2f} KB")
         else:
-            print(f"\nAudio: NOT GENERATED ✗")
+            print(f"\nAudio: NOT GENERATED")
         
         # Video check
         if final_video and final_video != video_path:
             print(f"\nFinal Output:")
-            print(f"  Video with audio: YES ✓")
+            print(f"  Video with audio: YES")
             print(f"  Location: {final_video}")
         elif video_path:
             print(f"\nFinal Output:")

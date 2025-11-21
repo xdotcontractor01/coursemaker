@@ -58,8 +58,12 @@ checkpoints/
 *.ipynb
 
 # Test files
-test_*.py
 verify_*.py
+
+# Test outputs
+test_output/
+media/
+temp_*/
 
 # Documentation (except README and requirements)
 *.md
