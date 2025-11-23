@@ -1,0 +1,26 @@
+[
+  {
+    "slide_no": 2,
+    "query": "bridge steel beam construction site",
+    "layout": "split_right",
+    "purpose": "Show actual bridge beams during explanation"
+  },
+  {
+    "slide_no": 3,
+    "query": "bridge bearing devices installation",
+    "layout": "split_left",
+    "purpose": "Illustrate bearing devices being installed on a bridge"
+  },
+  {
+    "slide_no": 4,
+    "query": "welding bridge shear connectors",
+    "layout": "sidebar_right",
+    "purpose": "Demonstrate field welding of shear connectors"
+  },
+  {
+    "slide_no": 5,
+    "query": "bridge inspection process",
+    "layout": "split_right",
+    "purpose": "Show inspectors examining bridge components for compliance"
+  }
+]

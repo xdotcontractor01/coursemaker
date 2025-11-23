@@ -317,3 +317,6 @@ def delete_job(job_id: str) -> bool:
 # Initialize database on import
 create_tables()
 
+
+
+
