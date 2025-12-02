@@ -1,47 +1,24 @@
 """
 Step 6: Inject Images into Manim Script
-Injects downloaded images into the Manim script with smart layouts
+Injects downloaded images into the Manim script - positioned in top-right corner
+with "Reference Image" label below to avoid disturbing main content layout.
 """
 
 import re
 import json
 from shared import *
 
-# Layout type constants
-class LayoutType:
-    BACKGROUND_ONLY = "background_only"
-    SPLIT_LEFT = "split_left"
-    SPLIT_RIGHT = "split_right"
-    SIDEBAR_RIGHT = "sidebar_right"
-
-# Layout region configurations
-def get_layout_regions(layout_type, has_title=True):
-    """Get layout regions for different layout types"""
-    if layout_type == LayoutType.BACKGROUND_ONLY:
-        return {
-            'image': {'width': 14.2, 'height': 8.0, 'center': [0, 0]}
-        }
-    elif layout_type == LayoutType.SPLIT_RIGHT:
-        return {
-            'content': {'width': 7.0, 'height': 6.0, 'center': [-3.5, -0.5]},
-            'image': {'width': 5.5, 'height': 6.0, 'center': [3.2, -0.5]}
-        }
-    elif layout_type == LayoutType.SPLIT_LEFT:
-        return {
-            'image': {'width': 5.5, 'height': 6.0, 'center': [-3.2, -0.5]},
-            'content': {'width': 7.0, 'height': 6.0, 'center': [3.5, -0.5]}
-        }
-    elif layout_type == LayoutType.SIDEBAR_RIGHT:
-        return {
-            'content': {'width': 9.0, 'height': 6.0, 'center': [-2.0, -0.5]},
-            'image': {'width': 4.0, 'height': 4.0, 'center': [4.5, -0.5]}
-        }
-    else:
-        # Default to split_right
-        return {
-            'content': {'width': 7.0, 'height': 6.0, 'center': [-3.5, -0.5]},
-            'image': {'width': 5.5, 'height': 6.0, 'center': [3.2, -0.5]}
-        }
+# Image positioning configuration
+# Top-right corner placement - non-intrusive to main content
+IMAGE_CONFIG = {
+    'width': 3.0,          # Small width to not interfere
+    'height': 2.0,         # Small height
+    'x_pos': 5.5,          # Right side (positive X)
+    'y_pos': 2.5,          # Top area (positive Y, below title)
+    'label_offset': -0.3,  # Label position below image
+    'label_font_size': 14, # Small font for label
+    'opacity': 0.95,       # Slightly transparent
+}
 
 def main():
     """Inject images into Manim script"""
@@ -76,8 +53,10 @@ def main():
             return 0
         
         print_info(f"Injecting {len(downloaded_images)} images into script")
+        print_info(f"Image placement: Top-right corner ({IMAGE_CONFIG['x_pos']}, {IMAGE_CONFIG['y_pos']})")
+        print_info(f"Image size: {IMAGE_CONFIG['width']}x{IMAGE_CONFIG['height']}")
         
-        # Strategy: Inject images AND their display animations
+        # Strategy: Inject images in top-right corner with "Reference Image" label
         lines = base_script.split('\n')
         modified_lines = []
         current_slide = 0
@@ -104,50 +83,30 @@ def main():
                 
                 img_data = downloaded_images[current_slide]
                 img_path = img_data['path']
-                layout_str = img_data['layout']
-                # Convert layout string to constant
-                if layout_str == "background_only":
-                    layout = LayoutType.BACKGROUND_ONLY
-                elif layout_str == "split_left":
-                    layout = LayoutType.SPLIT_LEFT
-                elif layout_str == "split_right":
-                    layout = LayoutType.SPLIT_RIGHT
-                elif layout_str == "sidebar_right":
-                    layout = LayoutType.SIDEBAR_RIGHT
-                else:
-                    layout = LayoutType.SPLIT_RIGHT  # default
                 
-                print_info(f"Injecting image for slide {current_slide} with layout: {layout_str}")
+                print_info(f"Injecting image for slide {current_slide} -> top-right corner")
                 
                 # Get the indentation from the current line
                 indent = len(line) - len(line.lstrip())
                 indent_str = ' ' * indent
                 
-                # Build image code
+                # Build image code - TOP RIGHT CORNER placement
+                # Image positioned at top-right, with "Reference Image" label below
                 img_code_lines = [
-                    f"{indent_str}# [AUTO-INJECTED] Image for slide {current_slide}",
+                    f"{indent_str}# [AUTO-INJECTED] Reference image for slide {current_slide} (top-right corner)",
                     f"{indent_str}img_{current_slide} = ImageMobject(r\"{img_path}\")",
+                    f"{indent_str}img_{current_slide}.set_height({IMAGE_CONFIG['height']})",
+                    f"{indent_str}img_{current_slide}.set_width({IMAGE_CONFIG['width']})",
+                    f"{indent_str}img_{current_slide}.move_to(RIGHT * {IMAGE_CONFIG['x_pos']} + UP * {IMAGE_CONFIG['y_pos']})",
+                    f"{indent_str}img_{current_slide}.set_opacity({IMAGE_CONFIG['opacity']})",
+                    f"{indent_str}# Label below the image",
+                    f"{indent_str}img_label_{current_slide} = Text(\"Reference Image\", color=GRAY, font_size={IMAGE_CONFIG['label_font_size']})",
+                    f"{indent_str}img_label_{current_slide}.next_to(img_{current_slide}, DOWN, buff=0.1)",
+                    f"{indent_str}# Group image and label together",
+                    f"{indent_str}img_group_{current_slide} = VGroup(img_{current_slide}, img_label_{current_slide})",
+                    f"{indent_str}self.play(FadeIn(img_group_{current_slide}), run_time=0.5)",
+                    ""
                 ]
-                
-                if layout == LayoutType.BACKGROUND_ONLY:
-                    img_code_lines.extend([
-                        f"{indent_str}img_{current_slide}.scale_to_fit_width(config.frame_width)",
-                        f"{indent_str}img_{current_slide}.scale_to_fit_height(config.frame_height)",
-                        f"{indent_str}img_{current_slide}.set_opacity(0.25)",
-                        f"{indent_str}self.add(img_{current_slide})  # Background layer",
-                        ""
-                    ])
-                else:
-                    # Non-background: position and animate
-                    regions = get_layout_regions(layout, has_title=True)
-                    img_region = regions['image']
-                    img_code_lines.extend([
-                        f"{indent_str}img_{current_slide}.scale_to_fit_width({img_region['width']:.2f})",
-                        f"{indent_str}img_{current_slide}.scale_to_fit_height({img_region['height']:.2f})",
-                        f"{indent_str}img_{current_slide}.move_to(RIGHT * {img_region['center'][0]:.2f} + UP * {img_region['center'][1]:.2f})",
-                        f"{indent_str}self.play(FadeIn(img_{current_slide}), run_time=0.5)  # Show image",
-                        ""
-                    ])
                 
                 # Add image code
                 modified_lines.extend(img_code_lines)
@@ -158,17 +117,19 @@ def main():
                 # Mark as injected
                 slide_image_injected[current_slide] = True
             
-            # Handle fadeout - add image to the fadeout group
+            # Handle fadeout - add image group to the fadeout
             elif (line.strip().startswith('self.play(FadeOut(') and 
                   current_slide in downloaded_images and 
                   slide_image_injected.get(current_slide, False)):
                 
-                # Modify the fadeout to include the image
+                # Modify the fadeout to include the image group
                 if 'VGroup' in line:
-                    # Change VGroup to Group for ImageMobject compatibility
-                    modified_line = line.replace('VGroup(', 'Group(')
-                    # Add image to the fadeout
-                    modified_line = modified_line.replace('), run_time', f', img_{current_slide}), run_time')
+                    # Add image group to the fadeout (VGroup can contain VGroup)
+                    modified_line = line.replace('), run_time', f', img_group_{current_slide}), run_time')
+                    modified_lines[-1] = modified_line
+                elif 'Group(' in line:
+                    # Add image group to existing Group
+                    modified_line = line.replace('), run_time', f', img_group_{current_slide}), run_time')
                     modified_lines[-1] = modified_line
         
         final_script = '\n'.join(modified_lines)

@@ -1,6 +1,7 @@
 """
 Step 4: Suggest Images for Slides
-Uses LLM to suggest relevant images with layout types
+Uses LLM to suggest relevant reference images for slides.
+Images will be displayed in top-right corner with "Reference Image" label.
 """
 
 import re
@@ -44,21 +45,26 @@ def main():
         ])
         
         # Generate image suggestions with LLM
+        # Note: Images will be placed in top-right corner as small reference images
         prompt = f"""{SYSTEM_GDOT}
 
-Task: Suggest relevant images for each slide in an educational video about bridge construction.
+Task: Suggest relevant reference images for each slide in an educational video about bridge construction.
+
+IMPORTANT: Images will be displayed as small reference images in the TOP-RIGHT CORNER of the video
+with a "Reference Image" label below. They should complement the content, not be the main focus.
 
 REQUIREMENTS:
-- Suggest 1-2 images per slide (skip title/conclusion slides)
-- Images should support the content, not distract
-- Provide specific search queries for SerpAPI
-- Choose appropriate layout type for each image
+- Suggest 1 image per content slide (skip title/conclusion slides)
+- Images should be clear, professional technical references
+- Provide specific search queries for Google Images
+- Focus on diagrams, technical illustrations, or real-world photos
+- Images should be recognizable even at small size
 
-AVAILABLE LAYOUT TYPES:
-- background_only: Subtle background image at 25% opacity (best for text-heavy slides)
-- split_left: Image on left, content on right (good for comparisons)
-- split_right: Content on left, image on right (best for showing examples)
-- sidebar_right: Small image on right side (minimal distraction)
+GOOD IMAGE TYPES:
+- Technical diagrams (bridge cross-sections, structural details)
+- Real construction photos (beams, bearings, welding)
+- Safety equipment and procedures
+- Engineering drawings and schematics
 
 Slide Information:
 {slides_info}
@@ -70,14 +76,13 @@ Provide JSON output ONLY (no other text):
 [
   {{
     "slide_no": 2,
-    "query": "bridge steel beam construction site",
-    "layout": "split_right",
-    "purpose": "Show actual bridge beams during explanation"
+    "query": "bridge steel beam construction diagram",
+    "purpose": "Reference showing beam structure"
   }},
   ...
 ]
 
-Only suggest images for slides 2-5 (skip title and conclusion). Be selective - not every slide needs an image.
+Only suggest images for content slides (typically slides 2-5). Skip title and conclusion slides.
 """
         
         print_info("Calling LLM for image suggestions...")
@@ -106,12 +111,14 @@ Only suggest images for slides 2-5 (skip title and conclusion). Be selective - n
         tokens_file = TEST_DIR / 'tokens_step_04.txt'
         tokens_file.write_text(str(tokens))
         
-        print_info(f"Suggested {len(suggestions)} images")
+        print_info(f"Suggested {len(suggestions)} reference images")
         for sugg in suggestions:
             slide = sugg.get('slide_no')
             query = sugg.get('query', '')
-            layout = sugg.get('layout', 'background_only')
-            print_info(f"  Slide {slide}: '{query}' [layout: {layout}]")
+            purpose = sugg.get('purpose', '')
+            print_info(f"  Slide {slide}: '{query}'")
+            if purpose:
+                print_info(f"    Purpose: {purpose}")
         
         print_success("Image suggestions generated successfully")
         return 0
