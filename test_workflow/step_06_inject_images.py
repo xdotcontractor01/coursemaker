@@ -2,11 +2,25 @@
 Step 6: Inject Images into Manim Script
 Injects downloaded images into the Manim script - positioned in top-right corner
 with "Reference Image" label below to avoid disturbing main content layout.
+Validates images before injection to skip corrupted files.
 """
 
 import re
 import json
 from shared import *
+
+def validate_image(filepath):
+    """Validate that an image file is not corrupted before injection"""
+    try:
+        from PIL import Image
+        with Image.open(filepath) as img:
+            img.verify()
+        with Image.open(filepath) as img:
+            img.load()
+        return True
+    except Exception as e:
+        print_error(f"Image validation failed for {filepath}: {e}")
+        return False
 
 # Image positioning configuration
 # Top-right corner placement - non-intrusive to main content
@@ -39,10 +53,18 @@ def main():
             return 1
         downloaded_images_data = json.loads(downloaded_file.read_text())
         
-        # Convert string keys to int
+        # Convert string keys to int and validate images
         downloaded_images = {}
         for key, value in downloaded_images_data.items():
-            downloaded_images[int(key)] = value
+            img_path = value.get('path', '')
+            if img_path and Path(img_path).exists():
+                if validate_image(img_path):
+                    downloaded_images[int(key)] = value
+                    print_info(f"Validated image for slide {key}: OK")
+                else:
+                    print_error(f"Skipping corrupted image for slide {key}: {img_path}")
+            else:
+                print_error(f"Image file not found for slide {key}: {img_path}")
         
         if not downloaded_images:
             print_info("No images to inject, using original script")
@@ -92,6 +114,7 @@ def main():
                 
                 # Build image code - TOP RIGHT CORNER placement
                 # Image positioned at top-right, with "Reference Image" label below
+                # NOTE: ImageMobject cannot be in VGroup, must use Group instead
                 img_code_lines = [
                     f"{indent_str}# [AUTO-INJECTED] Reference image for slide {current_slide} (top-right corner)",
                     f"{indent_str}img_{current_slide} = ImageMobject(r\"{img_path}\")",
@@ -102,8 +125,8 @@ def main():
                     f"{indent_str}# Label below the image",
                     f"{indent_str}img_label_{current_slide} = Text(\"Reference Image\", color=GRAY, font_size={IMAGE_CONFIG['label_font_size']})",
                     f"{indent_str}img_label_{current_slide}.next_to(img_{current_slide}, DOWN, buff=0.1)",
-                    f"{indent_str}# Group image and label together",
-                    f"{indent_str}img_group_{current_slide} = VGroup(img_{current_slide}, img_label_{current_slide})",
+                    f"{indent_str}# Group image and label together (using Group, not VGroup, for ImageMobject compatibility)",
+                    f"{indent_str}img_group_{current_slide} = Group(img_{current_slide}, img_label_{current_slide})",
                     f"{indent_str}self.play(FadeIn(img_group_{current_slide}), run_time=0.5)",
                     ""
                 ]
@@ -123,9 +146,12 @@ def main():
                   slide_image_injected.get(current_slide, False)):
                 
                 # Modify the fadeout to include the image group
+                # Since img_group uses Group (for ImageMobject), we need to fade it separately
+                # or wrap everything in Group instead of VGroup
                 if 'VGroup' in line:
-                    # Add image group to the fadeout (VGroup can contain VGroup)
-                    modified_line = line.replace('), run_time', f', img_group_{current_slide}), run_time')
+                    # Change VGroup to Group for ImageMobject compatibility and add image group
+                    modified_line = line.replace('VGroup(', 'Group(')
+                    modified_line = modified_line.replace('), run_time', f', img_group_{current_slide}), run_time')
                     modified_lines[-1] = modified_line
                 elif 'Group(' in line:
                     # Add image group to existing Group

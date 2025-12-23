@@ -1,0 +1,326 @@
+{
+  "video_id": "chapter_01_video_04",
+  "chapter_id": "chapter_01",
+  "title": "Errors or Omissions",
+  "description": "Learn about errors or omissions in highway plan reading.",
+  "total_duration_seconds": 150,
+  "total_word_count": 152,
+  "learning_objectives": [
+    "Understand the importance of reporting errors or omissions",
+    "Learn how to document discrepancies effectively"
+  ],
+  "review_questions": [
+    "What should you do if you find an error in the plans?",
+    "Why is documentation important in addressing discrepancies?"
+  ],
+  "figure_paths": [],
+  "created_at": "2025-12-23T21:31:51.897802",
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Introduction to Errors or Omissions",
+      "visual_goal": "Student should understand the main concept being introduced",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Errors or Omissions",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "Understanding discrepancies in highway plans.",
+            "position": "CENTER",
+            "style": "body"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "body",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "Welcome to our overview on errors or omissions in highway plan reading. Understanding these discrepancies is crucial for maintaining project integrity and quality. In this video, we will explore how to identify and report these issues effectively.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 10,
+          "line_end": 25,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "errors",
+        "omissions"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 2,
+      "title": "Reporting Errors",
+      "visual_goal": "Highlight the importance of reporting errors immediately.",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Report immediately to the Engineer.",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "Subsection 104.03 of Standard Specifications.",
+            "position": "CENTER",
+            "style": "body"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "body",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "If you discover any errors or omissions, it is essential to report them immediately to the Engineer as mandated by subsection 104.03 of the Standard Specifications. This ensures that all discrepancies are addressed before work proceeds.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 10,
+          "line_end": 25,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "report",
+        "Engineer"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 3,
+      "title": "Avoiding Costly Rework",
+      "visual_goal": "Illustrate the consequences of not addressing discrepancies.",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Prevent costly rework.",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "Clear communication is key.",
+            "position": "CENTER",
+            "style": "body"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "body",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "Clear communication about plan errors is vital to prevent costly rework and ensure project quality. Addressing discrepancies promptly helps maintain the integrity of the construction process.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 10,
+          "line_end": 25,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "communication",
+        "rework"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 4,
+      "title": "Documenting Discrepancies",
+      "visual_goal": "Emphasize the importance of documentation.",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Document discrepancies in writing.",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "Obtain resolution before proceeding.",
+            "position": "CENTER",
+            "style": "body"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "body",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [
+          {
+            "type": "MoveAlongPath",
+            "description": "Arrow moves to the text 'Obtain resolution'",
+            "duration": 1.0
+          }
+        ],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "It is crucial to document any discrepancies in writing. This documentation serves as a record for future reference and ensures that you obtain resolution before proceeding with any affected work.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 10,
+          "line_end": 25,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "document",
+        "resolution"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": true
+    },
+    {
+      "slide_number": 5,
+      "title": "Conclusion",
+      "visual_goal": "Summarize key takeaways.",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Key Takeaways",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "Report, document, and communicate effectively.",
+            "position": "CENTER",
+            "style": "body"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "body",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "In conclusion, always report errors or omissions immediately, document discrepancies, and maintain clear communication to ensure project success. Thank you for your attention.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 10,
+          "line_end": 25,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "conclusion",
+        "communication"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "chapter_id": "chapter_01",
+  "extracted_from": "BasicHiwyPlanReading (1).pdf",
+  "pages": "17-35",
+  "images": [
+    {
+      "id": "fig_1-1",
+      "path": "figures/chapter_01/fig_1-1.png",
+      "label": "Cover Sheet - Plan View of Project",
+      "width": 1290,
+      "height": 744,
+      "description": "Highway plan cover sheet showing project overview, location map, and sheet index from GDOT training manual.",
+      "key_elements": [
+        "project title",
+        "location map",
+        "index of sheets",
+        "project number"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-10",
+      "path": "figures/chapter_01/fig_1-10.png",
+      "label": "Scale bar detail",
+      "width": 287,
+      "height": 21,
+      "description": "Detail of scale bar markings and measurements.",
+      "key_elements": [
+        "scale increments",
+        "measurements"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-11",
+      "path": "figures/chapter_01/fig_1-11.png",
+      "label": "Scale bar detail",
+      "width": 299,
+      "height": 11,
+      "description": "Additional scale bar detail for reference.",
+      "key_elements": [
+        "scale increments"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-12",
+      "path": "figures/chapter_01/fig_1-12.png",
+      "label": "Horizontal vs Slope Distance",
+      "width": 277,
+      "height": 187,
+      "description": "Diagram showing difference between horizontal distance and slope distance measurements.",
+      "key_elements": [
+        "horizontal distance",
+        "slope distance",
+        "grade"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-13",
+      "path": "figures/chapter_01/fig_1-13.png",
+      "label": "Plan Sheet Detail",
+      "width": 874,
+      "height": 489,
+      "description": "Plan sheet detail showing construction elements and dimensions.",
+      "key_elements": [
+        "construction details",
+        "dimensions",
+        "labels"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-14",
+      "path": "figures/chapter_01/fig_1-14.png",
+      "label": "Summary of Quantities",
+      "width": 862,
+      "height": 541,
+      "description": "Summary of quantities sheet showing material totals for the project.",
+      "key_elements": [
+        "item numbers",
+        "quantities",
+        "units"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-15",
+      "path": "figures/chapter_01/fig_1-15.png",
+      "label": "Drainage Summary Sheet",
+      "width": 1249,
+      "height": 695,
+      "description": "Drainage summary sheet showing storm water management details.",
+      "key_elements": [
+        "pipe sizes",
+        "inlet locations",
+        "drainage areas"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-16",
+      "path": "figures/chapter_01/fig_1-16.png",
+      "label": "Detailed Estimate Sheet",
+      "width": 920,
+      "height": 1324,
+      "description": "Detailed estimate sheet showing item quantities and costs.",
+      "key_elements": [
+        "pay items",
+        "unit prices",
+        "totals"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-2",
+      "path": "figures/chapter_01/fig_1-2.png",
+      "label": "Cover Sheet Layout View",
+      "width": 847,
+      "height": 268,
+      "description": "Layout view of project showing overall roadway alignment and key features.",
+      "key_elements": [
+        "roadway alignment",
+        "project limits",
+        "key intersections"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-3",
+      "path": "figures/chapter_01/fig_1-3.png",
+      "label": "Cover Sheet Components",
+      "width": 288,
+      "height": 331,
+      "description": "Detailed components of a cover sheet including title block and identification information.",
+      "key_elements": [
+        "title block",
+        "engineer seal",
+        "revision block",
+        "sheet number"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-4",
+      "path": "figures/chapter_01/fig_1-4.png",
+      "label": "Engineers Scale (10 scale)",
+      "width": 457,
+      "height": 229,
+      "description": "Civil engineers scale showing 10 scale measurements for reading plans.",
+      "key_elements": [
+        "10 divisions",
+        "scale markings",
+        "reading direction"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-5",
+      "path": "figures/chapter_01/fig_1-5.png",
+      "label": "Engineers Scale (20 scale)",
+      "width": 253,
+      "height": 114,
+      "description": "Civil engineers scale showing 20 scale measurements for detailed measurements.",
+      "key_elements": [
+        "20 divisions",
+        "scale markings",
+        "inch markers"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-6",
+      "path": "figures/chapter_01/fig_1-6.png",
+      "label": "Bar Scale from Plan Sheet",
+      "width": 528,
+      "height": 192,
+      "description": "Bar scale (graphical scale) showing feet measurements that adjusts with plan reproduction.",
+      "key_elements": [
+        "0-50-100 feet markers",
+        "graphical scale",
+        "alternating colors"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-7",
+      "path": "figures/chapter_01/fig_1-7.png",
+      "label": "Index Sheet Example",
+      "width": 1299,
+      "height": 788,
+      "description": "Index sheet listing all sheets in the plan set with their numbers and descriptions.",
+      "key_elements": [
+        "sheet numbers",
+        "sheet descriptions",
+        "page count"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-8",
+      "path": "figures/chapter_01/fig_1-8.png",
+      "label": "Revision Summary Sheet",
+      "width": 1300,
+      "height": 384,
+      "description": "Revision summary sheet tracking all changes and modifications to the plans.",
+      "key_elements": [
+        "revision numbers",
+        "dates",
+        "descriptions of changes"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    },
+    {
+      "id": "fig_1-9",
+      "path": "figures/chapter_01/fig_1-9.png",
+      "label": "Typical Roadway Cross Section",
+      "width": 613,
+      "height": 360,
+      "description": "Typical roadway cross section showing travel lanes, shoulders, slopes, and drainage elements.",
+      "key_elements": [
+        "travel lanes",
+        "shoulders",
+        "slopes",
+        "ditches",
+        "right of way"
+      ],
+      "highlight_suggestions": [
+        "main title",
+        "key sections",
+        "important labels"
+      ]
+    }
+  ]
+}

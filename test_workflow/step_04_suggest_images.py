@@ -48,7 +48,7 @@ def main():
         # Note: Images will be placed in top-right corner as small reference images
         prompt = f"""{SYSTEM_GDOT}
 
-Task: Suggest relevant reference images for each slide in an educational video about bridge construction.
+Task: Suggest relevant reference images for each slide in an educational video about GDOT technical content.
 
 IMPORTANT: Images will be displayed as small reference images in the TOP-RIGHT CORNER of the video
 with a "Reference Image" label below. They should complement the content, not be the main focus.
@@ -61,10 +61,12 @@ REQUIREMENTS:
 - Images should be recognizable even at small size
 
 GOOD IMAGE TYPES:
-- Technical diagrams (bridge cross-sections, structural details)
-- Real construction photos (beams, bearings, welding)
+- Technical diagrams and cross-sections
+- Real construction/field photos
 - Safety equipment and procedures
 - Engineering drawings and schematics
+- Regulatory compliance visuals
+- Process flowcharts
 
 Slide Information:
 {slides_info}
@@ -76,8 +78,8 @@ Provide JSON output ONLY (no other text):
 [
   {{
     "slide_no": 2,
-    "query": "bridge steel beam construction diagram",
-    "purpose": "Reference showing beam structure"
+    "query": "specific technical diagram query here",
+    "purpose": "Reference showing relevant concept"
   }},
   ...
 ]

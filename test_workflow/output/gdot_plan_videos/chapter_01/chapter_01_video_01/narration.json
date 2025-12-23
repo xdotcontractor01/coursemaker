@@ -1,0 +1,121 @@
+{
+  "video_id": "chapter_01_video_01",
+  "chapter_id": "chapter_01",
+  "title": "General Information & Plans Revised and Plans Completed",
+  "total_word_count": 141,
+  "factual_references": 10,
+  "passes_depth_gate": true,
+  "passes_caution_gate": false,
+  "review_questions": [
+    "What are the key elements that must be included in contract documents?",
+    "How can you track modifications made to highway plans?"
+  ],
+  "created_at": "2025-12-23T21:45:04.827809",
+  "segments": [
+    {
+      "slide_number": 1,
+      "text": "In this section, we will explore the essential components of highway construction plans as standardized by GDOT. Understanding these components is crucial for contractors and engineers involved in highway projects .",
+      "word_count": 31,
+      "source_tags": [
+        {
+          "type": "md",
+          "ref": "chapter_01.md#general-information"
+        },
+        {
+          "type": "md",
+          "ref": "chapter_01.md#general-information"
+        }
+      ],
+      "key_terms_used": [
+        "highway construction plans",
+        "GDOT standards"
+      ],
+      "has_contractor_caution": true,
+      "caution_verified": false
+    },
+    {
+      "slide_number": 2,
+      "text": "Contract documents outline the requirements for construction. Always refer to these specifications and special provisions for detailed requirements, as they are legally binding .",
+      "word_count": 24,
+      "source_tags": [
+        {
+          "type": "md",
+          "ref": "chapter_01.md#contract-documents"
+        },
+        {
+          "type": "md",
+          "ref": "chapter_01.md#contract-documents"
+        }
+      ],
+      "key_terms_used": [
+        "contract documents",
+        "legally binding"
+      ],
+      "has_contractor_caution": true,
+      "caution_verified": false
+    },
+    {
+      "slide_number": 3,
+      "text": "The cover sheet of highway plans tracks revisions with dated entries. Each revision includes a number, date, and description of changes, creating an audit trail of modifications .",
+      "word_count": 28,
+      "source_tags": [
+        {
+          "type": "md",
+          "ref": "chapter_01.md#plans-revised"
+        },
+        {
+          "type": "md",
+          "ref": "chapter_01.md#plans-revised"
+        }
+      ],
+      "key_terms_used": [
+        "cover sheet",
+        "revision process"
+      ],
+      "has_contractor_caution": false,
+      "caution_verified": false
+    },
+    {
+      "slide_number": 4,
+      "text": "Each revision sheet contains critical information such as the project title, revision number, and description of changes. These elements ensure clarity and accountability in project modifications .",
+      "word_count": 27,
+      "source_tags": [
+        {
+          "type": "md",
+          "ref": "chapter_01.md#revision-sheets"
+        },
+        {
+          "type": "md",
+          "ref": "chapter_01.md#revision-sheets"
+        }
+      ],
+      "key_terms_used": [
+        "revision sheet",
+        "project title"
+      ],
+      "has_contractor_caution": false,
+      "caution_verified": false
+    },
+    {
+      "slide_number": 5,
+      "text": "In summary, understanding the structure of highway plans and the importance of revisions is vital for successful project execution. Ensure you are familiar with these components for effective plan reading .",
+      "word_count": 31,
+      "source_tags": [
+        {
+          "type": "md",
+          "ref": "chapter_01.md#general-information"
+        },
+        {
+          "type": "md",
+          "ref": "chapter_01.md#general-information"
+        }
+      ],
+      "key_terms_used": [
+        "highway plans",
+        "effective plan reading"
+      ],
+      "has_contractor_caution": false,
+      "caution_verified": false
+    }
+  ]
+}

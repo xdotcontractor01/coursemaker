@@ -55,7 +55,7 @@ NARRATION STRUCTURE PER SLIDE:
 4. Transition (2-3 seconds): Lead into next topic
 
 EXAMPLE GOOD NARRATION:
-"Let's examine the bridge superstructure components. As you can see in the diagram, the main beam shown in black distributes the load across the structure. Notice the blue circular bearings at each end - these critical connection points allow for thermal expansion while maintaining structural integrity. For GDOT contractors, it's essential to verify that bearing surfaces are level and properly prepared before beam installation. Any irregularities could compromise load distribution and require costly corrections later."
+"Let's examine the key components shown in this diagram. As you can see, the main elements are highlighted in blue, representing the critical areas that require attention. Notice how each component connects to form the complete system. For GDOT contractors and engineers, it's essential to follow the proper procedures and verify compliance at each step. The reference image in the corner shows a real-world example of what we're discussing. Any deviations from the specified requirements could impact safety and require costly corrections later."
 
 Slide Information:
 {slides_info}

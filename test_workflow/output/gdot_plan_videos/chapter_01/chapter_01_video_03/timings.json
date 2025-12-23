@@ -1,0 +1,27 @@
+[
+  {
+    "slide_no": 1,
+    "duration": 30,
+    "title": "Introduction to Sheet Order"
+  },
+  {
+    "slide_no": 2,
+    "duration": 30,
+    "title": "Understanding Project Length"
+  },
+  {
+    "slide_no": 3,
+    "duration": 30,
+    "title": "Design Data Overview"
+  },
+  {
+    "slide_no": 4,
+    "duration": 30,
+    "title": "Importance of Design Data"
+  },
+  {
+    "slide_no": 5,
+    "duration": 30,
+    "title": "Conclusion and Review"
+  }
+]

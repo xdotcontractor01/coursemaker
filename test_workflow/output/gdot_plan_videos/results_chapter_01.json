@@ -1,0 +1,73 @@
+{
+  "chapter_file": "input_markdown\\chapter_01.md",
+  "started_at": "2025-12-23T21:23:51.300722",
+  "videos": [
+    {
+      "video_id": "chapter_01_video_01",
+      "title": "General Information & Plans Revised and Plans Completed",
+      "success": false,
+      "steps": {
+        "plan": "success",
+        "script": "success",
+        "repair": "failed"
+      },
+      "diversity_score": 13,
+      "failure_ticket": "C:\\Users\\home\\coursemaker\\test_workflow\\output\\gdot_plan_videos\\chapter_01\\chapter_01_video_01\\failure_ticket_chapter_01_video_01.json"
+    },
+    {
+      "video_id": "chapter_01_video_02",
+      "title": "Requirements and Specifications & Scale",
+      "success": false,
+      "steps": {
+        "plan": "success",
+        "script": "success",
+        "repair": "failed"
+      },
+      "diversity_score": 13,
+      "failure_ticket": "C:\\Users\\home\\coursemaker\\test_workflow\\output\\gdot_plan_videos\\chapter_01\\chapter_01_video_02\\failure_ticket_chapter_01_video_02.json"
+    },
+    {
+      "video_id": "chapter_01_video_03",
+      "title": "Sheet Order & Project Length and Design Data",
+      "success": false,
+      "steps": {
+        "plan": "success",
+        "script": "success",
+        "repair": "failed"
+      },
+      "diversity_score": 13,
+      "failure_ticket": "C:\\Users\\home\\coursemaker\\test_workflow\\output\\gdot_plan_videos\\chapter_01\\chapter_01_video_03\\failure_ticket_chapter_01_video_03.json"
+    },
+    {
+      "video_id": "chapter_01_video_04",
+      "title": "Errors or Omissions",
+      "success": false,
+      "steps": {
+        "plan": "success",
+        "script": "success",
+        "repair": "failed"
+      },
+      "diversity_score": 13,
+      "failure_ticket": "C:\\Users\\home\\coursemaker\\test_workflow\\output\\gdot_plan_videos\\chapter_01\\chapter_01_video_04\\failure_ticket_chapter_01_video_04.json"
+    },
+    {
+      "video_id": "chapter_01_video_05",
+      "title": "Cover Sheet",
+      "success": false,
+      "steps": {
+        "plan": "success",
+        "script": "success",
+        "repair": "failed"
+      },
+      "diversity_score": 15,
+      "failure_ticket": "C:\\Users\\home\\coursemaker\\test_workflow\\output\\gdot_plan_videos\\chapter_01\\chapter_01_video_05\\failure_ticket_chapter_01_video_05.json"
+    }
+  ],
+  "success": false,
+  "completed_at": "2025-12-23T21:37:03.008313",
+  "summary": {
+    "total_videos": 5,
+    "successful": 0,
+    "failed": 5
+  }
+}

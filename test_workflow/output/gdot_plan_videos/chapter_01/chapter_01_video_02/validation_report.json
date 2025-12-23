@@ -1,0 +1,46 @@
+{
+  "video_id": "chapter_01_video_02",
+  "script_path": "C:\\Users\\home\\coursemaker\\test_workflow\\output\\gdot_plan_videos\\chapter_01\\chapter_01_video_02\\base_script.py",
+  "passed": false,
+  "errors": [
+    {
+      "error_type": "runtime",
+      "message": "No Scene class found in script",
+      "line_number": null,
+      "context": null,
+      "suggestion": "Define a class that inherits from Scene"
+    },
+    {
+      "error_type": "diversity",
+      "message": "No dynamic elements found (MoveAlongPath, Updater, ValueTracker, etc.)",
+      "line_number": null,
+      "context": null,
+      "suggestion": "Add at least one dynamic element like MoveAlongPath or ValueTracker"
+    },
+    {
+      "error_type": "diversity",
+      "message": "Script only uses Rectangle shapes - lacks visual variety",
+      "line_number": null,
+      "context": null,
+      "suggestion": "Add Circles, Arrows, or other shapes"
+    },
+    {
+      "error_type": "diversity",
+      "message": "Only 1 colors used (recommend 3+)",
+      "line_number": null,
+      "context": null,
+      "suggestion": "Use more color variety: BLUE, ORANGE, GREEN, etc."
+    }
+  ],
+  "warnings": [
+    "No dynamic elements found (MoveAlongPath, Updater, ValueTracker, etc.)",
+    "Script only uses Rectangle shapes - lacks visual variety",
+    "Only 1 colors used (recommend 3+)"
+  ],
+  "diversity_score": 5,
+  "diversity_passed": false,
+  "syntax_valid": true,
+  "imports_valid": true,
+  "runtime_valid": false,
+  "validated_at": "2025-12-23T21:27:41.082635"
+}

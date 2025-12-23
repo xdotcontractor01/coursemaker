@@ -1,6 +1,7 @@
 """
 Step 7: Render Video
 Renders the Manim script to create a silent video
+Uses dynamic video name from step_03
 """
 
 import subprocess
@@ -20,6 +21,16 @@ def main():
         
         print_info(f"Render script: {render_file}")
         
+        # Get video name from file (saved by step_03)
+        video_name_file = TEST_DIR / 'video_name.txt'
+        if video_name_file.exists():
+            video_name = video_name_file.read_text().strip()
+        else:
+            # Fallback to extracting from script
+            video_name = get_video_name()
+        
+        print_info(f"Video class name: {video_name}")
+        
         # Run Manim
         media_dir = TEST_DIR / 'media'
         cmd = [
@@ -28,7 +39,7 @@ def main():
             '--format', 'mp4',
             '--media_dir', str(media_dir),
             str(render_file),
-            'BridgeDesignManual'
+            video_name
         ]
         
         print_info(f"Running: {' '.join(cmd)}")
@@ -43,8 +54,12 @@ def main():
         if result.returncode == 0:
             print_success("Video rendered successfully!")
             
-            # Find output video
-            video_files = list(media_dir.glob('**/BridgeDesignManual.mp4'))
+            # Find output video (search for the dynamic name)
+            video_files = list(media_dir.glob(f'**/{video_name}.mp4'))
+            if not video_files:
+                # Try finding any mp4 file
+                video_files = list(media_dir.glob('**/*.mp4'))
+            
             if video_files:
                 video_path = video_files[0]
                 print_success(f"Video location: {video_path}")
@@ -75,4 +90,3 @@ def main():
 
 if __name__ == "__main__":
     exit(main())
-

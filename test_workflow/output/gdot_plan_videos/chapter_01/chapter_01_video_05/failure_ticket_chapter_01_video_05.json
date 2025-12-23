@@ -1,0 +1,50 @@
+{
+  "video_id": "chapter_01_video_05",
+  "script_path": "C:\\Users\\home\\coursemaker\\test_workflow\\output\\gdot_plan_videos\\chapter_01\\chapter_01_video_05\\base_script.py",
+  "created_at": "2025-12-23T21:37:03.006818",
+  "status": "requires_manual_fix",
+  "original_errors": [
+    {
+      "type": "runtime",
+      "message": "No Scene class found in script",
+      "line": null,
+      "suggestion": "Define a class that inherits from Scene"
+    }
+  ],
+  "repair_attempts": [
+    {
+      "attempt": 1,
+      "error_type": "runtime",
+      "fix_applied": "LLM repair for runtime error",
+      "success": false
+    },
+    {
+      "attempt": 2,
+      "error_type": "runtime",
+      "fix_applied": "LLM repair for runtime error",
+      "success": false
+    },
+    {
+      "attempt": 3,
+      "error_type": "runtime",
+      "fix_applied": "LLM repair for runtime error",
+      "success": false
+    }
+  ],
+  "remaining_errors": [
+    {
+      "type": "runtime",
+      "message": "No Scene class found in script",
+      "line": null,
+      "context": null,
+      "suggestion": "Define a class that inherits from Scene"
+    }
+  ],
+  "manual_checklist": [
+    "Review the error messages and context",
+    "Check for common issues: list indices, variable names, method calls",
+    "Verify manim animation syntax",
+    "Ensure visual diversity requirements are met",
+    "Run: python dry_run_validator.py <script_path> to test fixes"
+  ]
+}

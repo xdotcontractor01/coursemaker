@@ -1,0 +1,23 @@
+{
+  "video_id": "chapter_01_video_05",
+  "script_path": "C:\\Users\\home\\coursemaker\\test_workflow\\output\\gdot_plan_videos\\chapter_01\\chapter_01_video_05\\base_script.py",
+  "passed": false,
+  "errors": [
+    {
+      "error_type": "runtime",
+      "message": "No Scene class found in script",
+      "line_number": null,
+      "context": null,
+      "suggestion": "Define a class that inherits from Scene"
+    }
+  ],
+  "warnings": [
+    "No dynamic elements found (MoveAlongPath, Updater, ValueTracker, etc.)"
+  ],
+  "diversity_score": 8,
+  "diversity_passed": true,
+  "syntax_valid": true,
+  "imports_valid": true,
+  "runtime_valid": false,
+  "validated_at": "2025-12-23T21:34:41.185561"
+}

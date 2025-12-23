@@ -1,6 +1,12 @@
 """
 Master Script: Run All Workflow Steps
 Executes all 11 steps sequentially and displays summary report
+
+HOW TO USE:
+===========
+1. Edit INPUT.md with your content
+2. Edit CONFIG.py for custom settings (optional)
+3. Run: python run_all.py
 """
 
 import sys
@@ -8,7 +14,15 @@ from datetime import datetime
 from pathlib import Path
 
 # Import shared utilities
-from shared import TEST_DIR, print_step, print_success, print_error, print_info
+from shared import (
+    TEST_DIR, print_step, print_success, print_error, print_info,
+    get_video_name, clear_output_cache, CLEAR_CACHE, CUSTOM_INSTRUCTIONS
+)
+
+# Script directory
+_SCRIPT_DIR = Path(__file__).parent.resolve()
+INPUT_FILE = _SCRIPT_DIR / 'INPUT.md'
+CONFIG_FILE = _SCRIPT_DIR / 'CONFIG.py'
 
 # Import all step modules
 import step_00_load_prompts
@@ -143,6 +157,28 @@ def main():
     print("="*80)
     print(f"Output directory: {TEST_DIR.absolute()}")
     print(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    
+    # Show configuration
+    print(f"Config file: {CONFIG_FILE}")
+    video_name = get_video_name()
+    print(f"Video name: {video_name}")
+    
+    # Show input source
+    if INPUT_FILE.exists():
+        print(f"Input source: {INPUT_FILE}")
+        # Show preview of content
+        content = INPUT_FILE.read_text(encoding='utf-8')
+        preview = content[:200].replace('\n', ' ')
+        print(f"Content preview: {preview}...")
+    else:
+        print("Input source: Built-in SAMPLE_MD (create INPUT.md for custom content)")
+    
+    # Clear cache if enabled
+    if CLEAR_CACHE:
+        print("\n[INFO] Clearing previous output cache...")
+        cleared = clear_output_cache()
+        print(f"[INFO] Cleared {cleared} items from previous run")
+    
     print("\n")
     
     steps = [

@@ -1,0 +1,330 @@
+{
+  "video_id": "chapter_01_video_03",
+  "chapter_id": "chapter_01",
+  "title": "Sheet Order & Project Length and Design Data",
+  "description": "Covers Sheet Order and Project Length and Design Data in highway plan reading.",
+  "total_duration_seconds": 150,
+  "total_word_count": 177,
+  "learning_objectives": [
+    "Understand the purpose of sheet order in highway plans",
+    "Identify key components of project length",
+    "Recognize the importance of design data in project planning"
+  ],
+  "review_questions": [
+    "What is the typical order of sheets in highway plans?",
+    "How is project length calculated?",
+    "What key parameters are included in design data?"
+  ],
+  "figure_paths": [
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-12.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-13.png"
+  ],
+  "created_at": "2025-12-23T21:29:20.360952",
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Introduction to Sheet Order",
+      "visual_goal": "Student should understand the main concept being introduced",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Sheet Order in Highway Plans",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "ImageMobject",
+            "path": "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-12.png",
+            "position": "CENTER"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "image",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [
+          {
+            "type": "MoveAlongPath",
+            "description": "Tracer moves along the sheet order sequence"
+          }
+        ],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "In this section, we will explore the sheet order in highway plans. The sequence begins with the cover sheet, which provides project identification and overview. Following that, the index and revision summary lists all sheets and any changes made. Familiarizing yourself with this order enhances navigation through the plan set.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 1,
+          "line_end": 10,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "sheet order",
+        "cover sheet"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn",
+        "MoveAlongPath"
+      ],
+      "has_dynamic_element": true
+    },
+    {
+      "slide_number": 2,
+      "title": "Understanding Project Length",
+      "visual_goal": "Student should grasp the concept of project length",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Project Length Defined",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "Calculated from stationing",
+            "position": "CENTER",
+            "style": "body"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "body",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "The project length is a crucial component found on the cover sheet. It defines the extent of work, calculated from the stationing at the project's beginning to its end. Understanding this measurement is essential for effective project management.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 12,
+          "line_end": 12,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "project length",
+        "stationing"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 3,
+      "title": "Design Data Overview",
+      "visual_goal": "Student should recognize key design data elements",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Key Design Data Elements",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "Design Speed, Posted Speed, Terrain Type",
+            "position": "CENTER",
+            "style": "body"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "body",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "The design data presented on the cover sheet includes critical parameters such as design speed, posted speed, terrain type, and traffic data. These elements significantly influence design decisions throughout the project.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 15,
+          "line_end": 15,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "design data",
+        "design speed"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 4,
+      "title": "Importance of Design Data",
+      "visual_goal": "Student should understand the implications of design data",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Impact on Design Decisions",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "Design decisions rely on accurate data.",
+            "position": "CENTER",
+            "style": "body"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "body",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "Accurate design data is essential as it directly impacts many design decisions made throughout the project. Understanding these parameters helps ensure compliance with safety and regulatory standards.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 18,
+          "line_end": 18,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "design decisions",
+        "regulatory standards"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 5,
+      "title": "Conclusion and Review",
+      "visual_goal": "Student should recap key points covered",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Recap of Key Points",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "1. Sheet Order\n2. Project Length\n3. Design Data",
+            "position": "CENTER",
+            "style": "body"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "body",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "In conclusion, understanding the sheet order, project length, and design data is vital for effective highway plan reading. These elements ensure that you can navigate plans efficiently and make informed decisions.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 1,
+          "line_end": 18,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "recap",
+        "highway plan reading"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    }
+  ]
+}

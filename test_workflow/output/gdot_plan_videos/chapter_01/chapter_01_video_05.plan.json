@@ -1,0 +1,328 @@
+{
+  "video_id": "chapter_01_video_05",
+  "chapter_id": "chapter_01",
+  "title": "Cover Sheet",
+  "description": "Learn about cover sheet in highway plan reading.",
+  "total_duration_seconds": 150,
+  "total_word_count": 184,
+  "learning_objectives": [
+    "Understand the purpose of cover sheets",
+    "Identify key components of project identification"
+  ],
+  "review_questions": [
+    "What information is found on a cover sheet?",
+    "How do you identify the project limits?"
+  ],
+  "figure_paths": [
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-1.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-2.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-3.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-4.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-5.png"
+  ],
+  "created_at": "2025-12-23T21:34:11.138207",
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Introduction to Cover Sheet",
+      "visual_goal": "Student should understand the main concept being introduced",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Cover Sheet Overview",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "ImageMobject",
+            "path": "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-1.png",
+            "position": "CENTER"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "image",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "Welcome to our course on highway plan reading. In this segment, we will explore the cover sheet, the first and most crucial page of any construction plan set. It contains vital project identification information that sets the stage for the entire project.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 1,
+          "line_end": 3,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "cover sheet",
+        "construction plan"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 2,
+      "title": "Key Components of the Cover Sheet",
+      "visual_goal": "Highlight the essential elements found on the cover sheet",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Project Number, Route, County",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "Project Limits",
+            "position": "DOWN",
+            "style": "subtitle"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "subtitle",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "The cover sheet includes critical project identification information such as the Project Number, Route Information, County, and Project Limits. These elements are essential for understanding the scope and location of the project.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 5,
+          "line_end": 10,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "Project Number",
+        "Route Information"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 3,
+      "title": "Project Location Sketch",
+      "visual_goal": "Explain the importance of the location map",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Location Map Importance",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "ImageMobject",
+            "path": "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-2.png",
+            "position": "CENTER"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "image",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "The project location sketch is a vital component that shows where the project is situated within the county and state highway system. This map helps orient readers to the project area, ensuring everyone is on the same page.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 12,
+          "line_end": 15,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "location map",
+        "project area"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 4,
+      "title": "Layout View",
+      "visual_goal": "Describe the layout view of the project",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Overall Project Configuration",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "ImageMobject",
+            "path": "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-3.png",
+            "position": "CENTER"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "image",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [
+          {
+            "type": "MoveAlongPath",
+            "description": "Arrow moves along the layout view",
+            "duration": 1.0
+          }
+        ],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "The layout view illustrates the overall project configuration, including the alignment of the roadway, major intersections, and significant features. This visual representation is essential for understanding how the project will integrate into the existing infrastructure.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 17,
+          "line_end": 20,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "layout view",
+        "project configuration"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": true
+    },
+    {
+      "slide_number": 5,
+      "title": "Sheet Identification",
+      "visual_goal": "Identify the components of the sheet identification box",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Standard Identification Box",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "ImageMobject",
+            "path": "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-4.png",
+            "position": "CENTER"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "image",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "Each sheet in the plan set contains a standard identification box that includes the sheet number, project identification numbers, date of plans, and the engineer's seal and signature. This ensures proper organization and identification throughout the project.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 22,
+          "line_end": 25,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "sheet identification",
+        "engineer's seal"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    }
+  ]
+}

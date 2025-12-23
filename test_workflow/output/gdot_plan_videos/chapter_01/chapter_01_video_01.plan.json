@@ -1,0 +1,336 @@
+{
+  "video_id": "chapter_01_video_01",
+  "chapter_id": "chapter_01",
+  "title": "General Information & Plans Revised and Plans Completed",
+  "description": "Covers General Information and Plans Revised and Plans Completed in highway plan reading.",
+  "total_duration_seconds": 150,
+  "total_word_count": 136,
+  "learning_objectives": [
+    "Understand the purpose of cover sheets",
+    "Identify key components of project identification"
+  ],
+  "review_questions": [
+    "What information is found on a cover sheet?",
+    "How do you identify the project limits?"
+  ],
+  "figure_paths": [
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-1.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-2.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-3.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-4.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-5.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-6.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-7.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-8.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-9.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-12.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-13.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-12.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-13.png",
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-14.png"
+  ],
+  "created_at": "2025-12-23T21:43:52.757823",
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Introduction to Highway Plans",
+      "visual_goal": "Student should understand the main concept being introduced",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "General Information & Plans Revised",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "ImageMobject",
+            "path": "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-1.png",
+            "position": "CENTER"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "image",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "In this section, we will explore the essential components of highway construction plans as standardized by GDOT. Understanding these components is crucial for contractors and engineers involved in highway projects.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 10,
+          "line_end": 25,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "highway plans",
+        "GDOT"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 2,
+      "title": "Understanding Contract Documents",
+      "visual_goal": "Recognize the importance of contract documents in highway plans",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Contract Documents & Specifications",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "ImageMobject",
+            "path": "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-2.png",
+            "position": "CENTER"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "image",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "Contract documents outline the requirements for construction. Always refer to these specifications and special provisions for detailed requirements, as they are legally binding.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 10,
+          "line_end": 25,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "contract documents",
+        "specifications"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 3,
+      "title": "Plans Revised Overview",
+      "visual_goal": "Understand the revision process in highway plans",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Plans Revised and Completed",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "ImageMobject",
+            "path": "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-8.png",
+            "position": "CENTER"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "image",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "The cover sheet of highway plans tracks revisions with dated entries. Each revision includes a number, date, and description of changes, creating an audit trail of modifications.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 10,
+          "line_end": 25,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "revision process",
+        "audit trail"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 4,
+      "title": "Key Components of Revision Sheets",
+      "visual_goal": "Identify key components of revision sheets",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Key Elements of Revision Sheets",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "ImageMobject",
+            "path": "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-9.png",
+            "position": "CENTER"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "image",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [
+          {
+            "type": "MoveAlongPath",
+            "description": "Arrow moves to highlight revision components"
+          }
+        ],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "Each revision sheet contains critical information such as the project title, revision number, and description of changes. These elements ensure clarity and accountability in project modifications.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 10,
+          "line_end": 25,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "revision sheet",
+        "project title"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": true
+    },
+    {
+      "slide_number": 5,
+      "title": "Conclusion and Review",
+      "visual_goal": "Summarize key points covered in the video",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Summary of Key Points",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "1. Understand contract documents\n2. Recognize revision processes",
+            "position": "CENTER",
+            "style": "body"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "body",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "In summary, understanding the structure of highway plans and the importance of revisions is vital for successful project execution. Ensure you are familiar with these components for effective plan reading.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 10,
+          "line_end": 25,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "summary",
+        "plan reading"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    }
+  ]
+}

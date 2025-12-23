@@ -1,12 +1,27 @@
 """
 Step 5: Download Images
 Downloads images from SerpAPI based on suggestions
+Validates each image to ensure it's not corrupted
 """
 
 import json
 import time
 import requests
 from shared import *
+
+def validate_image(filepath):
+    """Validate that an image file is not corrupted"""
+    try:
+        from PIL import Image
+        with Image.open(filepath) as img:
+            img.verify()  # Verify it's a valid image
+        # Re-open to check it can be read (verify() doesn't catch all issues)
+        with Image.open(filepath) as img:
+            img.load()  # Actually load the image data
+        return True
+    except Exception as e:
+        print_error(f"Image validation failed: {e}")
+        return False
 
 def main():
     """Download images using SerpAPI"""
@@ -97,14 +112,20 @@ def main():
                                     f.write(chunk)
                             
                             if filepath.exists() and filepath.stat().st_size > 0:
-                                downloaded[slide_no] = {
-                                    'path': str(filepath),
-                                    'layout': layout,
-                                    'query': query
-                                }
-                                size_kb = filepath.stat().st_size / 1024
-                                print_success(f"Downloaded {filename} ({size_kb:.2f} KB)")
-                                break  # Successfully downloaded, move to next
+                                # Validate the image is not corrupted
+                                if validate_image(filepath):
+                                    downloaded[slide_no] = {
+                                        'path': str(filepath),
+                                        'layout': layout,
+                                        'query': query
+                                    }
+                                    size_kb = filepath.stat().st_size / 1024
+                                    print_success(f"Downloaded {filename} ({size_kb:.2f} KB) - validated OK")
+                                    break  # Successfully downloaded and validated
+                                else:
+                                    print_error(f"Downloaded image is corrupted, trying next result...")
+                                    filepath.unlink()  # Delete corrupted file
+                                    continue
                         
                     except Exception as e:
                         print_error(f"Failed to download image: {e}")

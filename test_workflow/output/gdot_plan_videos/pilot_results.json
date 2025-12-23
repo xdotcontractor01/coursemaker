@@ -1,0 +1,88 @@
+{
+  "chapter_file": "C:\\Users\\home\\coursemaker\\test_workflow\\input_markdown\\chapter_01.md",
+  "started_at": "2025-12-23T20:10:18.539673",
+  "videos": [
+    {
+      "video_id": "chapter_01_video_01",
+      "title": "General Information & Scale",
+      "success": true,
+      "steps": {
+        "plan": "success",
+        "script": "success",
+        "repair": "success",
+        "narration": "success",
+        "quality": "failed",
+        "render": "error: Manim failed: \nAnimation 0: Write(Text('Introduction to General Information & Scale')):   0%|          | 0/60 [00:00<?, ?it/s]\nAnimation 0: Write(Text('Introduction to General Information & Scale')):  15%|#5        | 9/60 [00:00<00:00, 89.05it/s]\nAnimation 0: Write(Text('Introduction to General Information & Scale')):  30%|###       | 18/60 [00:00<00:00, 83.03it/s]\nAnimation 0: Write(Text('Introduction to General Information & Scale')):  45%|####5     | 27/60 [00:00<00:00, 81.95it/s]\nAnimation 0: Write(Text('"
+      },
+      "diversity_score": 14,
+      "quality_passed": false
+    },
+    {
+      "video_id": "chapter_01_video_02",
+      "title": "Requirements and Specifications & Project Length",
+      "success": true,
+      "steps": {
+        "plan": "success",
+        "script": "success",
+        "repair": "success",
+        "narration": "success",
+        "quality": "failed",
+        "render": "error: Manim failed: \nAnimation 0: Write(Text('Introduction to Requirements and Specifications')):   0%|          | 0/60 [00:00<?, ?it/s]\nAnimation 0: Write(Text('Introduction to Requirements and Specifications')):  15%|#5        | 9/60 [00:00<00:00, 80.71it/s]\nAnimation 0: Write(Text('Introduction to Requirements and Specifications')):  30%|###       | 18/60 [00:00<00:00, 78.63it/s]\nAnimation 0: Write(Text('Introduction to Requirements and Specifications')):  43%|####3     | 26/60 [00:00<00:00, 72.60it/s]\nAnimation"
+      },
+      "diversity_score": 13,
+      "quality_passed": false
+    },
+    {
+      "video_id": "chapter_01_video_03",
+      "title": "Sheet Order & Design Data",
+      "success": true,
+      "steps": {
+        "plan": "success",
+        "script": "success",
+        "repair": "success",
+        "narration": "success",
+        "quality": "passed",
+        "render": "error: Manim failed: \nAnimation 0: Write(Text('Sheet Order in Highway Plans')):   0%|          | 0/60 [00:00<?, ?it/s]\nAnimation 0: Write(Text('Sheet Order in Highway Plans')):  18%|#8        | 11/60 [00:00<00:00, 101.37it/s]\nAnimation 0: Write(Text('Sheet Order in Highway Plans')):  37%|###6      | 22/60 [00:00<00:00, 101.37it/s]\nAnimation 0: Write(Text('Sheet Order in Highway Plans')):  55%|#####5    | 33/60 [00:00<00:00, 99.28it/s] \nAnimation 0: Write(Text('Sheet Order in Highway Plans')):  72%|#######1  | 43/60 "
+      },
+      "diversity_score": 13,
+      "quality_passed": true
+    },
+    {
+      "video_id": "chapter_01_video_04",
+      "title": "Errors or Omissions",
+      "success": true,
+      "steps": {
+        "plan": "success",
+        "script": "success",
+        "repair": "success",
+        "narration": "success",
+        "quality": "failed",
+        "render": "error: Manim failed: \nAnimation 0: Write(Text('Errors or Omissions in Highway Plans')):   0%|          | 0/60 [00:00<?, ?it/s]\nAnimation 0: Write(Text('Errors or Omissions in Highway Plans')):  17%|#6        | 10/60 [00:00<00:00, 92.68it/s]\nAnimation 0: Write(Text('Errors or Omissions in Highway Plans')):  33%|###3      | 20/60 [00:00<00:00, 89.68it/s]\nAnimation 0: Write(Text('Errors or Omissions in Highway Plans')):  48%|####8     | 29/60 [00:00<00:00, 85.93it/s]\nAnimation 0: Write(Text('Errors or Omissions in High"
+      },
+      "diversity_score": 14,
+      "quality_passed": false
+    },
+    {
+      "video_id": "chapter_01_video_05",
+      "title": "Cover Sheet",
+      "success": true,
+      "steps": {
+        "plan": "success",
+        "script": "success",
+        "repair": "success",
+        "narration": "success",
+        "quality": "failed",
+        "render": "error: Manim failed: \nAnimation 0: Write(Text('Introduction to Cover Sheet')):   0%|          | 0/60 [00:00<?, ?it/s]\nAnimation 0: Write(Text('Introduction to Cover Sheet')):  18%|#8        | 11/60 [00:00<00:00, 104.47it/s]\nAnimation 0: Write(Text('Introduction to Cover Sheet')):  37%|###6      | 22/60 [00:00<00:00, 100.96it/s]\nAnimation 0: Write(Text('Introduction to Cover Sheet')):  55%|#####5    | 33/60 [00:00<00:00, 100.50it/s]\nAnimation 0: Write(Text('Introduction to Cover Sheet')):  73%|#######3  | 44/60 [00:0"
+      },
+      "diversity_score": 13,
+      "quality_passed": false
+    }
+  ],
+  "success": true,
+  "completed_at": "2025-12-23T20:21:17.049398",
+  "summary": {
+    "total_videos": 5,
+    "successful": 5,
+    "failed": 0
+  }
+}

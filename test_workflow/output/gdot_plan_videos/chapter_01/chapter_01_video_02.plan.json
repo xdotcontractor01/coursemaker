@@ -1,0 +1,326 @@
+{
+  "video_id": "chapter_01_video_02",
+  "chapter_id": "chapter_01",
+  "title": "Requirements and Specifications & Scale",
+  "description": "Covers Requirements and Specifications and Scale in highway plan reading.",
+  "total_duration_seconds": 150,
+  "total_word_count": 115,
+  "learning_objectives": [
+    "Understand the purpose of requirements and specifications in highway plans.",
+    "Identify the importance of scale in reading highway plans."
+  ],
+  "review_questions": [
+    "What is the order of precedence in contract documents?",
+    "How does the civil engineer's scale differ from architectural scales?"
+  ],
+  "figure_paths": [
+    "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-9.png"
+  ],
+  "created_at": "2025-12-23T21:27:17.544823",
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Introduction to Requirements and Specifications",
+      "visual_goal": "Student should understand the main concept being introduced",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Requirements and Specifications",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "Understanding the foundation of highway plans.",
+            "position": "CENTER",
+            "style": "subtitle"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "subtitle",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "In this section, we will explore the requirements and specifications that govern highway projects. Understanding these elements is crucial for successful plan reading and execution.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 10,
+          "line_end": 15,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "Requirements",
+        "Specifications"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 2,
+      "title": "Hierarchy of Contract Documents",
+      "visual_goal": "Illustrate the order of precedence in contract documents.",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Order of Precedence",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "ImageMobject",
+            "path": "C:\\Users\\home\\coursemaker\\test_workflow\\figures\\chapter_01\\fig_1-9.png",
+            "position": "CENTER"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "image",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "The hierarchy of contract documents is essential for resolving discrepancies. Special provisions take precedence, followed by plans, supplemental specifications, standard specifications, and standard drawings.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 16,
+          "line_end": 25,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "Order of Precedence",
+        "Contract Documents"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 3,
+      "title": "Understanding Scale",
+      "visual_goal": "Explain the importance of scale in plan reading.",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Importance of Scale",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "Engineering vs. Architectural Scales",
+            "position": "CENTER",
+            "style": "subtitle"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "subtitle",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "Understanding scale is critical for accurate plan reading. GDOT uses engineering scales, which differ from architectural scales, ensuring precise measurements.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 26,
+          "line_end": 30,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "Scale",
+        "Engineering Scale"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    },
+    {
+      "slide_number": 4,
+      "title": "Civil Engineer's Scale",
+      "visual_goal": "Demonstrate the civil engineer's scale.",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Civil Engineer's Scale",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "1 inch = X feet (10, 20, 30, etc.)",
+            "position": "CENTER",
+            "style": "subtitle"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "subtitle",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [
+          {
+            "type": "MoveAlongPath",
+            "description": "Tracer moves along scale markings"
+          }
+        ],
+        "camera": {
+          "zoom": 1.2,
+          "pan": null
+        }
+      },
+      "narration_text": "The civil engineer's scale is divided into decimal units, where each scale represents a specific distance. This understanding is vital for interpreting plans accurately.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 31,
+          "line_end": 35,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "Civil Engineer's Scale",
+        "Scale Markings"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": true
+    },
+    {
+      "slide_number": 5,
+      "title": "Bar Scale",
+      "visual_goal": "Explain the function of the bar scale in plans.",
+      "visual_recipe": {
+        "background": "WHITE",
+        "main_elements": [
+          {
+            "type": "Text",
+            "content": "Bar Scale Overview",
+            "position": "UP",
+            "style": "title"
+          },
+          {
+            "type": "Text",
+            "content": "Quick reference for measurements.",
+            "position": "CENTER",
+            "style": "subtitle"
+          }
+        ],
+        "animations": [
+          {
+            "type": "Write",
+            "target": "title",
+            "duration": 1.0
+          },
+          {
+            "type": "FadeIn",
+            "target": "subtitle",
+            "duration": 0.5
+          }
+        ],
+        "dynamic_elements": [],
+        "camera": {
+          "zoom": 1.0,
+          "pan": null
+        }
+      },
+      "narration_text": "The bar scale provides a graphical representation for quick reference. It adjusts proportionally when plans are reproduced at different sizes, ensuring accuracy.",
+      "timing_seconds": 30,
+      "source_refs": [
+        {
+          "source_type": "markdown",
+          "file": "chapter_01.md",
+          "line_start": 36,
+          "line_end": 40,
+          "page": null,
+          "figure": null
+        }
+      ],
+      "key_terms_used": [
+        "Bar Scale",
+        "Graphical Scale"
+      ],
+      "animation_types": [
+        "Write",
+        "FadeIn"
+      ],
+      "has_dynamic_element": false
+    }
+  ]
+}

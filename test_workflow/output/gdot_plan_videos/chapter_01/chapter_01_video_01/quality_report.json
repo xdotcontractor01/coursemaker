@@ -1,0 +1,129 @@
+{
+  "video_id": "chapter_01_video_01",
+  "chapter_id": "chapter_01",
+  "all_gates_passed": false,
+  "created_at": "2025-12-23T21:45:04.829434",
+  "gates": [
+    {
+      "gate_name": "Visual Diversity",
+      "passed": false,
+      "score": 3,
+      "max_score": 5,
+      "details": {
+        "dynamic_elements": [],
+        "slides_animation_variety": [
+          {
+            "slide": 1,
+            "animation_types": [
+              "Create",
+              "Write"
+            ],
+            "count": 2
+          },
+          {
+            "slide": 2,
+            "animation_types": [
+              "GrowFrom",
+              "Write"
+            ],
+            "count": 2
+          },
+          {
+            "slide": 3,
+            "animation_types": [
+              "Create",
+              "Write"
+            ],
+            "count": 2
+          },
+          {
+            "slide": 4,
+            "animation_types": [
+              "Create",
+              "Write"
+            ],
+            "count": 2
+          },
+          {
+            "slide": 5,
+            "animation_types": [
+              "FadeIn",
+              "Indicate",
+              "Write"
+            ],
+            "count": 3
+          }
+        ],
+        "shapes_used": [
+          "Circle",
+          "Arrow",
+          "Line",
+          "Brace"
+        ],
+        "colors_used": [
+          "BLUE",
+          "RED",
+          "GREEN",
+          "ORANGE",
+          "TEAL"
+        ]
+      },
+      "failures": [
+        "Missing dynamic elements (found 0, need 1)"
+      ],
+      "suggestions": [
+        "Add MoveAlongPath, ValueTracker, or camera animations"
+      ]
+    },
+    {
+      "gate_name": "Narrative Depth",
+      "passed": true,
+      "score": 3,
+      "max_score": 4,
+      "details": {
+        "factual_references": 10,
+        "review_questions": 2,
+        "word_counts": [
+          31,
+          24,
+          28,
+          27,
+          31
+        ],
+        "total_words": 141
+      },
+      "failures": [
+        "Slide 1: too short (31 words)",
+        "Slide 2: too short (24 words)",
+        "Slide 3: too short (28 words)",
+        "Slide 4: too short (27 words)",
+        "Slide 5: too short (31 words)"
+      ],
+      "suggestions": [
+        "Adjust narration to 40-90 words per slide"
+      ]
+    },
+    {
+      "gate_name": "No-Spurious-Caution",
+      "passed": false,
+      "score": 0,
+      "max_score": 1,
+      "details": {
+        "caution_slides": [
+          1,
+          2
+        ],
+        "unverified_cautions": [
+          1,
+          2
+        ]
+      },
+      "failures": [
+        "Unverified contractor cautions in slides [1, 2]"
+      ],
+      "suggestions": [
+        "Remove cautions that aren't in source material, or add proper citations"
+      ]
+    }
+  ]
+}

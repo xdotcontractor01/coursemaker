@@ -10,12 +10,16 @@ def main():
     """Merge audio clips and sync with video"""
     print_step(10, "Merge Audio & Video")
     
+    # Try moviepy 2.x imports first, fallback to 1.x
     try:
-        from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_audioclips
+        from moviepy import VideoFileClip, AudioFileClip, concatenate_audioclips
     except ImportError:
-        print_error("moviepy not installed. Run: pip install moviepy")
-        print_info("Skipping audio merge...")
-        return 0
+        try:
+            from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_audioclips
+        except ImportError:
+            print_error("moviepy not installed. Run: pip install moviepy")
+            print_info("Skipping audio merge...")
+            return 0
     
     try:
         # Read video path
@@ -79,7 +83,10 @@ def main():
             
             # Pad audio if shorter
             if total_audio_duration < video_duration:
-                from moviepy.editor import AudioClip
+                try:
+                    from moviepy import AudioClip
+                except ImportError:
+                    from moviepy.editor import AudioClip
                 silence_duration = video_duration - total_audio_duration
                 silence = AudioClip(lambda t: 0, duration=silence_duration)
                 full_audio = concatenate_audioclips([full_audio, silence])
@@ -89,7 +96,11 @@ def main():
         
         # Attach audio to video
         print_info("Attaching audio to video...")
-        final_video = video.set_audio(full_audio)
+        # moviepy 2.x uses with_audio, 1.x uses set_audio
+        if hasattr(video, 'with_audio'):
+            final_video = video.with_audio(full_audio)
+        else:
+            final_video = video.set_audio(full_audio)
         
         # Save final video
         output_path = TEST_DIR / 'final_video_with_audio.mp4'
