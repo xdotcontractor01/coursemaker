@@ -102,8 +102,8 @@ def main():
                     f"{indent_str}# Label below the image",
                     f"{indent_str}img_label_{current_slide} = Text(\"Reference Image\", color=GRAY, font_size={IMAGE_CONFIG['label_font_size']})",
                     f"{indent_str}img_label_{current_slide}.next_to(img_{current_slide}, DOWN, buff=0.1)",
-                    f"{indent_str}# Group image and label together",
-                    f"{indent_str}img_group_{current_slide} = VGroup(img_{current_slide}, img_label_{current_slide})",
+                    f"{indent_str}# Group image and label together (use Group instead of VGroup for ImageMobject)",
+                    f"{indent_str}img_group_{current_slide} = Group(img_{current_slide}, img_label_{current_slide})",
                     f"{indent_str}self.play(FadeIn(img_group_{current_slide}), run_time=0.5)",
                     ""
                 ]
@@ -123,12 +123,8 @@ def main():
                   slide_image_injected.get(current_slide, False)):
                 
                 # Modify the fadeout to include the image group
-                if 'VGroup' in line:
-                    # Add image group to the fadeout (VGroup can contain VGroup)
-                    modified_line = line.replace('), run_time', f', img_group_{current_slide}), run_time')
-                    modified_lines[-1] = modified_line
-                elif 'Group(' in line:
-                    # Add image group to existing Group
+                if 'VGroup' in line or 'Group(' in line:
+                    # Add image group to the fadeout
                     modified_line = line.replace('), run_time', f', img_group_{current_slide}), run_time')
                     modified_lines[-1] = modified_line
         

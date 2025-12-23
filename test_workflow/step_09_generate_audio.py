@@ -1,20 +1,19 @@
 """
 Step 9: Generate Audio Clips
-Generates audio clips from narration using edge-tts
+Generates audio clips from narration using Coqui TTS
 """
 
 import json
 from shared import *
 
 def main():
-    """Generate audio clips with edge-tts"""
+    """Generate audio clips with Coqui TTS"""
     print_step(9, "Generate Audio Clips")
     
     try:
-        import edge_tts
-        import asyncio
+        from TTS.api import TTS
     except ImportError:
-        print_error("edge-tts not installed. Run: pip install edge-tts")
+        print_error("TTS (Coqui) not installed. Run: pip install TTS")
         print_info("Skipping audio generation...")
         # Create empty audio_clips.json
         audio_info_file = TEST_DIR / 'audio_clips.json'
@@ -35,18 +34,28 @@ def main():
         audio_dir = TEST_DIR / 'audio_clips'
         audio_dir.mkdir(exist_ok=True)
         
-        voice = "en-US-GuyNeural"
-        print_info(f"Using voice: {voice}")
+        # Initialize Coqui TTS with female voice
+        # Using VCTK model which has multiple female voices
+        # Voice options: p225 (female), p226 (female), p227 (female), p228 (female), etc.
+        # Using p225 as default female voice
+        print_info("Initializing Coqui TTS...")
+        tts = TTS(model_name="tts_models/en/vctk/vits", progress_bar=False)
+        voice = "p225"  # Female voice from VCTK dataset
+        print_info(f"Using Coqui TTS with female voice: {voice}")
         
-        async def generate_clip(idx, narration):
+        def generate_clip(idx, narration):
             try:
                 text = narration.get('narration_text', '')
-                output_file = audio_dir / f'clip_{idx}.mp3'
+                output_file = audio_dir / f'clip_{idx}.wav'
                 
                 print_info(f"  Generating clip {idx}: {len(text)} characters...")
                 
-                communicate = edge_tts.Communicate(text, voice)
-                await communicate.save(str(output_file))
+                # Generate audio with Coqui TTS
+                tts.tts_to_file(
+                    text=text,
+                    file_path=str(output_file),
+                    speaker=voice
+                )
                 
                 # Verify file was created
                 if not output_file.exists():
@@ -63,20 +72,18 @@ def main():
                 print_error(f"  Failed to generate clip {idx}: {e}")
                 raise
         
-        async def generate_all():
-            results = []
-            for i, n in enumerate(narrations):
-                try:
-                    result = await generate_clip(i, n)
-                    results.append(result)
-                except Exception as e:
-                    print_error(f"Clip {i} generation failed: {e}")
-                    # Continue with other clips
-            return results
-        
         print_info(f"Generating {len(narrations)} audio clips...")
         
-        audio_files = asyncio.run(generate_all())
+        results = []
+        for i, n in enumerate(narrations):
+            try:
+                result = generate_clip(i, n)
+                results.append(result)
+            except Exception as e:
+                print_error(f"Clip {i} generation failed: {e}")
+                # Continue with other clips
+        
+        audio_files = results
         
         # Verify we got audio files
         if not audio_files or len(audio_files) == 0:

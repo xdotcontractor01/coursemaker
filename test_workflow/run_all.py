@@ -145,6 +145,12 @@ def main():
     print(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("\n")
     
+    # Check for input file argument
+    input_file = None
+    if len(sys.argv) > 1:
+        input_file = sys.argv[1]
+        print_info(f"Using input file: {input_file}")
+    
     steps = [
         ("Step 0", step_00_load_prompts),
         ("Step 1", step_01_validate_input),
@@ -164,7 +170,15 @@ def main():
     for step_name, step_module in steps:
         try:
             print_info(f"Running {step_name}...")
-            result = step_module.main()
+            # Pass input file to step 1 if provided
+            if step_name == "Step 1" and input_file:
+                # Temporarily modify sys.argv to pass input file
+                original_argv = sys.argv[:]
+                sys.argv = [sys.argv[0], input_file]
+                result = step_module.main()
+                sys.argv = original_argv
+            else:
+                result = step_module.main()
             if result != 0:
                 print_error(f"{step_name} failed with exit code {result}")
                 failed_steps.append(step_name)
