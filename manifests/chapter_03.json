@@ -1,0 +1,74 @@
+{
+  "chapter": 3,
+  "pages": "13-14",
+  "title": "Typical Sections",
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Title",
+      "source_pages": "13",
+      "source_text": "Chapter 3: Typical Sections",
+      "image_paths": [],
+      "bullets": [
+        "Typical Sections overview",
+        "Cross-sectional roadway view",
+        "Construction dimensions guide"
+      ],
+      "narration_text": "Welcome to Chapter Three of Basic Highway Plan Reading. \nIn this chapter, we'll learn about Typical Sections, which are essential drawings \nthat show how a roadway will be constructed. These sections provide the cross-sectional view \nof the roadway with all necessary dimensions. Let's explore what typical sections show us.",
+      "tts_file_path": "audio/ch03_scene01.wav",
+      "expected_duration": 20.0
+    },
+    {
+      "index": 2,
+      "title": "Introduction to Typical Sections",
+      "source_pages": "13",
+      "source_text": "The typical section is a picture, with dimensions, of how the cross-sectional view of the roadway would appear after the construction is completed.",
+      "image_paths": [
+        "assets/images/chapter3/figure_3_1.jpg"
+      ],
+      "bullets": [
+        "Shows cross-sectional view",
+        "Illustrates fill and cut areas",
+        "Identifies roadway elements"
+      ],
+      "narration_text": "Let's begin by understanding what a typical section is.\n\nA typical section is a picture, with dimensions, showing how the cross-sectional view \nof the roadway would appear after construction is completed. A cross section shows \nwhat the road would look like if you cut it from side to side.\n\nAs you can see in Figure 3-1 on screen, this shows an idealized roadway typical section \nwith the various elements identified. The left side of the typical section illustrates \nhow the roadway is to be constructed in a fill area, where earth has been added \nto raise the road above the existing ground level.\n\nThe right side of this typical section illustrates how the roadway is to be constructed \nin a cut area, where the road will be below the existing grade, meaning earth \nhas been removed to lower the road surface.\n\nIt's important to note that the right and left sides of the typical section \nare interchangeable\u2014they simply show different construction conditions that \nmay occur along the length of the project.\n\nLooking at the typical section, you can identify key features such as travel lanes, \nshoulders, medians, ditches, and slopes. All of these elements are shown with \ntheir exact dimensions, allowing contractors to construct the roadway precisely \nas designed.",
+      "tts_file_path": "audio/ch03_scene02.wav",
+      "expected_duration": 77.825
+    },
+    {
+      "index": 3,
+      "title": "Required Pavement",
+      "source_pages": "13",
+      "source_text": "Paving requirements are also spelled out under the Normal Tangent Section.",
+      "image_paths": [
+        "assets/images/chapter3/figure_3_2.jpg"
+      ],
+      "bullets": [
+        "Pavement layer details",
+        "Material specifications",
+        "Thickness requirements"
+      ],
+      "narration_text": "Now let's look at the paving requirements shown on typical sections.\n\nAs displayed in Figure 3-2 on screen, the paving requirements are spelled out \nunder the Normal Tangent Section. This detail shows the exact composition \nand thickness of each pavement layer.\n\nThe typical section will specify the types of materials to be used, such as \nasphaltic concrete, aggregate base course, and subgrade preparation. \nEach layer is shown with its required thickness, ensuring the roadway \nis built to the proper specifications.\n\nThese pavement details are critical because they determine the structural integrity \nand longevity of the roadway. Contractors must follow these specifications exactly \nas shown on the typical section to ensure the finished road meets the design requirements \nand will perform as intended under traffic loads.\n\nThe paving schedule may vary for different sections of the roadway, such as \ntangent sections versus curved sections, so it's important to check the typical section \nthat applies to the specific location you're working on.",
+      "tts_file_path": "audio/ch03_scene03.wav",
+      "expected_duration": 65.3
+    },
+    {
+      "index": 4,
+      "title": "Horizontal Distance",
+      "source_pages": "14",
+      "source_text": "The dimensions given for Typical Sections are Horizontal dimensions.",
+      "image_paths": [
+        "assets/images/chapter3/figure_3_3.jpg"
+      ],
+      "bullets": [
+        "Dimensions are horizontal",
+        "Not measured along slopes",
+        "Level lines show true width"
+      ],
+      "narration_text": "An important concept to understand about typical sections \nis that the dimensions given are horizontal dimensions.\n\nThis means that the distances are not measured along the slopes of the roadway. \nFor example, if the typical section shows that the distance from the profile grade \nof the left lane to the edge of the pavement is written as 24 feet, that is a horizontal distance.\n\nHowever, if you were to measure along the one-quarter inch per foot slope of the pavement, \nthat distance would actually be slightly longer than 24 feet. Figure 3-3 on screen \nexaggerates this difference to help you understand the distinction.\n\nAll dimensions shown by level lines on typical sections are horizontal distances. \nThis is an important distinction because when contractors are staking out the roadway \nor placing materials, they need to understand that these dimensions are measured horizontally, \nnot along any sloped surfaces.\n\nThis horizontal measurement system is used consistently throughout highway construction plans \nbecause it provides a standardized way to show dimensions that can be accurately measured \nin the field using standard surveying equipment. Explanations of slopes and their relationship \nto horizontal distances will be discussed in more detail later in this manual.",
+      "tts_file_path": "audio/ch03_scene04.wav",
+      "expected_duration": 80.225
+    }
+  ],
+  "total_expected_duration": 243.35
+}

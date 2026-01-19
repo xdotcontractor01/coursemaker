@@ -1,0 +1,139 @@
+{
+  "chapter": 1,
+  "video": 4,
+  "pages": "8-11",
+  "title": "Scales and Design Data",
+  "topics": [
+    "Engineer's vs architect's scale",
+    "Bar scale",
+    "Project length table",
+    "Design data on the Cover Sheet"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Title/Introduction",
+      "source_pages": "8",
+      "source_text": "Chapter 1, Video 4: Scales and Design Data",
+      "image_paths": [],
+      "bullets": [
+        "Engineering scales explained",
+        "Design data interpretation",
+        "Accurate dimension reading"
+      ],
+      "narration_text": "Welcome to the final video of Chapter One. In this segment, we'll cover two important topics: engineering scales and design data. Understanding how to read scales is essential for accurately interpreting dimensions on highway plans. We'll also look at the design data that informs how a highway is planned and built.",
+      "tts_file": "audio/ch1_v4_scene_01.wav",
+      "duration": null
+    },
+    {
+      "index": 2,
+      "title": "Scale Introduction",
+      "source_pages": "8",
+      "source_text": "Roadway and structure plans are drawn to scale.",
+      "image_paths": [],
+      "bullets": [
+        "Plans drawn to scale",
+        "Large projects on sheets",
+        "Two main scale types"
+      ],
+      "narration_text": "Roadway and structure plans are drawn to scale so that large projects can be represented on easy-to-use sheet sizes. Without scaling, a highway project spanning several miles would require an impossibly large piece of paper.\n\nHighway plans primarily use two types of scales: the engineer's scale and the architect's scale. Roadway plans typically use the engineer's scale, while structure plans may use either type depending on the detail required. Let's look at each one.",
+      "tts_file": "audio/ch1_v4_scene_02.wav",
+      "duration": null
+    },
+    {
+      "index": 3,
+      "title": "Engineer vs Architect Scale",
+      "source_pages": "8-9",
+      "source_text": "The civil engineer's scale and the architect's scale differ in expression.",
+      "image_paths": ["assets/images/chapter1/figure_1_9.jpg"],
+      "bullets": [
+        "Engineer: inches to feet",
+        "Architect: fractions to foot",
+        "Triangular or flat shape"
+      ],
+      "narration_text": "As you can see in the image on screen, the civil engineer's scale is shown at the top, and the architect's scale is shown below it.\n\nThe engineer's scale expresses scale as inches to feet. Common scales include 1 inch equals 10 feet, 1 inch equals 20 feet, and so on. The scale is usually one foot long and may be triangular or flat in shape.\n\nThe architect's scale, also called a mechanical engineer's scale, expresses scale as a fraction of an inch to one foot. Examples include one-quarter inch equals one foot, or one-eighth inch equals one foot.",
+      "tts_file": "audio/ch1_v4_scene_03.wav",
+      "duration": null
+    },
+    {
+      "index": 4,
+      "title": "Engineer's Scale Detail",
+      "source_pages": "9",
+      "source_text": "The civil engineer's scale has divisions of 10, 20, 30, 40, 50, and 60.",
+      "image_paths": ["assets/images/chapter1/figure_1_10.jpg"],
+      "bullets": [
+        "Divisions per inch",
+        "Decimal parts system",
+        "Multiple scale uses"
+      ],
+      "narration_text": "Let's examine the civil engineer's scale more closely. As shown in the detail on screen, this scale has divisions of 10, 20, 30, 40, 50, and 60 to the inch.\n\nIn the 1 inch equals 10 feet scale, there are 10 divisions per inch, with each division representing one foot. These same divisions can be used for multiples of 10, such as 1 inch equals 100 feet or 1 inch equals 1000 feet.\n\nThe scales are divided into decimal parts of an inch, such as one-tenth inch, one-twentieth inch, and so on. This decimal system makes calculations straightforward when measuring plan dimensions.",
+      "tts_file": "audio/ch1_v4_scene_04.wav",
+      "duration": null
+    },
+    {
+      "index": 5,
+      "title": "Bar Scale",
+      "source_pages": "9-10",
+      "source_text": "Many plan sheets include a bar scale.",
+      "image_paths": [],
+      "bullets": [
+        "Graphical scale representation",
+        "Direct measurement possible",
+        "Half-size adjustment needed"
+      ],
+      "narration_text": "Many plan sheets include a bar scale, which is a graphical representation of the scale being used. As shown on screen, this bar scale is from Plan Sheet 60 of our example project.\n\nThe bar scale shows the scale stated in feet, allowing you to measure distances directly on the drawing without needing a physical engineer's scale. The scale used on each sheet is always noted on that sheet.\n\nAn important reminder: if you're working with half-size plan sheets, which are common reproductions, you must double any measurements taken from the plans.",
+      "tts_file": "audio/ch1_v4_scene_05.wav",
+      "duration": null
+    },
+    {
+      "index": 6,
+      "title": "Project Length Table",
+      "source_pages": "10",
+      "source_text": "The Cover Sheet includes a Length of Project table.",
+      "image_paths": [],
+      "bullets": [
+        "Project length by county",
+        "Roadway and bridge lengths",
+        "Gross project extent"
+      ],
+      "narration_text": "The Cover Sheet includes a Length of Project table that breaks down the project's extent by county.\n\nAs shown on screen, this table displays the Net Length of Roadway, Net Length of Bridges, Net Length of Project, Net Length of Exceptions, and Gross Length of Project. Each value is shown in miles, broken down by county.\n\nIn our example, the STP-IM project has a total gross length of 7.64 miles, spanning 6.76 miles in Spalding County and 0.88 miles in Butts County. This information helps you understand the overall scope and geographic distribution of the project.",
+      "tts_file": "audio/ch1_v4_scene_06.wav",
+      "duration": null
+    },
+    {
+      "index": 7,
+      "title": "Design Data",
+      "source_pages": "10-11",
+      "source_text": "Design Data is used to determine lanes and pavement depth.",
+      "image_paths": [],
+      "bullets": [
+        "Traffic volume metrics",
+        "Design speed and classification",
+        "Influences construction design"
+      ],
+      "narration_text": "Finally, let's look at the Design Data section of the Cover Sheet. This data is used in the design process to determine the number of lanes and the depth of pavement.\n\nAs displayed on screen, the design data includes several key metrics. The Traffic A.D.T., or Average Daily Traffic, shows both current and projected traffic volumes. The D.H.V., or Design Hourly Volume, and directional distribution are listed.\n\nYou'll also find the percentage of trucks, the design speed, the functional classification such as Rural Arterial, and the project designation. This data directly influences the design decisions shown throughout the plan set.",
+      "tts_file": "audio/ch1_v4_scene_07.wav",
+      "duration": null
+    },
+    {
+      "index": 8,
+      "title": "Summary",
+      "source_pages": "11",
+      "source_text": "Chapter One completion summary",
+      "image_paths": [],
+      "bullets": [
+        "Scale types explained",
+        "Project length understanding",
+        "Ready for Chapter Two"
+      ],
+      "narration_text": "Congratulations! You've completed Chapter One of Basic Highway Plan Reading.\n\nIn this video, you learned about engineer's and architect's scales, including how they differ and how to read them. You understand how bar scales work and the importance of adjusting for half-size plans.\n\nYou can now interpret the Project Length table to understand a project's scope, and you know where to find design data that influences highway construction.\n\nWith this foundation in place, you're ready to move on to Chapter Two, which covers the Index and Revision Summary Sheet. Thank you for watching.",
+      "tts_file": "audio/ch1_v4_scene_08.wav",
+      "duration": null
+    }
+  ],
+  "images": {
+    "figure_1_9": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/25aa20b11bc17322942fbc4764af7c95258df8b9344efb9fe6dabc401aa15195.jpg",
+    "figure_1_10": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/a76db50d8c607aa0d9ea60c66f0dc3f1c971e837b6d2559b99083f4b3a0fc7c9.jpg"
+  },
+  "total_duration": null
+}

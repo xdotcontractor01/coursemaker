@@ -1,0 +1,140 @@
+{
+  "chapter": 1,
+  "video": 3,
+  "pages": "5-8",
+  "title": "Cover Sheet Details",
+  "topics": [
+    "Project location sketch",
+    "Layout view",
+    "Sheet identification box",
+    "Plans revised vs plans completed",
+    "Legal notes and signature boxes"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Title/Introduction",
+      "source_pages": "5",
+      "source_text": "Chapter 1, Video 3: Cover Sheet Details",
+      "image_paths": [],
+      "bullets": [
+        "Location and layout views",
+        "Identification boxes",
+        "Legal and signature elements"
+      ],
+      "narration_text": "Welcome to Video 3 of Chapter One. In this segment, we'll continue our exploration of the Cover Sheet by examining several important elements in detail: the Project Location Sketch, the Layout View, the Sheet Identification Box, legal notes, signature boxes, and the Plans Revised box. These elements provide critical context for understanding the construction project.",
+      "tts_file": "audio/ch1_v3_scene_01.wav",
+      "duration": null
+    },
+    {
+      "index": 2,
+      "title": "Project Location Sketch",
+      "source_pages": "5",
+      "source_text": "A small map showing the general geographical area of the project.",
+      "image_paths": ["assets/images/chapter1/figure_1_3.jpg"],
+      "bullets": [
+        "General geographic area",
+        "Approximate project limits",
+        "County and landmarks"
+      ],
+      "narration_text": "Let's begin with the Project Location Sketch. As you can see in the upper left corner of the image on screen, this is a small map showing the general geographical area of the project.\n\nThe Location Sketch shows the approximate limits of the project within the county or region. It helps you quickly orient yourself to where the construction will take place. You'll see major roads, county boundaries, and other landmarks that provide geographic context.\n\nThink of it as answering the question: Where exactly is this project located?",
+      "tts_file": "audio/ch1_v3_scene_02.wav",
+      "duration": null
+    },
+    {
+      "index": 3,
+      "title": "Layout View",
+      "source_pages": "5-6",
+      "source_text": "The Layout View is a Plan View of the project.",
+      "image_paths": ["assets/images/chapter1/figure_1_4.jpg"],
+      "bullets": [
+        "Top-down plan view",
+        "Beginning and ending stations",
+        "Project extent overview"
+      ],
+      "narration_text": "Now let's look at the Layout View, which appears in the center of the Cover Sheet, just below the project title.\n\nThe Layout View is a Plan View of the project, meaning it shows the project as if you were looking down from above. Imagine you're flying over the construction site in an airplane, looking straight down. That's what the Layout View represents.\n\nThis view displays the beginning station and ending station of the project. As highlighted on screen, these stations mark the start and end points of the roadway construction. Understanding stations is essential for locating specific points along the project.",
+      "tts_file": "audio/ch1_v3_scene_03.wav",
+      "duration": null
+    },
+    {
+      "index": 4,
+      "title": "Sheet Identification Box",
+      "source_pages": "6",
+      "source_text": "The Sheet Identification Box contains four key pieces of information.",
+      "image_paths": [],
+      "bullets": [
+        "State abbreviation",
+        "Project and sheet numbers",
+        "Total sheets count"
+      ],
+      "narration_text": "Now look at the upper right corner of any plan sheet and you'll find the Sheet Identification Box.\n\nAs shown in the table on screen, this standardized box contains four key pieces of information. First is the State abbreviation, in this case G-A for Georgia. Second is the Project Number, which uniquely identifies this specific project.\n\nThird is the Sheet Number, telling you which page you're currently viewing. And fourth is the Total Sheets count, showing how many sheets are in the complete plan set. In this example, we're looking at sheet 1 of 770 total sheets.\n\nThis identification system ensures every sheet can be properly tracked and organized.",
+      "tts_file": "audio/ch1_v3_scene_04.wav",
+      "duration": null
+    },
+    {
+      "index": 5,
+      "title": "Legal Notes",
+      "source_pages": "6-7",
+      "source_text": "Important legal notes regarding the Department's responsibility.",
+      "image_paths": [],
+      "bullets": [
+        "Disclaimer statements",
+        "Information not guaranteed",
+        "Reference to specifications"
+      ],
+      "narration_text": "The Cover Sheet also contains important legal notes regarding the Department's responsibility.\n\nThe standard disclaimer states that while the data and information shown on the plans are based upon field investigations and believed to be accurate, they are shown as information only, are not guaranteed, and do not bind the Department of Transportation.\n\nThis note directs bidders to specific subsections of the Specifications for further details. Understanding these legal notes is important because they define the limits of liability and the basis for the information presented.",
+      "tts_file": "audio/ch1_v3_scene_05.wav",
+      "duration": null
+    },
+    {
+      "index": 6,
+      "title": "Signature Boxes",
+      "source_pages": "7",
+      "source_text": "Signature boxes for those responsible for the preparation and approval.",
+      "image_paths": [],
+      "bullets": [
+        "Approval chain documented",
+        "Preparation and review",
+        "Chief Engineer approval"
+      ],
+      "narration_text": "Cover Sheets typically include signature boxes for those responsible for the preparation and approval of the plans.\n\nThe approval chain usually includes spaces for the person who prepared the plans, the Transportation Engineer who recommended submission, the official who submitted the plans, the District Engineer's recommendation for approval, and finally, the Chief Engineer's approval.\n\nEach signature includes a date, creating a documented record of the approval process. This chain of signatures establishes accountability and ensures proper review at each level.",
+      "tts_file": "audio/ch1_v3_scene_06.wav",
+      "duration": null
+    },
+    {
+      "index": 7,
+      "title": "Plans Revised Box",
+      "source_pages": "7-8",
+      "source_text": "The Plans Revised box tracks the history of revisions.",
+      "image_paths": [],
+      "bullets": [
+        "Revision history tracking",
+        "Completion and revision dates",
+        "Affected sheet numbers"
+      ],
+      "narration_text": "The Plans Revised box is another important element on the Cover Sheet. This box tracks the history of revisions made to the plans.\n\nAs shown on screen, the box includes the date when plans were completed, and entries for each subsequent revision. Each revision entry shows the date and which sheets were affected.\n\nIn our example, the plans were completed on March 1st, 2004, marked as final on September 10th, 2004, with one revision on December 29th, 2004 affecting sheets 4, 422, and 450.\n\nThis revision tracking is essential for ensuring everyone is working with the most current version of the plans.",
+      "tts_file": "audio/ch1_v3_scene_07.wav",
+      "duration": null
+    },
+    {
+      "index": 8,
+      "title": "Summary",
+      "source_pages": "8",
+      "source_text": "Summary of Cover Sheet details",
+      "image_paths": [],
+      "bullets": [
+        "Location and layout views",
+        "Identification and legal boxes",
+        "Revision tracking"
+      ],
+      "narration_text": "Let's review what we've covered in this video.\n\nYou've learned about the Location Sketch, which shows the project's geographic area. You understand the Layout View, which displays the project from above with beginning and ending stations.\n\nYou know how to read the Sheet Identification Box with its state, project number, sheet number, and total sheets. You're aware of the legal disclaimers and the signature approval chain.\n\nAnd finally, you understand how the Plans Revised box tracks changes to the construction plans. In the next video, we'll explore engineering scales and design data.",
+      "tts_file": "audio/ch1_v3_scene_08.wav",
+      "duration": null
+    }
+  ],
+  "images": {
+    "figure_1_3": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/884ac0596cdd7c2b789731a8a7bdb94f9a4a495c38fd39e66c7798451e388708.jpg",
+    "figure_1_4": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/64f16d468bc94be67e798fa7fe9b0f7c8b0b3708ea2a20af8049fb936bd2d196.jpg"
+  },
+  "total_duration": null
+}

@@ -1,0 +1,297 @@
+{
+  "chapter": 7,
+  "pages": "37-50",
+  "title": "Plan and Profile Sheets",
+  "videos": 3,
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Title - Plan and Profile Sheets",
+      "source_pages": "37",
+      "source_text": "Chapter 7: Plan and Profile Sheets",
+      "image_paths": [],
+      "bullets": [
+        "Plan and profile sheets",
+        "Horizontal and vertical alignment",
+        "Complete project view"
+      ],
+      "narration_text": "Welcome to Chapter Seven of Basic Highway Plan Reading. \nThis chapter covers Plan and Profile Sheets, which are among the most important sheets in a construction plan set. \nRoadway Plan Sheets depict details of the project's horizontal alignment. They may be presented in conjunction \nwith the corresponding profile on the lower half of the sheet, called a Plan/Profile Sheet, or the Profile Plan Sheets \nmay be separate from the Plan Sheet. Both types give a view of the entire project, beginning with the lowest station number \nand showing the entire roadway ahead to the end of the project. Let's begin by exploring the Plan View.",
+      "tts_file": "audio/ch07_scene01.wav",
+      "duration": 37.9875,
+      "narration_sanitized": "Welcome to Chapter Seven of Basic Highway Plan Reading. \nThis chapter covers Plan and Profile Sheets, which are among the most important sheets in a construction plan set. \nRoadway Plan Sheets depict details of the project's horizontal alignment. They may be presented in conjunction \nwith the corresponding profile on the lower half of the sheet, called a Plan/Profile Sheet, or the Profile Plan Sheets \nmay be separate from the Plan Sheet. Both types give a view of the entire project, beginning with the lowest station number \nand showing the entire roadway ahead to the end of the project. Let's begin by exploring the Plan View.",
+      "narration_raw": "Welcome to Chapter Seven of Basic Highway Plan Reading. \nThis chapter covers Plan and Profile Sheets, which are among the most important sheets in a construction plan set. \nRoadway Plan Sheets depict details of the project's horizontal alignment. They may be presented in conjunction \nwith the corresponding profile on the lower half of the sheet, called a Plan/Profile Sheet, or the Profile Plan Sheets \nmay be separate from the Plan Sheet. Both types give a view of the entire project, beginning with the lowest station number \nand showing the entire roadway ahead to the end of the project. Let's begin by exploring the Plan View."
+    },
+    {
+      "index": 2,
+      "title": "Plan View",
+      "source_pages": "37-38",
+      "source_text": "Remember that a PLAN VIEW shows the roadway as if you were flying over the project and were looking down.",
+      "image_paths": [
+        "assets/images/chapter7/figure_7_1.jpg"
+      ],
+      "bullets": [
+        "View from above",
+        "Shows pavement lines",
+        "Survey line orientation"
+      ],
+      "narration_text": "Remember that a Plan View shows the roadway as if you were flying over the project \nand looking down. As you can see in Figure 7-1, on the Plan Sheet, the pavement lines, which are the edges of the pavement, \nare shown. You can also see the Survey Line running from the left of the sheet ahead to the right of the sheet. \nAbove the Construction Centerline on the Plan Sheet is considered left of the Survey Line. Below the Survey Centerline \nis considered right of the Survey Line. Either case will be as though you were standing on the Survey Line facing ahead. \nRemember throughout this course that LEFT refers to LEFT of the Construction Centerline and RIGHT refers to RIGHT \nof the Construction Centerline, relative to increasing stationing, not the left and right side of the Plan Sheet.",
+      "tts_file": "audio/ch07_scene02.wav",
+      "duration": 48.8125,
+      "narration_sanitized": "Remember that a Plan View shows the roadway as if you were flying over the project \nand looking down. As you can see in Figure 7-1, on the Plan Sheet, the pavement lines, which are the edges of the pavement, \nare shown. You can also see the Survey Line running from the left of the sheet ahead to the right of the sheet. \nAbove the Construction Centerline on the Plan Sheet is considered left of the Survey Line. Below the Survey Centerline \nis considered right of the Survey Line. Either case will be as though you were standing on the Survey Line facing ahead. \nRemember throughout this course that LEFT refers to LEFT of the Construction Centerline and RIGHT refers to RIGHT \nof the Construction Centerline, relative to increasing stationing, not the left and right side of the Plan Sheet.",
+      "narration_raw": "Remember that a Plan View shows the roadway as if you were flying over the project \nand looking down. As you can see in Figure 7-1, on the Plan Sheet, the pavement lines, which are the edges of the pavement, \nare shown. You can also see the Survey Line running from the left of the sheet ahead to the right of the sheet. \nAbove the Construction Centerline on the Plan Sheet is considered left of the Survey Line. Below the Survey Centerline \nis considered right of the Survey Line. Either case will be as though you were standing on the Survey Line facing ahead. \nRemember throughout this course that LEFT refers to LEFT of the Construction Centerline and RIGHT refers to RIGHT \nof the Construction Centerline, relative to increasing stationing, not the left and right side of the Plan Sheet."
+    },
+    {
+      "index": 3,
+      "title": "North Arrow",
+      "source_pages": "38",
+      "source_text": "On all construction plans and right of way plans, there is an arrow-like symbol with the point indicating North.",
+      "image_paths": [
+        "assets/images/chapter7/figure_7_2.jpg"
+      ],
+      "bullets": [
+        "Arrow indicates north",
+        "Oriented to true north",
+        "Basis for directions"
+      ],
+      "narration_text": "On all construction plans and right of way plans, there is an arrow-like symbol \nwith the point indicating North. The north arrow will be oriented on the plans to north, not necessarily to the top of the page, \nand will indicate the basis of north. As shown in Figure 7-2, a north arrow may be referenced to magnetic north \nor to the Georgia State Plane Coordinate System West Zone. The direction of all control and boundary lines \nis in reference to this North arrow. The direction of a Construction Line as you are advancing in stationing, \nas expressed by a bearing, defines the relationship between the direction of the survey line and a North line. \nIt is customary to orient drawings so that the North direction is to the TOP of the plan. However, since plans \nfor a complete highway project can seldom be confined to a single sheet, and must be a series of sheets, \nit is an accepted practice to make the plans so as to extend from left to right without regard to the North direction.",
+      "tts_file": "audio/ch07_scene03.wav",
+      "duration": 60.05,
+      "narration_sanitized": "On all construction plans and right of way plans, there is an arrow-like symbol \nwith the point indicating North. The north arrow will be oriented on the plans to north, not necessarily to the top of the page, \nand will indicate the basis of north. As shown in Figure 7-2, a north arrow may be referenced to magnetic north \nor to the Georgia State Plane Coordinate System West Zone. The direction of all control and boundary lines \nis in reference to this North arrow. The direction of a Construction Line as you are advancing in stationing, \nas expressed by a bearing, defines the relationship between the direction of the survey line and a North line. \nIt is customary to orient drawings so that the North direction is to the TOP of the plan. However, since plans \nfor a complete highway project can seldom be confined to a single sheet, and must be a series of sheets, \nit is an accepted practice to make the plans so as to extend from left to right without regard to the North direction.",
+      "narration_raw": "On all construction plans and right of way plans, there is an arrow-like symbol \nwith the point indicating North. The north arrow will be oriented on the plans to north, not necessarily to the top of the page, \nand will indicate the basis of north. As shown in Figure 7-2, a north arrow may be referenced to magnetic north \nor to the Georgia State Plane Coordinate System West Zone. The direction of all control and boundary lines \nis in reference to this North arrow. The direction of a Construction Line as you are advancing in stationing, \nas expressed by a bearing, defines the relationship between the direction of the survey line and a North line. \nIt is customary to orient drawings so that the North direction is to the TOP of the plan. However, since plans \nfor a complete highway project can seldom be confined to a single sheet, and must be a series of sheets, \nit is an accepted practice to make the plans so as to extend from left to right without regard to the North direction."
+    },
+    {
+      "index": 4,
+      "title": "Horizontal Alignment",
+      "source_pages": "39-40",
+      "source_text": "Horizontal Alignment consists of tangents and curves and is shown on the Plan View.",
+      "image_paths": [
+        "assets/images/chapter7/figure_7_3.jpg"
+      ],
+      "bullets": [
+        "Tangents and curves",
+        "Point of curve and tangent",
+        "Degree of curve"
+      ],
+      "narration_text": "Horizontal Alignment consists of tangents, which are straight sections of road, \nand curves, which are shown on the Plan View. As you can see in Figure 7-3, key terms include: \nPoint on Curve, which is a point on a curved segment of roadway; Superelevation, which is elevating \nthe outside edge of pavement to compensate for centrifugal force in a curved segment; Delta Angle, \nthe angle that intersects between the forward and back angle; Tangent Distance, the distance measured \nfrom the Point of Curve or Point of Tangent to the Point of Intersection; Length of Curve, the distance \nmeasured along the curve from Point of Curve to Point of Tangent; and Degree of Curve, the angle to express \nhow quickly a curve turns. Understanding these terms is essential for reading horizontal alignment information on plan sheets.",
+      "tts_file": "audio/ch07_scene04.wav",
+      "duration": 51.1,
+      "narration_sanitized": "Horizontal Alignment consists of tangents, which are straight sections of road, \nand curves, which are shown on the Plan View. As you can see in Figure 7-3, key terms include: \nPoint on Curve, which is a point on a curved segment of roadway; Superelevation, which is elevating \nthe outside edge of pavement to compensate for centrifugal force in a curved segment; Delta Angle, \nthe angle that intersects between the forward and back angle; Tangent Distance, the distance measured \nfrom the Point of Curve or Point of Tangent to the Point of Intersection; Length of Curve, the distance \nmeasured along the curve from Point of Curve to Point of Tangent; and Degree of Curve, the angle to express \nhow quickly a curve turns. Understanding these terms is essential for reading horizontal alignment information on plan sheets.",
+      "narration_raw": "Horizontal Alignment consists of tangents, which are straight sections of road, \nand curves, which are shown on the Plan View. As you can see in Figure 7-3, key terms include: \nPoint on Curve, which is a point on a curved segment of roadway; Superelevation, which is elevating \nthe outside edge of pavement to compensate for centrifugal force in a curved segment; Delta Angle, \nthe angle that intersects between the forward and back angle; Tangent Distance, the distance measured \nfrom the Point of Curve or Point of Tangent to the Point of Intersection; Length of Curve, the distance \nmeasured along the curve from Point of Curve to Point of Tangent; and Degree of Curve, the angle to express \nhow quickly a curve turns. Understanding these terms is essential for reading horizontal alignment information on plan sheets."
+    },
+    {
+      "index": 5,
+      "title": "Spiral Curves",
+      "source_pages": "40-41",
+      "source_text": "SPIRAL CURVES are introduced for the purpose of connecting a tangent with a circular curve.",
+      "image_paths": [
+        "assets/images/chapter7/figure_7_4.jpg"
+      ],
+      "bullets": [
+        "Transition curves",
+        "Connect tangent to curve",
+        "Gradual change"
+      ],
+      "narration_text": "Spiral Curves, also called Transition Curves, are introduced for the purpose of connecting \na tangent with a circular curve in such a manner that the change of direction and elevation from one to the other \ntakes place gradually. A spiral is a curve in which the degree of curve increases directly with the length of curve \nmeasured from the point where the curve leaves the tangent. The degree of curve is zero at the tangent and at the point \nat which the spiral meets the circular, it is equal to the degree of circular curve. As shown in Figure 7-4, \nsignificant spiral curve stations include TS, Tangent to Spiral station; SC, Spiral to Curve station; \nCS, Curve to Spiral station; and ST, Spiral to Tangent station. Spiral curves are always used in railroad work, \nbut are seldom used in new construction highway work.",
+      "tts_file": "audio/ch07_scene05.wav",
+      "duration": 49.8,
+      "narration_sanitized": "Spiral Curves, also called Transition Curves, are introduced for the purpose of connecting \na tangent with a circular curve in such a manner that the change of direction and elevation from one to the other \ntakes place gradually. A spiral is a curve in which the degree of curve increases directly with the length of curve \nmeasured from the point where the curve leaves the tangent. The degree of curve is zero at the tangent and at the point \nat which the spiral meets the circular, it is equal to the degree of circular curve. As shown in Figure 7-4, \nsignificant spiral curve stations include TS, Tangent to Spiral station; SC, Spiral to Curve station; \nCS, Curve to Spiral station; and ST, Spiral to Tangent station. Spiral curves are always used in railroad work, \nbut are seldom used in new construction highway work.",
+      "narration_raw": "Spiral Curves, also called Transition Curves, are introduced for the purpose of connecting \na tangent with a circular curve in such a manner that the change of direction and elevation from one to the other \ntakes place gradually. A spiral is a curve in which the degree of curve increases directly with the length of curve \nmeasured from the point where the curve leaves the tangent. The degree of curve is zero at the tangent and at the point \nat which the spiral meets the circular, it is equal to the degree of circular curve. As shown in Figure 7-4, \nsignificant spiral curve stations include TS, Tangent to Spiral station; SC, Spiral to Curve station; \nCS, Curve to Spiral station; and ST, Spiral to Tangent station. Spiral curves are always used in railroad work, \nbut are seldom used in new construction highway work."
+    },
+    {
+      "index": 6,
+      "title": "Superelevation",
+      "source_pages": "41-42",
+      "source_text": "Superelevation of Curves - 'superelevate' may be defined as the rotating of the roadway CROSS SECTION.",
+      "image_paths": [],
+      "bullets": [
+        "Rotating cross section",
+        "Overcome centrifugal force",
+        "Transitional runoff"
+      ],
+      "narration_text": "Superelevation of Curves may be defined as the rotating of the roadway cross section \nin such a manner as to overcome the centrifugal force that acts on the motor vehicle while it is traversing curved sections. \nIn other words, when you are in a curve, your car tends to be thrown to the outside of the curve. \nSo, in order to overcome centrifugal force, the normal roadway cross section will have to be tilted to the superelevated cross section. \nThis tilting is accomplished by means of rotating the cross section about the inner edge of the pavement for divided highways \nso that the inner edge retains its normal grade but the centerline grade is varied. On two-lane pavements, \nthe tilting is accomplished by means of rotating the section about the centerline axis. The distance required for accomplishing \nthe transition from a normal to superelevated section is called a transitional runoff and is a function of the design speed, \ndegree of curvature, and the rate of superelevation.",
+      "tts_file": "audio/ch07_scene06.wav",
+      "duration": 60.475,
+      "narration_sanitized": "Superelevation of Curves may be defined as the rotating of the roadway cross section \nin such a manner as to overcome the centrifugal force that acts on the motor vehicle while it is traversing curved sections. \nIn other words, when you are in a curve, your car tends to be thrown to the outside of the curve. \nSo, in order to overcome centrifugal force, the normal roadway cross section will have to be tilted to the superelevated cross section. \nThis tilting is accomplished by means of rotating the cross section about the inner edge of the pavement for divided highways \nso that the inner edge retains its normal grade but the centerline grade is varied. On two-lane pavements, \nthe tilting is accomplished by means of rotating the section about the centerline axis. The distance required for accomplishing \nthe transition from a normal to superelevated section is called a transitional runoff and is a function of the design speed, \ndegree of curvature, and the rate of superelevation.",
+      "narration_raw": "Superelevation of Curves may be defined as the rotating of the roadway cross section \nin such a manner as to overcome the centrifugal force that acts on the motor vehicle while it is traversing curved sections. \nIn other words, when you are in a curve, your car tends to be thrown to the outside of the curve. \nSo, in order to overcome centrifugal force, the normal roadway cross section will have to be tilted to the superelevated cross section. \nThis tilting is accomplished by means of rotating the cross section about the inner edge of the pavement for divided highways \nso that the inner edge retains its normal grade but the centerline grade is varied. On two-lane pavements, \nthe tilting is accomplished by means of rotating the section about the centerline axis. The distance required for accomplishing \nthe transition from a normal to superelevated section is called a transitional runoff and is a function of the design speed, \ndegree of curvature, and the rate of superelevation."
+    },
+    {
+      "index": 7,
+      "title": "Bearings",
+      "source_pages": "42-43",
+      "source_text": "A bearing is a method used to express direction.",
+      "image_paths": [
+        "assets/images/chapter7/figure_7_5.jpg",
+        "assets/images/chapter7/figure_7_6.jpg"
+      ],
+      "bullets": [
+        "Method to express direction",
+        "Referenced to north",
+        "Degrees, minutes, seconds"
+      ],
+      "narration_text": "A bearing is a method used to express direction. Bearings are used on a set of plans \nto indicate the magnetic direction of the Construction Centerline and the magnetic direction of survey lines and property lines. \nBearings may be referenced to true north, magnetic north, or grid north, which is the state plane grid. \nAngular measurement is referenced to a circle, and the circle can be broken into more precise measurements of minutes and seconds. \nThere are 360 degrees in a full circle, 60 minutes for each degree, and 60 seconds in each minute. \nAs shown in Figure 7-5, when shown as a compass circle, the circle is divided at North, East, West, and South points \ninto four sections of 90 degrees each. These four 90-degree sections are called quadrants and designated Northeast, \nNorthwest, Southeast, and Southwest. All bearings on the plans must be definitely described as to direction, degrees, minutes, and seconds. \nA bearing might be written as N 65 degrees 15 minutes 30 seconds E.",
+      "tts_file": "audio/ch07_scene07.wav",
+      "duration": 64.5875,
+      "narration_sanitized": "A bearing is a method used to express direction. Bearings are used on a set of plans \nto indicate the magnetic direction of the Construction Centerline and the magnetic direction of survey lines and property lines. \nBearings may be referenced to true north, magnetic north, or grid north, which is the state plane grid. \nAngular measurement is referenced to a circle, and the circle can be broken into more precise measurements of minutes and seconds. \nThere are 360 degrees in a full circle, 60 minutes for each degree, and 60 seconds in each minute. \nAs shown in Figure 7-5, when shown as a compass circle, the circle is divided at North, East, West, and South points \ninto four sections of 90 degrees each. These four 90-degree sections are called quadrants and designated Northeast, \nNorthwest, Southeast, and Southwest. All bearings on the plans must be definitely described as to direction, degrees, minutes, and seconds. \nA bearing might be written as N 65 degrees 15 minutes 30 seconds E.",
+      "narration_raw": "A bearing is a method used to express direction. Bearings are used on a set of plans \nto indicate the magnetic direction of the Construction Centerline and the magnetic direction of survey lines and property lines. \nBearings may be referenced to true north, magnetic north, or grid north, which is the state plane grid. \nAngular measurement is referenced to a circle, and the circle can be broken into more precise measurements of minutes and seconds. \nThere are 360 degrees in a full circle, 60 minutes for each degree, and 60 seconds in each minute. \nAs shown in Figure 7-5, when shown as a compass circle, the circle is divided at North, East, West, and South points \ninto four sections of 90 degrees each. These four 90-degree sections are called quadrants and designated Northeast, \nNorthwest, Southeast, and Southwest. All bearings on the plans must be definitely described as to direction, degrees, minutes, and seconds. \nA bearing might be written as N 65 degrees 15 minutes 30 seconds E."
+    },
+    {
+      "index": 8,
+      "title": "Profile View Introduction",
+      "source_pages": "45",
+      "source_text": "A profile is like a longitudinal cross section of the roadway.",
+      "image_paths": [
+        "assets/images/chapter7/figure_7_7.jpg"
+      ],
+      "bullets": [
+        "Longitudinal cross section",
+        "Shows vertical alignment",
+        "Profile grade line"
+      ],
+      "narration_text": "Now let's move on to the Profile View, also called Vertical Alignment. \nA profile is like a longitudinal cross section of the roadway; rather than the left to right width of the roadway, \nthe profile shows vertical alignment along the roadway at the centerline, survey line, construction centerline, or another point. \nThe cut or fill on the point shown on the profile does not necessarily mean that the cut or fill will be the same \nat this or at any other point on the cross section. For instance, the left side of the roadway might be in a cut section \nwhile the right side might be in a fill section. On the Profile View, a heavy dark solid line usually shows \nthe proposed Profile Grade Line. It is a regular and smooth line, just as the top of the roadway will be when finished being built. \nThe Original Ground Line is usually shown by a dashed line and is very irregular since the original ground is irregular before construction begins. \nAs you can see in Figure 7-7, the primary purpose of the profile is to show the relationship between the proposed Profile Grade \nand the Original Ground Line.",
+      "tts_file": "audio/ch07_scene08.wav",
+      "duration": 66.85,
+      "narration_sanitized": "Now let's move on to the Profile View, also called Vertical Alignment. \nA profile is like a longitudinal cross section of the roadway; rather than the left to right width of the roadway, \nthe profile shows vertical alignment along the roadway at the centerline, survey line, construction centerline, or another point. \nThe cut or fill on the point shown on the profile does not necessarily mean that the cut or fill will be the same \nat this or at any other point on the cross section. For instance, the left side of the roadway might be in a cut section \nwhile the right side might be in a fill section. On the Profile View, a heavy dark solid line usually shows \nthe proposed Profile Grade Line. It is a regular and smooth line, just as the top of the roadway will be when finished being built. \nThe Original Ground Line is usually shown by a dashed line and is very irregular since the original ground is irregular before construction begins. \nAs you can see in Figure 7-7, the primary purpose of the profile is to show the relationship between the proposed Profile Grade \nand the Original Ground Line.",
+      "narration_raw": "Now let's move on to the Profile View, also called Vertical Alignment. \nA profile is like a longitudinal cross section of the roadway; rather than the left to right width of the roadway, \nthe profile shows vertical alignment along the roadway at the centerline, survey line, construction centerline, or another point. \nThe cut or fill on the point shown on the profile does not necessarily mean that the cut or fill will be the same \nat this or at any other point on the cross section. For instance, the left side of the roadway might be in a cut section \nwhile the right side might be in a fill section. On the Profile View, a heavy dark solid line usually shows \nthe proposed Profile Grade Line. It is a regular and smooth line, just as the top of the roadway will be when finished being built. \nThe Original Ground Line is usually shown by a dashed line and is very irregular since the original ground is irregular before construction begins. \nAs you can see in Figure 7-7, the primary purpose of the profile is to show the relationship between the proposed Profile Grade \nand the Original Ground Line."
+    },
+    {
+      "index": 9,
+      "title": "Elevations",
+      "source_pages": "45-46",
+      "source_text": "Elevations are given in feet above a datum.",
+      "image_paths": [],
+      "bullets": [
+        "Feet above datum",
+        "Sea level reference",
+        "Bench marks shown"
+      ],
+      "narration_text": "Elevations are given in feet above a datum. A datum is a reference surface such as sea level. \nThese numbers are shown on the right and left edge of the Profile Sheet. Looking at a Profile Sheet, \nlook at the station numbers at the bottom of the page. On each side of the gridline that is drawn from the station number \nare two elevation numbers. On the left side of each line is the existing grade elevation at that station number, \nand on the right side of the line is the proposed grade elevation at that station. Note that these numbers are elevations \nin feet above sea level. The surveyors set reference points of known elevations so that they measure differences in elevations, \nwhich are vertical distances. Sometimes, markers will be set in trees or in structures and their elevations determined and recorded. \nThese markers are called Bench Marks, shown by numbers like BM number 1, BM number 2, and so on. These Bench Marks may be listed \non the Plan's Profile Sheets.",
+      "tts_file": "audio/ch07_scene09.wav",
+      "duration": 60.9625,
+      "narration_sanitized": "Elevations are given in feet above a datum. A datum is a reference surface such as sea level. \nThese numbers are shown on the right and left edge of the Profile Sheet. Looking at a Profile Sheet, \nlook at the station numbers at the bottom of the page. On each side of the gridline that is drawn from the station number \nare two elevation numbers. On the left side of each line is the existing grade elevation at that station number, \nand on the right side of the line is the proposed grade elevation at that station. Note that these numbers are elevations \nin feet above sea level. The surveyors set reference points of known elevations so that they measure differences in elevations, \nwhich are vertical distances. Sometimes, markers will be set in trees or in structures and their elevations determined and recorded. \nThese markers are called Bench Marks, shown by numbers like BM number 1, BM number 2, and so on. These Bench Marks may be listed \non the Plan's Profile Sheets.",
+      "narration_raw": "Elevations are given in feet above a datum. A datum is a reference surface such as sea level. \nThese numbers are shown on the right and left edge of the Profile Sheet. Looking at a Profile Sheet, \nlook at the station numbers at the bottom of the page. On each side of the gridline that is drawn from the station number \nare two elevation numbers. On the left side of each line is the existing grade elevation at that station number, \nand on the right side of the line is the proposed grade elevation at that station. Note that these numbers are elevations \nin feet above sea level. The surveyors set reference points of known elevations so that they measure differences in elevations, \nwhich are vertical distances. Sometimes, markers will be set in trees or in structures and their elevations determined and recorded. \nThese markers are called Bench Marks, shown by numbers like BM number 1, BM number 2, and so on. These Bench Marks may be listed \non the Plan's Profile Sheets."
+    },
+    {
+      "index": 10,
+      "title": "Grade",
+      "source_pages": "46-47",
+      "source_text": "Grade is the slope of the roadway.",
+      "image_paths": [
+        "assets/images/chapter7/figure_7_8.jpg"
+      ],
+      "bullets": [
+        "Slope of roadway",
+        "Expressed as percentage",
+        "Positive or negative"
+      ],
+      "narration_text": "Grade is the slope of the roadway. It is expressed as a percentage of the horizontal distance. \nThat is, a plus 3 percent grade means a rise of 3 feet per 100 feet of horizontal distance. \nThe grade is considered to be positive or negative depending upon whether it rises or falls as you proceed along \nthe Grade Line in the direction of increasing stations. As shown in Figure 7-8, a positive grade goes uphill, \nand a negative grade goes downhill. Understanding grade is essential for understanding how the roadway changes elevation \nalong its length.",
+      "tts_file": "audio/ch07_scene10.wav",
+      "duration": 35.4625,
+      "narration_sanitized": "Grade is the slope of the roadway. It is expressed as a percentage of the horizontal distance. \nThat is, a plus 3 percent grade means a rise of 3 feet per 100 feet of horizontal distance. \nThe grade is considered to be positive or negative depending upon whether it rises or falls as you proceed along \nthe Grade Line in the direction of increasing stations. As shown in Figure 7-8, a positive grade goes uphill, \nand a negative grade goes downhill. Understanding grade is essential for understanding how the roadway changes elevation \nalong its length.",
+      "narration_raw": "Grade is the slope of the roadway. It is expressed as a percentage of the horizontal distance. \nThat is, a plus 3 percent grade means a rise of 3 feet per 100 feet of horizontal distance. \nThe grade is considered to be positive or negative depending upon whether it rises or falls as you proceed along \nthe Grade Line in the direction of increasing stations. As shown in Figure 7-8, a positive grade goes uphill, \nand a negative grade goes downhill. Understanding grade is essential for understanding how the roadway changes elevation \nalong its length."
+    },
+    {
+      "index": 11,
+      "title": "Vertical Curves",
+      "source_pages": "47-48",
+      "source_text": "When a road goes over a hill or mountain, it must curve over the top, or down in a valley.",
+      "image_paths": [
+        "assets/images/chapter7/figure_7_9.jpg",
+        "assets/images/chapter7/figure_7_10.jpg"
+      ],
+      "bullets": [
+        "Crest and sag curves",
+        "Parabolic curves",
+        "PVI, PVC, PVT"
+      ],
+      "narration_text": "When a road goes over a hill or mountain, it must curve over the top, called a crest, \nor down in a valley, called a sag. These are Vertical Curves and are shown on the Profile Sheets. \nThey differ from horizontal curves in two ways: they are parabolic and not circular curves, \nand they define vertical alignment, not horizontal alignment. A small triangle at the intersection of the tangents \nshows the PVI, or Point of Vertical Intersection. These PVIs are similar to the PIs, Point of Intersection, \nfor horizontal curves. As shown in Figure 7-9, the PVIs are never on the actual grade. They will be either above or below grade. \nThe beginning point of the curve is the PVC, Point of Vertical Curve, and the end of the curve is the PVT, \nPoint of Vertical Tangent. The length between the PVC and PVT is the length of vertical curve, or LVC. \nAlmost always, the PVC to PVI and PVI to PVT is one-half of the LVC. The grade into the PVI is g1, \nand the grade out of the PVI is g2. A negative grade is downhill. As shown in Figure 7-10, the Grade Point is a point \nwhere the profile grade line, the proposed roadway surface, crosses the original ground line.",
+      "tts_file": "audio/ch07_scene11.wav",
+      "duration": 72.25,
+      "narration_sanitized": "When a road goes over a hill or mountain, it must curve over the top, called a crest, \nor down in a valley, called a sag. These are Vertical Curves and are shown on the Profile Sheets. \nThey differ from horizontal curves in two ways: they are parabolic and not circular curves, \nand they define vertical alignment, not horizontal alignment. A small triangle at the intersection of the tangents \nshows the PVI, or Point of Vertical Intersection. These PVIs are similar to the PIs, Point of Intersection, \nfor horizontal curves. As shown in Figure 7-9, the PVIs are never on the actual grade. They will be either above or below grade. \nThe beginning point of the curve is the PVC, Point of Vertical Curve, and the end of the curve is the PVT, \nPoint of Vertical Tangent. The length between the PVC and PVT is the length of vertical curve, or LVC. \nAlmost always, the PVC to PVI and PVI to PVT is one-half of the LVC. The grade into the PVI is g1, \nand the grade out of the PVI is g2. A negative grade is downhill. As shown in Figure 7-10, the Grade Point is a point \nwhere the profile grade line, the proposed roadway surface, crosses the original ground line.",
+      "narration_raw": "When a road goes over a hill or mountain, it must curve over the top, called a crest, \nor down in a valley, called a sag. These are Vertical Curves and are shown on the Profile Sheets. \nThey differ from horizontal curves in two ways: they are parabolic and not circular curves, \nand they define vertical alignment, not horizontal alignment. A small triangle at the intersection of the tangents \nshows the PVI, or Point of Vertical Intersection. These PVIs are similar to the PIs, Point of Intersection, \nfor horizontal curves. As shown in Figure 7-9, the PVIs are never on the actual grade. They will be either above or below grade. \nThe beginning point of the curve is the PVC, Point of Vertical Curve, and the end of the curve is the PVT, \nPoint of Vertical Tangent. The length between the PVC and PVT is the length of vertical curve, or LVC. \nAlmost always, the PVC to PVI and PVI to PVT is one-half of the LVC. The grade into the PVI is g1, \nand the grade out of the PVI is g2. A negative grade is downhill. As shown in Figure 7-10, the Grade Point is a point \nwhere the profile grade line, the proposed roadway surface, crosses the original ground line."
+    },
+    {
+      "index": 12,
+      "title": "Paving Limits",
+      "source_pages": "49",
+      "source_text": "Paving limits are the LENGTH AND WIDTH of the roadway to be paved.",
+      "image_paths": [],
+      "bullets": [
+        "Length and width",
+        "Different for tangent sections",
+        "Different for superelevated"
+      ],
+      "narration_text": "Paving limits are the length and width of the roadway to be paved. \nOn construction plan sheets, typical sections for crossroads are shown. Note that a different cross section \nis used for tangent and superelevated sections. The paving limits specify exactly where pavement will be placed, \nensuring consistent construction across the project.",
+      "tts_file": "audio/ch07_scene12.wav",
+      "duration": 21.325,
+      "narration_sanitized": "Paving limits are the length and width of the roadway to be paved. \nOn construction plan sheets, typical sections for crossroads are shown. Note that a different cross section \nis used for tangent and superelevated sections. The paving limits specify exactly where pavement will be placed, \nensuring consistent construction across the project.",
+      "narration_raw": "Paving limits are the length and width of the roadway to be paved. \nOn construction plan sheets, typical sections for crossroads are shown. Note that a different cross section \nis used for tangent and superelevated sections. The paving limits specify exactly where pavement will be placed, \nensuring consistent construction across the project."
+    },
+    {
+      "index": 13,
+      "title": "Construction Limits",
+      "source_pages": "50",
+      "source_text": "The Construction Limits of grading represent either the toe of the fill or limits of the cut slopes.",
+      "image_paths": [],
+      "bullets": [
+        "Toe of fill",
+        "Limits of cut slopes",
+        "Shown as dashed lines"
+      ],
+      "narration_text": "The Construction Limits of grading represent either the toe of the fill or limits of the cut slopes \nor lateral ditches, berm ditches, or surface ditches showing where the limits of the construction should be. \nThese limits of grading are usually shown as dashed lines on the plans. Looking at a construction plan sheet, \nleft of the survey line at a station, you will notice that the letters F are part of that dashed line. \nThis indicates that in this area, the limits will be in a fill section of the terrain. At another station, \nleft and right of the centerline, a dashed line is shown with the letter C. This indicates that in this area, \nthe limits will be in a cut section of the terrain. It is possible to have cut on one side of the centerline \nand fill on the other.",
+      "tts_file": "audio/ch07_scene13.wav",
+      "duration": 48.0,
+      "narration_sanitized": "The Construction Limits of grading represent either the toe of the fill or limits of the cut slopes \nor lateral ditches, berm ditches, or surface ditches showing where the limits of the construction should be. \nThese limits of grading are usually shown as dashed lines on the plans. Looking at a construction plan sheet, \nleft of the survey line at a station, you will notice that the letters F are part of that dashed line. \nThis indicates that in this area, the limits will be in a fill section of the terrain. At another station, \nleft and right of the centerline, a dashed line is shown with the letter C. This indicates that in this area, \nthe limits will be in a cut section of the terrain. It is possible to have cut on one side of the centerline \nand fill on the other.",
+      "narration_raw": "The Construction Limits of grading represent either the toe of the fill or limits of the cut slopes \nor lateral ditches, berm ditches, or surface ditches showing where the limits of the construction should be. \nThese limits of grading are usually shown as dashed lines on the plans. Looking at a construction plan sheet, \nleft of the survey line at a station, you will notice that the letters F are part of that dashed line. \nThis indicates that in this area, the limits will be in a fill section of the terrain. At another station, \nleft and right of the centerline, a dashed line is shown with the letter C. This indicates that in this area, \nthe limits will be in a cut section of the terrain. It is possible to have cut on one side of the centerline \nand fill on the other."
+    },
+    {
+      "index": 14,
+      "title": "Fencing, Guard Rail, and ROW Markers",
+      "source_pages": "50",
+      "source_text": "Fencing, Guard Rail, and Right of Way Markers",
+      "image_paths": [
+        "assets/images/chapter7/figure_7_11.jpg"
+      ],
+      "bullets": [
+        "Fencing delineates ROW",
+        "Guard rail locations",
+        "ROW markers on ground"
+      ],
+      "narration_text": "Fencing is used to physically delineate the right of way of a controlled or limited access roadway \nor to replace fence that is along the right of way and personal property. A separate Fencing Plan may be included \nin a set of plans if the amount of fence warrants it. In most plans, fencing is pictured on the construction plans, \nas any other construction item would be, however, the quantities and locations are listed on the Quantity and Summary Sheets. \nGuard Rail locations are shown on construction plan sheets, with details for Guard Rail location under various conditions. \nThe beginning, end, and type of guard rail locations are shown. Right of Way Markers are used to physically mark the limits \nof the land, property, and so on that was acquired for highway purposes on the ground. Normally right of way markers are placed \nwhere there is a break in the right of way such as a PC or PT. As shown in Figure 7-11, the symbols for proposed and existing \nRight of Way Markers are clearly defined. In addition to the symbol used, the locations are flagged with a station number \nand the distance from the construction centerline.",
+      "tts_file": "audio/ch07_scene14.wav",
+      "duration": 70.4375,
+      "narration_sanitized": "Fencing is used to physically delineate the right of way of a controlled or limited access roadway \nor to replace fence that is along the right of way and personal property. A separate Fencing Plan may be included \nin a set of plans if the amount of fence warrants it. In most plans, fencing is pictured on the construction plans, \nas any other construction item would be, however, the quantities and locations are listed on the Quantity and Summary Sheets. \nGuard Rail locations are shown on construction plan sheets, with details for Guard Rail location under various conditions. \nThe beginning, end, and type of guard rail locations are shown. Right of Way Markers are used to physically mark the limits \nof the land, property, and so on that was acquired for highway purposes on the ground. Normally right of way markers are placed \nwhere there is a break in the right of way such as a PC or PT. As shown in Figure 7-11, the symbols for proposed and existing \nRight of Way Markers are clearly defined. In addition to the symbol used, the locations are flagged with a station number \nand the distance from the construction centerline.",
+      "narration_raw": "Fencing is used to physically delineate the right of way of a controlled or limited access roadway \nor to replace fence that is along the right of way and personal property. A separate Fencing Plan may be included \nin a set of plans if the amount of fence warrants it. In most plans, fencing is pictured on the construction plans, \nas any other construction item would be, however, the quantities and locations are listed on the Quantity and Summary Sheets. \nGuard Rail locations are shown on construction plan sheets, with details for Guard Rail location under various conditions. \nThe beginning, end, and type of guard rail locations are shown. Right of Way Markers are used to physically mark the limits \nof the land, property, and so on that was acquired for highway purposes on the ground. Normally right of way markers are placed \nwhere there is a break in the right of way such as a PC or PT. As shown in Figure 7-11, the symbols for proposed and existing \nRight of Way Markers are clearly defined. In addition to the symbol used, the locations are flagged with a station number \nand the distance from the construction centerline."
+    },
+    {
+      "index": 15,
+      "title": "Summary",
+      "source_pages": "50",
+      "source_text": "Summary of Chapter 7 key points",
+      "image_paths": [],
+      "bullets": [
+        "Plan view shows horizontal",
+        "Profile view shows vertical",
+        "Construction elements defined"
+      ],
+      "narration_text": "Let's review what we've covered in this chapter.\n            \nYou've learned that Plan and Profile Sheets are among the most important sheets in a construction plan set. \nPlan Views show the roadway from above, displaying horizontal alignment including tangents, curves, superelevation, and bearings. \nProfile Views show vertical alignment along the roadway centerline, displaying elevations, grades, and vertical curves.\n            \nYou understand paving limits, construction limits, fencing, guard rail, and right of way markers, \nall of which are essential elements shown on plan and profile sheets. These sheets provide a complete view of the project, \nshowing both horizontal and vertical alignment along with all construction elements. \nUnderstanding how to read these sheets is fundamental to working with highway construction plans.",
+      "tts_file": "audio/ch07_scene15.wav",
+      "duration": 49.875,
+      "narration_sanitized": "Let's review what we've covered in this chapter.\n            \nYou've learned that Plan and Profile Sheets are among the most important sheets in a construction plan set. \nPlan Views show the roadway from above, displaying horizontal alignment including tangents, curves, superelevation, and bearings. \nProfile Views show vertical alignment along the roadway centerline, displaying elevations, grades, and vertical curves.\n            \nYou understand paving limits, construction limits, fencing, guard rail, and right of way markers, \nall of which are essential elements shown on plan and profile sheets. These sheets provide a complete view of the project, \nshowing both horizontal and vertical alignment along with all construction elements. \nUnderstanding how to read these sheets is fundamental to working with highway construction plans.",
+      "narration_raw": "Let's review what we've covered in this chapter.\n            \nYou've learned that Plan and Profile Sheets are among the most important sheets in a construction plan set. \nPlan Views show the roadway from above, displaying horizontal alignment including tangents, curves, superelevation, and bearings. \nProfile Views show vertical alignment along the roadway centerline, displaying elevations, grades, and vertical curves.\n            \nYou understand paving limits, construction limits, fencing, guard rail, and right of way markers, \nall of which are essential elements shown on plan and profile sheets. These sheets provide a complete view of the project, \nshowing both horizontal and vertical alignment along with all construction elements. \nUnderstanding how to read these sheets is fundamental to working with highway construction plans."
+    }
+  ],
+  "images": {
+    "figure_7_1": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/256a073d85099f329a88c18717ccfccdbcea10d037d9d35fe34abc77814f920d.jpg",
+    "figure_7_2": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/4030ec4b81e8bbbd7cee635d273604b6fe1461e8abd15db498d336b9585afe41.jpg",
+    "figure_7_3": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/d5bfdd7342180841f093159ef0907354f020d62864708dc5f589a118a867e0f0.jpg",
+    "figure_7_4": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/4762ccaa663aa3f9e8242b68da6f03533f246d65d1cc79d1b18d565054392257.jpg",
+    "figure_7_5": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/c86e48aefccde2b42988210b2bd82b10323e3c98eb315698e872ea762a15d872.jpg",
+    "figure_7_6": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/65559b3d3d467b40c32eeadc34ded3a9c87ab0c11e1461510194a1c39be5c393.jpg",
+    "figure_7_7": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/103ccbc97105750aaa9958e8402eb563689fb8757fe36f45c4cc3dfb188fbf40.jpg",
+    "figure_7_8": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/84a35244bc2d5ecbe2186148007f7852acd886b1fd8dab7fe5d83e71fcc034b8.jpg",
+    "figure_7_9": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/e85b1b3d73a27017b1029c705e2c008a492725a4adb2f5c6bb2b409da3bbc998.jpg",
+    "figure_7_10": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/462285adb071dc7d9fc5baee909b65f7a377155cb86fe5686187b9ae5aa11d6b.jpg",
+    "figure_7_11": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/f02c5dcb4425bef3b539f96e60dcdfeefaae412ebea9cfe9650e869d42af5a4a.jpg"
+  },
+  "sanitization_map": {}
+}

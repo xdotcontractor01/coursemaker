@@ -1,0 +1,87 @@
+{
+  "chapter": 4,
+  "pages": "15-17",
+  "title": "Summary & Detailed Estimate Quantities",
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Title",
+      "source_pages": "15",
+      "source_text": "Chapter 4: Summary & Detailed Estimate Quantities",
+      "image_paths": [],
+      "bullets": [
+        "Summary of Quantities",
+        "Detailed Estimate overview",
+        "Construction item tracking"
+      ],
+      "narration_text": "Welcome to Chapter Four of Basic Highway Plan Reading. \nIn this chapter, we'll explore how construction quantities are organized and presented \nin plan sets. We'll look at the Summary of Quantities, the Drainage Summary, \nand the Detailed Estimate. These sheets are essential for understanding what materials \nand work items are required for the project. Let's begin.",
+      "tts_file_path": "audio/ch04_scene01.wav",
+      "expected_duration": 21.8375
+    },
+    {
+      "index": 2,
+      "title": "Summary of Quantities",
+      "source_pages": "15",
+      "source_text": "The Summary of Quantities Construction Plan Sheets show all the items of construction that are indicated on the Plan and Profile Sheets.",
+      "image_paths": [
+        "assets/images/chapter4/figure_4_1.jpg"
+      ],
+      "bullets": [
+        "Lists all construction items",
+        "Organized by categories",
+        "Shows locations and quantities"
+      ],
+      "narration_text": "Let's start with the Summary of Quantities.\n\nThe Summary of Quantities Construction Plan Sheets show all the items of construction \nthat are indicated on the Plan and Profile Sheets. As you can see in Figure 4-1 on screen, \nthe items are normally grouped together into like categories, and then these categories \nare placed in boxes on the sheet with their representative quantities.\n\nFor example, all paving items might be grouped together, all drainage items in another group, \nand all structures in yet another group. This organization makes it easy to see at a glance \nhow much of each type of work is required for the project.\n\nThe Summary of Quantities also notes the location, size, and other relevant details \nwhere each item is required. This allows project personnel to quickly reference \nwhere specific work items are needed without having to search through all the plan sheets.\n\nThere are exceptions to this format. If an item is stated to be included in the cost \nof another item, it may not be listed separately. Also, on small bridge replacement projects \nwhere quantities are small and pay items are very limited, the quantities may be placed \non the Detailed Estimate only, without a separate Summary of Quantities sheet.",
+      "tts_file_path": "audio/ch04_scene02.wav",
+      "expected_duration": 75.0875
+    },
+    {
+      "index": 3,
+      "title": "Drainage Summary",
+      "source_pages": "15-16",
+      "source_text": "A numerical drainage summary is used in most project plans.",
+      "image_paths": [
+        "assets/images/chapter4/figure_4_2.jpg"
+      ],
+      "bullets": [
+        "Lists drainage structures",
+        "Consecutively numbered items",
+        "Cross-references plan sheets"
+      ],
+      "narration_text": "Now let's examine the Drainage Summary.\n\nA numerical drainage summary is used in most project plans. This part of the summary \nis usually on its own sheet in a set of plans and follows after the Summary of Quantities \nPlan Sheet. As shown in Figure 4-2 on screen, storm drain pipe, drainage structures, \nculverts, and other drainage elements that are to be placed on the project are listed \nin a chart format with the quantities needed and then consecutively numbered.\n\nEach drainage item is given a unique number that corresponds to the numbers shown \non the Plan View Plan Sheets and the Drainage Cross Section sheets. This numbering system \nallows project personnel to easily cross-reference drainage items from one view to another.\n\nFor example, if you see Culvert Number 10 on a plan sheet, you can find detailed information \nabout that culvert in the Drainage Summary, including its size, location, station number, \nand other relevant design details. This cross-referencing is essential for understanding \nthe complete scope of drainage work required on the project.\n\nThe drainage summary helps contractors and inspectors ensure that all required drainage \nstructures are properly installed and that the quantities match what was specified \nin the original plans.",
+      "tts_file_path": "audio/ch04_scene03.wav",
+      "expected_duration": 77.95
+    },
+    {
+      "index": 4,
+      "title": "Detailed Estimate",
+      "source_pages": "16-17",
+      "source_text": "The Detailed Estimate lists the required pay item numbers and the quantity for each item.",
+      "image_paths": [],
+      "bullets": [
+        "Pay item numbers listed",
+        "Quantities for each item",
+        "Used for bid proposals"
+      ],
+      "narration_text": "Finally, let's look at the Detailed Estimate.\n\nIf included in your plan set, the Detailed Estimate lists the required pay item numbers \nand the quantity for each item. The Office of Contracts Administration uses this sheet \nin preparing the bid proposal, making it a critical document for the contracting process.\n\nAs displayed in Figure 4-3 on screen, the Detailed Estimate plan sheet is listed \nin numerical order by the item number. The pay item number, description, and units \nare shown exactly as they appear in the Department's Pay Item Index, ensuring consistency \nacross all projects.\n\nQuantities are usually shown in whole units and rounded up, unless the item is measured \nper each, in which case the exact count is shown.\n\nIt's important to remember that these quantities are estimates. The contractor will be paid \nfor the actual quantities used in the project construction, not necessarily the estimated \nquantities shown on the plans. This is why careful measurement and documentation \nduring construction is so important.\n\nIf there are any items in the contract that are not to be paid for by the Department, \nthey are usually listed in a separate column labeled Non-Participatory Items. \nThis distinction helps contractors understand which items are included in their bid \nand which are considered part of the overall project but not separately compensated.",
+      "tts_file_path": "audio/ch04_scene04.wav",
+      "expected_duration": 84.1375
+    },
+    {
+      "index": 5,
+      "title": "Summary",
+      "source_pages": "17",
+      "source_text": "Summary of Chapter 4 key points",
+      "image_paths": [],
+      "bullets": [
+        "Summary organizes by category",
+        "Drainage Summary cross-references",
+        "Detailed Estimate used for bidding"
+      ],
+      "narration_text": "Let's review what we've covered in this chapter.\n\nYou've learned that the Summary of Quantities shows all construction items \nfrom the Plan and Profile Sheets, organized into categories with representative quantities \nand locations.\n\nYou understand that the Drainage Summary is a numerical listing of all drainage structures, \nconsecutively numbered for easy cross-referencing with plan sheets.\n\nAnd you know that the Detailed Estimate lists pay item numbers and quantities \nin numerical order, and is used by the Office of Contracts Administration \nin preparing bid proposals.\n\nThese quantity sheets are essential for understanding the scope of work, \npreparing accurate bids, and tracking construction progress. \nIn the next chapter, we'll explore different types of views used in construction plans.",
+      "tts_file_path": "audio/ch04_scene05.wav",
+      "expected_duration": 49.175
+    }
+  ],
+  "total_expected_duration": 308.1875
+}

@@ -1,0 +1,128 @@
+{
+  "chapter": 5,
+  "pages": "19-21",
+  "title": "Views",
+  "videos": 1,
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Title",
+      "source_pages": "19",
+      "source_text": "Chapter 5: Views",
+      "image_paths": [],
+      "bullets": [
+        "Understanding plan views",
+        "Different drawing perspectives",
+        "Reading construction plans"
+      ],
+      "narration_text": "Welcome to Chapter Five of Basic Highway Plan Reading. \nIn this chapter, we'll explore the different types of views used in construction plans. \nUnderstanding these views is essential for reading and interpreting highway plans correctly. \nWe'll cover plan views, elevations, cross sections, and profile views. \nLet's begin by understanding what these different perspectives show us.",
+      "tts_file": "audio/ch05_scene01.wav",
+      "duration": 23.3875,
+      "narration_sanitized": "Welcome to Chapter Five of Basic Highway Plan Reading. \nIn this chapter, we'll explore the different types of views used in construction plans. \nUnderstanding these views is essential for reading and interpreting highway plans correctly. \nWe'll cover plan views, elevations, cross sections, and profile views. \nLet's begin by understanding what these different perspectives show us.",
+      "narration_raw": "Welcome to Chapter Five of Basic Highway Plan Reading. \nIn this chapter, we'll explore the different types of views used in construction plans. \nUnderstanding these views is essential for reading and interpreting highway plans correctly. \nWe'll cover plan views, elevations, cross sections, and profile views. \nLet's begin by understanding what these different perspectives show us."
+    },
+    {
+      "index": 2,
+      "title": "Plan View",
+      "source_pages": "19",
+      "source_text": "A Plan View is a view from directly above the object.",
+      "image_paths": [
+        "assets/images/chapter5/figure_5_1.jpg"
+      ],
+      "bullets": [
+        "View from directly above",
+        "Shows top-down perspective",
+        "Like looking from airplane"
+      ],
+      "narration_text": "Let's start with the Plan View. A Plan View is a view from directly above the object. \nThink of it as a top view looking down. As you can see in Figure 5-1 on screen, \nthis shows what you would see if you were flying in an airplane over the project and looked down. \nThe plan view shows the entire project from above, with dotted lines indicating parts that would be hidden \nfrom this perspective. On construction plans, the cover sheet typically shows a Plan View of the entire project, \ngiving you an overview of the project's layout and location.",
+      "tts_file": "audio/ch05_scene02.wav",
+      "duration": 33.7625,
+      "narration_sanitized": "Let's start with the Plan View. A Plan View is a view from directly above the object. \nThink of it as a top view looking down. As you can see in Figure 5-1 on screen, \nthis shows what you would see if you were flying in an airplane over the project and looked down. \nThe plan view shows the entire project from above, with dotted lines indicating parts that would be hidden \nfrom this perspective. On construction plans, the cover sheet typically shows a Plan View of the entire project, \ngiving you an overview of the project's layout and location.",
+      "narration_raw": "Let's start with the Plan View. A Plan View is a view from directly above the object. \nThink of it as a top view looking down. As you can see in Figure 5-1 on screen, \nthis shows what you would see if you were flying in an airplane over the project and looked down. \nThe plan view shows the entire project from above, with dotted lines indicating parts that would be hidden \nfrom this perspective. On construction plans, the cover sheet typically shows a Plan View of the entire project, \ngiving you an overview of the project's layout and location."
+    },
+    {
+      "index": 3,
+      "title": "Elevations",
+      "source_pages": "19",
+      "source_text": "The next set of views shows the elevation or height of the chair from the side and rear.",
+      "image_paths": [
+        "assets/images/chapter5/figure_5_2.jpg"
+      ],
+      "bullets": [
+        "Side and rear views",
+        "Shows height and elevation",
+        "Outside perspective"
+      ],
+      "narration_text": "Now let's examine Elevations. Elevations show the height or elevation of an object \nfrom the side, rear, front, or other angles. As shown in Figure 5-2, elevations display items from the outside, \nproviding clear drawings that are almost like pictures. These views show the external appearance and dimensions \nof structures, helping you understand how they look from different angles. Elevations are essential for understanding \nthe vertical aspects of construction elements.",
+      "tts_file": "audio/ch05_scene03.wav",
+      "duration": 29.1,
+      "narration_sanitized": "Now let's examine Elevations. Elevations show the height or elevation of an object \nfrom the side, rear, front, or other angles. As shown in Figure 5-2, elevations display items from the outside, \nproviding clear drawings that are almost like pictures. These views show the external appearance and dimensions \nof structures, helping you understand how they look from different angles. Elevations are essential for understanding \nthe vertical aspects of construction elements.",
+      "narration_raw": "Now let's examine Elevations. Elevations show the height or elevation of an object \nfrom the side, rear, front, or other angles. As shown in Figure 5-2, elevations display items from the outside, \nproviding clear drawings that are almost like pictures. These views show the external appearance and dimensions \nof structures, helping you understand how they look from different angles. Elevations are essential for understanding \nthe vertical aspects of construction elements."
+    },
+    {
+      "index": 4,
+      "title": "Cross Sections",
+      "source_pages": "19-20",
+      "source_text": "As you face the front of the chair, a section has been 'sliced' away.",
+      "image_paths": [
+        "assets/images/chapter5/figure_5_3.jpg"
+      ],
+      "bullets": [
+        "Inside view after slicing",
+        "Shows internal structure",
+        "Like cutting with knife"
+      ],
+      "narration_text": "Cross Sections are different from elevations. While elevations show the outside, \ncross sections always show an inside view - something has been sliced away to reveal how the inside part should be. \nAs you can see in Figure 5-3, these slices can be made at any point, similar to cutting an apple into two parts with a knife. \nCross sections reveal the internal structure, materials, and construction details that aren't visible from the outside. \nThis is crucial for understanding how components are assembled and what materials are used internally.",
+      "tts_file": "audio/ch05_scene04.wav",
+      "duration": 34.075,
+      "narration_sanitized": "Cross Sections are different from elevations. While elevations show the outside, \ncross sections always show an inside view - something has been sliced away to reveal how the inside part should be. \nAs you can see in Figure 5-3, these slices can be made at any point, similar to cutting an apple into two parts with a knife. \nCross sections reveal the internal structure, materials, and construction details that aren't visible from the outside. \nThis is crucial for understanding how components are assembled and what materials are used internally.",
+      "narration_raw": "Cross Sections are different from elevations. While elevations show the outside, \ncross sections always show an inside view - something has been sliced away to reveal how the inside part should be. \nAs you can see in Figure 5-3, these slices can be made at any point, similar to cutting an apple into two parts with a knife. \nCross sections reveal the internal structure, materials, and construction details that aren't visible from the outside. \nThis is crucial for understanding how components are assembled and what materials are used internally."
+    },
+    {
+      "index": 5,
+      "title": "Profile View",
+      "source_pages": "20-21",
+      "source_text": "A Profile View is a lot like a longitudinal cross section of the roadway.",
+      "image_paths": [
+        "assets/images/chapter5/figure_5_5.jpg",
+        "assets/images/chapter5/figure_5_6.jpg"
+      ],
+      "bullets": [
+        "Longitudinal cross section",
+        "Shows hills and valleys",
+        "Roadway centerline view"
+      ],
+      "narration_text": "A Profile View is similar to a longitudinal cross section of the roadway. \nRather than showing left to right width, the profile view shows the hills and valleys of the roadway \nrunning along the centerline of the road. It's how the road would look if you were actually riding \non the surface of the road. As shown in Figures 5-5 and 5-6, profile views use section lines labeled \nwith letters like A-A, B-B, and C-C to indicate where the section is taken. The arrows on the ends \nof these lines show which direction you're looking when viewing the section. Profile views are essential \nfor understanding vertical alignment, which we'll discuss in more detail in Chapter Seven.",
+      "tts_file": "audio/ch05_scene05.wav",
+      "duration": 42.6375,
+      "narration_sanitized": "A Profile View is similar to a longitudinal cross section of the roadway. \nRather than showing left to right width, the profile view shows the hills and valleys of the roadway \nrunning along the centerline of the road. It's how the road would look if you were actually riding \non the surface of the road. As shown in Figures 5-5 and 5-6, profile views use section lines labeled \nwith letters like A-A, B-B, and C-C to indicate where the section is taken. The arrows on the ends \nof these lines show which direction you're looking when viewing the section. Profile views are essential \nfor understanding vertical alignment, which we'll discuss in more detail in Chapter Seven.",
+      "narration_raw": "A Profile View is similar to a longitudinal cross section of the roadway. \nRather than showing left to right width, the profile view shows the hills and valleys of the roadway \nrunning along the centerline of the road. It's how the road would look if you were actually riding \non the surface of the road. As shown in Figures 5-5 and 5-6, profile views use section lines labeled \nwith letters like A-A, B-B, and C-C to indicate where the section is taken. The arrows on the ends \nof these lines show which direction you're looking when viewing the section. Profile views are essential \nfor understanding vertical alignment, which we'll discuss in more detail in Chapter Seven."
+    },
+    {
+      "index": 6,
+      "title": "Summary",
+      "source_pages": "21",
+      "source_text": "Summary of Chapter 5 key points",
+      "image_paths": [],
+      "bullets": [
+        "Plan view shows top-down",
+        "Elevations show outside",
+        "Cross sections show inside"
+      ],
+      "narration_text": "Let's review what we've covered in this chapter.\n            \nYou've learned that a Plan View shows the project from directly above, like looking down from an airplane. \nElevations show items from the outside, providing clear external views. Cross sections show inside views \nafter something has been sliced away, revealing internal structure and materials. Profile views show \nthe longitudinal cross section along the roadway centerline, displaying hills and valleys.\n            \nUnderstanding these different views is essential for reading construction plans effectively. \nEach view provides different information that, when combined, gives you a complete understanding \nof the project. In the next chapter, we'll explore stationing, symbols, and abbreviations.",
+      "tts_file": "audio/ch05_scene06.wav",
+      "duration": 45.55,
+      "narration_sanitized": "Let's review what we've covered in this chapter.\n            \nYou've learned that a Plan View shows the project from directly above, like looking down from an airplane. \nElevations show items from the outside, providing clear external views. Cross sections show inside views \nafter something has been sliced away, revealing internal structure and materials. Profile views show \nthe longitudinal cross section along the roadway centerline, displaying hills and valleys.\n            \nUnderstanding these different views is essential for reading construction plans effectively. \nEach view provides different information that, when combined, gives you a complete understanding \nof the project. In the next chapter, we'll explore stationing, symbols, and abbreviations.",
+      "narration_raw": "Let's review what we've covered in this chapter.\n            \nYou've learned that a Plan View shows the project from directly above, like looking down from an airplane. \nElevations show items from the outside, providing clear external views. Cross sections show inside views \nafter something has been sliced away, revealing internal structure and materials. Profile views show \nthe longitudinal cross section along the roadway centerline, displaying hills and valleys.\n            \nUnderstanding these different views is essential for reading construction plans effectively. \nEach view provides different information that, when combined, gives you a complete understanding \nof the project. In the next chapter, we'll explore stationing, symbols, and abbreviations."
+    }
+  ],
+  "images": {
+    "figure_5_1": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/38b79e0911ce6d090d7d87bbf2c05e17ab916c759d1199f02f78b50f7c29dcb0.jpg",
+    "figure_5_2": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/3964178352d280fa6255942315c0db9b2c7118dd6f4bd9eeb701267b607323f2.jpg",
+    "figure_5_3": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/7e59ea88ff477493857ae7b8d93eee3120173d63142ed9edcd6ba8dc84dc854e.jpg",
+    "figure_5_4": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/8a6c88f1e538e6328132e209b02f776b172a05599eee0b945f30fb64d34a6796.jpg",
+    "figure_5_5": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/c0edee56e40eb93ae55c01e014fe1fae4124ffdbaf03e2f9c4a5c49f2e266017.jpg",
+    "figure_5_6": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/0987873fb4ebaf78d9c02425f09787a619844afc14bd677306495d30930e357a.jpg"
+  },
+  "sanitization_map": {}
+}

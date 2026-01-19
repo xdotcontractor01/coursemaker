@@ -1,0 +1,259 @@
+{
+  "chapter": 6,
+  "pages": "23-36",
+  "title": "Stationing, Symbols and Abbreviations",
+  "videos": 2,
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Title - Stationing",
+      "source_pages": "23",
+      "source_text": "Chapter 6: Stationing, Symbols and Abbreviations - Stationing",
+      "image_paths": [],
+      "bullets": [
+        "Understanding stationing",
+        "Measuring along survey line",
+        "Fundamental to highway plans"
+      ],
+      "narration_text": "Welcome to Chapter Six of Basic Highway Plan Reading. \nThis chapter covers two essential topics: Stationing, and Symbols and Abbreviations. \nWe'll start with Stationing, which is fundamental to highway plans. \nStationing is the system used to measure distances and identify points along a project. \nLet's begin by understanding what stations are and how they work.",
+      "tts_file": "audio/ch06_scene01.wav",
+      "duration": 22.25,
+      "narration_sanitized": "Welcome to Chapter Six of Basic Highway Plan Reading. \nThis chapter covers two essential topics: Stationing, and Symbols and Abbreviations. \nWe'll start with Stationing, which is fundamental to highway plans. \nStationing is the system used to measure distances and identify points along a project. \nLet's begin by understanding what stations are and how they work.",
+      "narration_raw": "Welcome to Chapter Six of Basic Highway Plan Reading. \nThis chapter covers two essential topics: Stationing, and Symbols and Abbreviations. \nWe'll start with Stationing, which is fundamental to highway plans. \nStationing is the system used to measure distances and identify points along a project. \nLet's begin by understanding what stations are and how they work."
+    },
+    {
+      "index": 2,
+      "title": "What is Stationing?",
+      "source_pages": "23",
+      "source_text": "A station is the horizontal measurement along the Construction Survey Line of a project.",
+      "image_paths": [],
+      "bullets": [
+        "One station equals 100 feet",
+        "Horizontal measurement",
+        "Along construction survey line"
+      ],
+      "narration_text": "Stationing is the horizontal measurement along the Construction Survey Line of a project. \nDistances are measured and points are identified on plans with reference to station numbers. \nOne hundred feet is equivalent to one station. Think of highway stationing like a rope with knots at 100-foot intervals. \nThe beginning would be Station 0, the first knot at 100 feet would be Station Number 1, written as one plus zero zero. \nThe second station would be Station 2, which is 200 feet from the beginning, written as two plus zero zero, and so on. \nAs you can see in Figure 6-1, this system provides a consistent way to locate any point along the project.",
+      "tts_file": "audio/ch06_scene02.wav",
+      "duration": 42.7875,
+      "narration_sanitized": "Stationing is the horizontal measurement along the Construction Survey Line of a project. \nDistances are measured and points are identified on plans with reference to station numbers. \nOne hundred feet is equivalent to one station. Think of highway stationing like a rope with knots at 100-foot intervals. \nThe beginning would be Station 0, the first knot at 100 feet would be Station Number 1, written as one plus zero zero. \nThe second station would be Station 2, which is 200 feet from the beginning, written as two plus zero zero, and so on. \nAs you can see in Figure 6-1, this system provides a consistent way to locate any point along the project.",
+      "narration_raw": "Stationing is the horizontal measurement along the Construction Survey Line of a project. \nDistances are measured and points are identified on plans with reference to station numbers. \nOne hundred feet is equivalent to one station. Think of highway stationing like a rope with knots at 100-foot intervals. \nThe beginning would be Station 0, the first knot at 100 feet would be Station Number 1, written as one plus zero zero. \nThe second station would be Station 2, which is 200 feet from the beginning, written as two plus zero zero, and so on. \nAs you can see in Figure 6-1, this system provides a consistent way to locate any point along the project."
+    },
+    {
+      "index": 3,
+      "title": "Half Stations",
+      "source_pages": "23-24",
+      "source_text": "A half station is 50 feet and is located halfway between stations.",
+      "image_paths": [
+        "assets/images/chapter6/figure_6_2.jpg"
+      ],
+      "bullets": [
+        "Half station equals 50 feet",
+        "Written as plus 50",
+        "Located between stations"
+      ],
+      "narration_text": "A half station is 50 feet and is located halfway between stations. \nIt is written as plus 50 after the station number. For example, halfway between Station 1 and Station 2 \nwould be Station 1 plus 50. As shown in Figure 6-2, any point between two stations is shown in this same manner. \nFor instance, two feet forward of Station 500 would be written as Station 500 plus 02. \nNumbers less than 10 are indicated as 01, 02, 03, and so on. Ninety-nine feet ahead of Station 500 \nwould be written as Station 500 plus 99. Of course, 100 feet ahead of Station 500 is Station 501 plus 00.",
+      "tts_file": "audio/ch06_scene03.wav",
+      "duration": 43.95,
+      "narration_sanitized": "A half station is 50 feet and is located halfway between stations. \nIt is written as plus 50 after the station number. For example, halfway between Station 1 and Station 2 \nwould be Station 1 plus 50. As shown in Figure 6-2, any point between two stations is shown in this same manner. \nFor instance, two feet forward of Station 500 would be written as Station 500 plus 02. \nNumbers less than 10 are indicated as 01, 02, 03, and so on. Ninety-nine feet ahead of Station 500 \nwould be written as Station 500 plus 99. Of course, 100 feet ahead of Station 500 is Station 501 plus 00.",
+      "narration_raw": "A half station is 50 feet and is located halfway between stations. \nIt is written as plus 50 after the station number. For example, halfway between Station 1 and Station 2 \nwould be Station 1 plus 50. As shown in Figure 6-2, any point between two stations is shown in this same manner. \nFor instance, two feet forward of Station 500 would be written as Station 500 plus 02. \nNumbers less than 10 are indicated as 01, 02, 03, and so on. Ninety-nine feet ahead of Station 500 \nwould be written as Station 500 plus 99. Of course, 100 feet ahead of Station 500 is Station 501 plus 00."
+    },
+    {
+      "index": 4,
+      "title": "Station Notation on Plans",
+      "source_pages": "24-25",
+      "source_text": "On the Plan Sheets, the Station Numbers are usually written along the Construction Centerline.",
+      "image_paths": [
+        "assets/images/chapter6/figure_6_3.jpg"
+      ],
+      "bullets": [
+        "Written along centerline",
+        "AHEAD means increasing",
+        "BACK means decreasing"
+      ],
+      "narration_text": "On plan sheets, station numbers are usually written along the Construction Centerline. \nStationing is sometimes along a baseline, or along one lane of a multiple lane highway. \nOn a project, AHEAD means in the direction in which station numbers increase, usually toward the end of a project. \nBACK means in the direction in which station numbers decrease, usually towards the beginning of the project. \nAhead is sometimes abbreviated FWD for forward, and back is abbreviated BK. \nAs you can see in Figure 6-3, stationing on a plan sheet shows these relationships clearly, \nhelping you understand the direction and location of points along the project.",
+      "tts_file": "audio/ch06_scene04.wav",
+      "duration": 40.0375,
+      "narration_sanitized": "On plan sheets, station numbers are usually written along the Construction Centerline. \nStationing is sometimes along a baseline, or along one lane of a multiple lane highway. \nOn a project, AHEAD means in the direction in which station numbers increase, usually toward the end of a project. \nBACK means in the direction in which station numbers decrease, usually towards the beginning of the project. \nAhead is sometimes abbreviated FWD for forward, and back is abbreviated BK. \nAs you can see in Figure 6-3, stationing on a plan sheet shows these relationships clearly, \nhelping you understand the direction and location of points along the project.",
+      "narration_raw": "On plan sheets, station numbers are usually written along the Construction Centerline. \nStationing is sometimes along a baseline, or along one lane of a multiple lane highway. \nOn a project, AHEAD means in the direction in which station numbers increase, usually toward the end of a project. \nBACK means in the direction in which station numbers decrease, usually towards the beginning of the project. \nAhead is sometimes abbreviated FWD for forward, and back is abbreviated BK. \nAs you can see in Figure 6-3, stationing on a plan sheet shows these relationships clearly, \nhelping you understand the direction and location of points along the project."
+    },
+    {
+      "index": 5,
+      "title": "Station Equations",
+      "source_pages": "25-26",
+      "source_text": "Sometimes it is necessary to relate a system of stationing to another system.",
+      "image_paths": [
+        "assets/images/chapter6/figure_6_4.jpg"
+      ],
+      "bullets": [
+        "Relate two station systems",
+        "Account for alignment changes",
+        "Written as equality"
+      ],
+      "narration_text": "Sometimes it is necessary to relate a system of stationing to another system, \nsuch as when connecting two projects or accounting for an increase or decrease in the project's length \ndue to a change in horizontal alignment. Station equations, also called station equalities, are written \nto describe a point on the Construction Centerline where the station numbers of one system change \nto the station numbers of another system. As shown in Figure 6-4, an equality might read: \nStation 138 plus 49.42 BACK equals Station 114 plus 11.00 AHEAD. \nThe first number is the stationing that is ending, and the next number is the beginning station number \nof the new system. This ensures continuity when projects are connected or when alignment changes occur.",
+      "tts_file": "audio/ch06_scene05.wav",
+      "duration": 49.525,
+      "narration_sanitized": "Sometimes it is necessary to relate a system of stationing to another system, \nsuch as when connecting two projects or accounting for an increase or decrease in the project's length \ndue to a change in horizontal alignment. Station equations, also called station equalities, are written \nto describe a point on the Construction Centerline where the station numbers of one system change \nto the station numbers of another system. As shown in Figure 6-4, an equality might read: \nStation 138 plus 49.42 BACK equals Station 114 plus 11.00 AHEAD. \nThe first number is the stationing that is ending, and the next number is the beginning station number \nof the new system. This ensures continuity when projects are connected or when alignment changes occur.",
+      "narration_raw": "Sometimes it is necessary to relate a system of stationing to another system, \nsuch as when connecting two projects or accounting for an increase or decrease in the project's length \ndue to a change in horizontal alignment. Station equations, also called station equalities, are written \nto describe a point on the Construction Centerline where the station numbers of one system change \nto the station numbers of another system. As shown in Figure 6-4, an equality might read: \nStation 138 plus 49.42 BACK equals Station 114 plus 11.00 AHEAD. \nThe first number is the stationing that is ending, and the next number is the beginning station number \nof the new system. This ensures continuity when projects are connected or when alignment changes occur."
+    },
+    {
+      "index": 6,
+      "title": "Determining Project Length",
+      "source_pages": "26-27",
+      "source_text": "If there are NO STATION EQUALITIES on the project, you can subtract the beginning station from the ending station.",
+      "image_paths": [],
+      "bullets": [
+        "Subtract beginning from ending",
+        "Multiply by 100 for feet",
+        "Divide by 5280 for miles"
+      ],
+      "narration_text": "If there are no station equalities on the project, you can determine the project length \nby subtracting the beginning station from the ending station and multiplying by 100, since each station equals 100 feet. \nFor example, if a project begins at Station 409 plus 69 and ends at Station 701 plus 50, \nthe length would be 291 plus 81, or 29,181 feet. To convert to miles, divide by 5,280 feet per mile. \nIn this case, 29,181 divided by 5,280 equals approximately 5.5 miles. \nRemember that this calculation only works if no station equalities occur between the beginning and end of the project.",
+      "tts_file": "audio/ch06_scene06.wav",
+      "duration": 43.45,
+      "narration_sanitized": "If there are no station equalities on the project, you can determine the project length \nby subtracting the beginning station from the ending station and multiplying by 100, since each station equals 100 feet. \nFor example, if a project begins at Station 409 plus 69 and ends at Station 701 plus 50, \nthe length would be 291 plus 81, or 29,181 feet. To convert to miles, divide by 5,280 feet per mile. \nIn this case, 29,181 divided by 5,280 equals approximately 5.5 miles. \nRemember that this calculation only works if no station equalities occur between the beginning and end of the project.",
+      "narration_raw": "If there are no station equalities on the project, you can determine the project length \nby subtracting the beginning station from the ending station and multiplying by 100, since each station equals 100 feet. \nFor example, if a project begins at Station 409 plus 69 and ends at Station 701 plus 50, \nthe length would be 291 plus 81, or 29,181 feet. To convert to miles, divide by 5,280 feet per mile. \nIn this case, 29,181 divided by 5,280 equals approximately 5.5 miles. \nRemember that this calculation only works if no station equalities occur between the beginning and end of the project."
+    },
+    {
+      "index": 7,
+      "title": "Introduction to Symbols",
+      "source_pages": "28",
+      "source_text": "A legend of symbols and abbreviations is not included in the plans.",
+      "image_paths": [
+        "assets/images/chapter6/figure_6_6.jpg"
+      ],
+      "bullets": [
+        "No legend in plans",
+        "Common symbols used",
+        "Standard abbreviations"
+      ],
+      "narration_text": "Now let's move on to Symbols and Abbreviations. \nA legend of symbols and abbreviations is not included in the plans. However, certain symbols \nand abbreviations are common to a set of highway plans. As you can see in Figure 6-6, \nthese symbols represent various features like right-of-way markers, property lines, and other elements. \nYou should become familiar with the standard symbols used by the Georgia Department of Transportation, \nwhich are defined in the Department's Manual of Guidance.",
+      "tts_file": "audio/ch06_scene07.wav",
+      "duration": 30.5875,
+      "narration_sanitized": "Now let's move on to Symbols and Abbreviations. \nA legend of symbols and abbreviations is not included in the plans. However, certain symbols \nand abbreviations are common to a set of highway plans. As you can see in Figure 6-6, \nthese symbols represent various features like right-of-way markers, property lines, and other elements. \nYou should become familiar with the standard symbols used by the Georgia Department of Transportation, \nwhich are defined in the Department's Manual of Guidance.",
+      "narration_raw": "Now let's move on to Symbols and Abbreviations. \nA legend of symbols and abbreviations is not included in the plans. However, certain symbols \nand abbreviations are common to a set of highway plans. As you can see in Figure 6-6, \nthese symbols represent various features like right-of-way markers, property lines, and other elements. \nYou should become familiar with the standard symbols used by the Georgia Department of Transportation, \nwhich are defined in the Department's Manual of Guidance."
+    },
+    {
+      "index": 8,
+      "title": "Conventional and ROW Symbols",
+      "source_pages": "28-29",
+      "source_text": "State or County Line, City Limit Line, Property Line, Survey or Base Line, Right of Way Line",
+      "image_paths": [
+        "assets/images/chapter6/figure_6_7.jpg"
+      ],
+      "bullets": [
+        "Property and survey lines",
+        "Right of way markers",
+        "Construction limits"
+      ],
+      "narration_text": "Conventional symbols include state or county lines, city limit lines, property lines, \nsurvey or base lines, and right of way lines. As shown in Figure 6-7, right of way symbols include \nbegin limit of access, end limit of access, limit of access, and various combinations. \nConstruction limits are shown with C for cut and F for fill. Easements for construction and maintenance \nof slopes, both permanent and temporary, are also shown with specific symbols. \nThese symbols help you quickly identify the type and purpose of various lines and markers on the plans.",
+      "tts_file": "audio/ch06_scene08.wav",
+      "duration": 34.6375,
+      "narration_sanitized": "Conventional symbols include state or county lines, city limit lines, property lines, \nsurvey or base lines, and right of way lines. As shown in Figure 6-7, right of way symbols include \nbegin limit of access, end limit of access, limit of access, and various combinations. \nConstruction limits are shown with C for cut and F for fill. Easements for construction and maintenance \nof slopes, both permanent and temporary, are also shown with specific symbols. \nThese symbols help you quickly identify the type and purpose of various lines and markers on the plans.",
+      "narration_raw": "Conventional symbols include state or county lines, city limit lines, property lines, \nsurvey or base lines, and right of way lines. As shown in Figure 6-7, right of way symbols include \nbegin limit of access, end limit of access, limit of access, and various combinations. \nConstruction limits are shown with C for cut and F for fill. Easements for construction and maintenance \nof slopes, both permanent and temporary, are also shown with specific symbols. \nThese symbols help you quickly identify the type and purpose of various lines and markers on the plans."
+    },
+    {
+      "index": 9,
+      "title": "Utility Symbols - Water and Gas",
+      "source_pages": "30-31",
+      "source_text": "Water mains, non-potable water mains, gas mains, and petroleum product pipelines",
+      "image_paths": [
+        null,
+        null
+      ],
+      "bullets": [
+        "Water main symbols",
+        "Gas main symbols",
+        "Existing and proposed"
+      ],
+      "narration_text": "Utility symbols represent various infrastructure elements. Water mains are shown \nwith specific line styles for existing, proposed, temporary, and to-be-removed conditions. \nFire hydrants are marked W-FH, and valves are marked with W-V. Non-potable water mains use similar \nbut distinct symbols. Gas mains and petroleum product pipelines are shown with G symbols, \nwith variations for existing, proposed, casings, and valves. As you can see in Figures 6-8 and 6-9, \nthese symbols clearly distinguish between different utility types and their conditions on the plans.",
+      "tts_file": "audio/ch06_scene09.wav",
+      "duration": 35.375,
+      "narration_sanitized": "Utility symbols represent various infrastructure elements. Water mains are shown \nwith specific line styles for existing, proposed, temporary, and to-be-removed conditions. \nFire hydrants are marked W-FH, and valves are marked with W-V. Non-potable water mains use similar \nbut distinct symbols. Gas mains and petroleum product pipelines are shown with G symbols, \nwith variations for existing, proposed, casings, and valves. As you can see in Figures 6-8 and 6-9, \nthese symbols clearly distinguish between different utility types and their conditions on the plans.",
+      "narration_raw": "Utility symbols represent various infrastructure elements. Water mains are shown \nwith specific line styles for existing, proposed, temporary, and to-be-removed conditions. \nFire hydrants are marked W-FH, and valves are marked with W-V. Non-potable water mains use similar \nbut distinct symbols. Gas mains and petroleum product pipelines are shown with G symbols, \nwith variations for existing, proposed, casings, and valves. As you can see in Figures 6-8 and 6-9, \nthese symbols clearly distinguish between different utility types and their conditions on the plans."
+    },
+    {
+      "index": 10,
+      "title": "Utility Symbols - Sewer and Steam",
+      "source_pages": "32",
+      "source_text": "Sanitary sewer and steam lines",
+      "image_paths": [
+        "assets/images/chapter6/figure_6_10.jpg"
+      ],
+      "bullets": [
+        "Sanitary sewer symbols",
+        "Steam line symbols",
+        "Different line styles"
+      ],
+      "narration_text": "Sanitary sewer lines and steam lines each have their own distinct symbols. \nAs shown in Figure 6-10, these utilities use specific line patterns to indicate existing, proposed, \ntemporary, and to-be-removed conditions. Understanding these symbols is essential for identifying \nall utility infrastructure that may affect or be affected by the highway construction project.",
+      "tts_file": "audio/ch06_scene10.wav",
+      "duration": 23.575,
+      "narration_sanitized": "Sanitary sewer lines and steam lines each have their own distinct symbols. \nAs shown in Figure 6-10, these utilities use specific line patterns to indicate existing, proposed, \ntemporary, and to-be-removed conditions. Understanding these symbols is essential for identifying \nall utility infrastructure that may affect or be affected by the highway construction project.",
+      "narration_raw": "Sanitary sewer lines and steam lines each have their own distinct symbols. \nAs shown in Figure 6-10, these utilities use specific line patterns to indicate existing, proposed, \ntemporary, and to-be-removed conditions. Understanding these symbols is essential for identifying \nall utility infrastructure that may affect or be affected by the highway construction project."
+    },
+    {
+      "index": 11,
+      "title": "Utility Symbols - Electrical and Communications",
+      "source_pages": "33-35",
+      "source_text": "Electrical power, telephone, telegraph, television, and microwave cables",
+      "image_paths": [
+        "assets/images/chapter6/figure_6_11.jpg",
+        null,
+        null
+      ],
+      "bullets": [
+        "Electrical power symbols",
+        "Telephone and telegraph",
+        "TV and microwave cables"
+      ],
+      "narration_text": "Electrical power, telephone, telegraph, television, and microwave cables \nall have specific symbols on the plans. As shown in Figures 6-11, 6-12, and 6-13, these symbols \ndistinguish between overhead and underground installations, and between existing, proposed, temporary, \nand to-be-removed conditions. For overhead wire crossings, the elevation of overhead clearances \nmust be given and plotted in the profile as well. These symbols help you identify all communication \nand power infrastructure that needs to be considered during construction.",
+      "tts_file": "audio/ch06_scene11.wav",
+      "duration": 34.525,
+      "narration_sanitized": "Electrical power, telephone, telegraph, television, and microwave cables \nall have specific symbols on the plans. As shown in Figures 6-11, 6-12, and 6-13, these symbols \ndistinguish between overhead and underground installations, and between existing, proposed, temporary, \nand to-be-removed conditions. For overhead wire crossings, the elevation of overhead clearances \nmust be given and plotted in the profile as well. These symbols help you identify all communication \nand power infrastructure that needs to be considered during construction.",
+      "narration_raw": "Electrical power, telephone, telegraph, television, and microwave cables \nall have specific symbols on the plans. As shown in Figures 6-11, 6-12, and 6-13, these symbols \ndistinguish between overhead and underground installations, and between existing, proposed, temporary, \nand to-be-removed conditions. For overhead wire crossings, the elevation of overhead clearances \nmust be given and plotted in the profile as well. These symbols help you identify all communication \nand power infrastructure that needs to be considered during construction."
+    },
+    {
+      "index": 12,
+      "title": "Utility Abbreviations and Railroad Symbols",
+      "source_pages": "35-36",
+      "source_text": "Utility symbol abbreviations and railroad symbols",
+      "image_paths": [],
+      "bullets": [
+        "Common abbreviations",
+        "Railroad symbols",
+        "Crossing signs and signals"
+      ],
+      "narration_text": "Utility symbol abbreviations include codes like PPL for Plantation Pipe Line, \nSNG for Southern Natural Gas, OC for Overhead Cable, and various codes for telephone and telegraph companies. \nRailroad symbols include railroad tracks, mileposts, crossing signs, automatic flashing signals, \nautomatic gates, and draw bridges. As shown in Figure 6-14, these abbreviations and symbols provide \na compact way to represent complex infrastructure elements on the plans. Understanding these symbols \nis essential for identifying all features that may impact the highway construction project.",
+      "tts_file": "audio/ch06_scene12.wav",
+      "duration": 36.2875,
+      "narration_sanitized": "Utility symbol abbreviations include codes like PPL for Plantation Pipe Line, \nSNG for Southern Natural Gas, OC for Overhead Cable, and various codes for telephone and telegraph companies. \nRailroad symbols include railroad tracks, mileposts, crossing signs, automatic flashing signals, \nautomatic gates, and draw bridges. As shown in Figure 6-14, these abbreviations and symbols provide \na compact way to represent complex infrastructure elements on the plans. Understanding these symbols \nis essential for identifying all features that may impact the highway construction project.",
+      "narration_raw": "Utility symbol abbreviations include codes like PPL for Plantation Pipe Line, \nSNG for Southern Natural Gas, OC for Overhead Cable, and various codes for telephone and telegraph companies. \nRailroad symbols include railroad tracks, mileposts, crossing signs, automatic flashing signals, \nautomatic gates, and draw bridges. As shown in Figure 6-14, these abbreviations and symbols provide \na compact way to represent complex infrastructure elements on the plans. Understanding these symbols \nis essential for identifying all features that may impact the highway construction project."
+    },
+    {
+      "index": 13,
+      "title": "Summary",
+      "source_pages": "36",
+      "source_text": "Summary of Chapter 6 key points",
+      "image_paths": [],
+      "bullets": [
+        "Stationing measures distance",
+        "Symbols represent features",
+        "Abbreviations save space"
+      ],
+      "narration_text": "Let's review what we've covered in this chapter.\n            \nYou've learned that stationing is the horizontal measurement system used along the Construction Survey Line, \nwith one station equaling 100 feet. You understand half stations, station notation, station equations, \nand how to determine project length.\n            \nYou've also learned about the various symbols and abbreviations used on highway plans, including conventional symbols, \nright-of-way symbols, and utility symbols for water, gas, sewer, electrical, and communications infrastructure. \nUnderstanding these symbols and abbreviations is essential for reading and interpreting construction plans effectively. \nIn the next chapter, we'll explore Plan and Profile Sheets.",
+      "tts_file": "audio/ch06_scene13.wav",
+      "duration": 43.9875,
+      "narration_sanitized": "Let's review what we've covered in this chapter.\n            \nYou've learned that stationing is the horizontal measurement system used along the Construction Survey Line, \nwith one station equaling 100 feet. You understand half stations, station notation, station equations, \nand how to determine project length.\n            \nYou've also learned about the various symbols and abbreviations used on highway plans, including conventional symbols, \nright-of-way symbols, and utility symbols for water, gas, sewer, electrical, and communications infrastructure. \nUnderstanding these symbols and abbreviations is essential for reading and interpreting construction plans effectively. \nIn the next chapter, we'll explore Plan and Profile Sheets.",
+      "narration_raw": "Let's review what we've covered in this chapter.\n            \nYou've learned that stationing is the horizontal measurement system used along the Construction Survey Line, \nwith one station equaling 100 feet. You understand half stations, station notation, station equations, \nand how to determine project length.\n            \nYou've also learned about the various symbols and abbreviations used on highway plans, including conventional symbols, \nright-of-way symbols, and utility symbols for water, gas, sewer, electrical, and communications infrastructure. \nUnderstanding these symbols and abbreviations is essential for reading and interpreting construction plans effectively. \nIn the next chapter, we'll explore Plan and Profile Sheets."
+    }
+  ],
+  "images": {
+    "figure_6_2": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/1750064456d0367ae56d2265d012bd48cd7201778d8961c68fe617551931c648.jpg",
+    "figure_6_3": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/4bf6852054b304a332f00b35d495e25a671c28f08f6179564db0d38493f3d541.jpg",
+    "figure_6_4": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/0a98b8d799a499aff1ae62080bbe836ad2f0200432326288999b18a59b439bb7.jpg",
+    "figure_6_5": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/650e346532c0f8cb6c80659e5d7cdc51a0e82e803957db6888cc40a38ddba7c8.jpg",
+    "figure_6_6": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/0a49e9a126290e46de219d501764e27a5457baea95aec0cd8c1eb4d98091325f.jpg",
+    "figure_6_7": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/3c2606b61e90b756ea58c31d93f2ca3519805d1968e015497eee719bd4ebcde5.jpg",
+    "figure_6_10": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/27b4869cead316dfdbdda87fc529f258357e1b9c81f7bc54204aaa3a02cb6159.jpg",
+    "figure_6_11": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/8ef94db6701e1b98e7dba3598abd4d3c1b5d416d3324d8a4a2514ba5ecb7676a.jpg"
+  },
+  "sanitization_map": {}
+}

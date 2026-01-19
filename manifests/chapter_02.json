@@ -1,0 +1,68 @@
+{
+  "chapter": 2,
+  "pages": "11-12",
+  "title": "Index and Revision Summary Sheet",
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Title",
+      "source_pages": "11",
+      "source_text": "Chapter 2: Index and Revision Summary Sheet",
+      "image_paths": [],
+      "bullets": [
+        "Index and Revision Summary",
+        "Understanding plan organization",
+        "Tracking plan changes"
+      ],
+      "narration_text": "Welcome to Chapter Two of Basic Highway Plan Reading. \nIn this chapter, we'll explore two essential organizational elements found in construction plan sets: \nthe Index and the Revision Summary Sheet. These sheets help you navigate the plan set \nand understand any changes that have been made to the plans after they were originally completed. \nLet's begin.",
+      "tts_file_path": "audio/ch02_scene01.wav",
+      "expected_duration": 21.375
+    },
+    {
+      "index": 2,
+      "title": "Index",
+      "source_pages": "11",
+      "source_text": "An index is required for each set of construction plans to help the user in identifying what sheets are in the set of plans.",
+      "image_paths": [],
+      "bullets": [
+        "Required for all plan sets",
+        "Lists all sheets with descriptions",
+        "Includes standards and drawing numbers"
+      ],
+      "narration_text": "Let's start with the Index. An index is required for each set of construction plans \nto help you identify what sheets are included in the plan set. \n\nOn smaller projects with few sheets, the index may be included on the cover sheet. \nHowever, on most projects, the index is included as a separate sheet directly following the cover sheet.\n\nThe index sheet includes a description of each plan sheet along with its corresponding sheet number. \nAs you can see on screen, this provides a clear reference of what information is contained on each sheet.\n\nAdditionally, the index includes a listing of all Georgia DOT standards and construction drawings \nthat relate to the particular project. Each standard is shown with its corresponding standard number, \nthe most recent revision date of that standard, and the sheet number where it appears.\n\nAn area is usually available on the sheet for later additions or deletions of sheets, \nand the total number of all sheets in the plan set is clearly shown. \nThis helps you ensure you have a complete set of plans.",
+      "tts_file_path": "audio/ch02_scene02.wav",
+      "expected_duration": 63.8375
+    },
+    {
+      "index": 3,
+      "title": "Revision Summary Sheet",
+      "source_pages": "11-12",
+      "source_text": "A Revision Summary Sheet is used for the purpose of keeping a record of those revisions.",
+      "image_paths": [],
+      "bullets": [
+        "Tracks all plan revisions",
+        "Shows date and sheet numbers",
+        "Required element of plan sets"
+      ],
+      "narration_text": "Now let's examine the Revision Summary Sheet. \n\nAt times after the final set of plans has been drawn up, it becomes necessary to revise, \nor change, the design for a portion of the plans. A Revision Summary Sheet is used \nto keep a record of all such revisions. For this reason, a revision summary sheet \nis a required element of a set of construction plans.\n\nThe Revision Summary Sheet consists of three columns in addition to the normal project \ninformation found in the title blocks. The first column is for the date on which \nthe revision was made. The second column lists the plan sheet number or numbers \nthat were affected by the revision. And the third column contains a description \nof the revision, written in enough detail to quickly understand the nature of the change.\n\nAs shown in the example on screen, a revision entry might indicate that on December 29th, 2004, \nsheets 422 and 450 were revised, and the revision involved relocating a utility line.\n\nThe Revision Summary Sheet will typically follow directly behind the Index Sheet or the Cover Sheet, \nmaking it easy to locate and review any changes that have been made to the original plans. \nThis tracking system is essential for ensuring everyone is working with the most current version \nof the construction plans.",
+      "tts_file_path": "audio/ch02_scene03.wav",
+      "expected_duration": 80.7875
+    },
+    {
+      "index": 4,
+      "title": "Summary",
+      "source_pages": "12",
+      "source_text": "Summary of Chapter 2 key points",
+      "image_paths": [],
+      "bullets": [
+        "Index lists all plan sheets",
+        "Revision Summary tracks changes",
+        "Both are required elements"
+      ],
+      "narration_text": "Let's review what we've covered in this chapter.\n\nYou've learned that an index is required for each set of construction plans \nand helps you identify what sheets are included in the plan set. The index lists \neach sheet with its description and includes standards and construction drawings.\n\nYou understand that the Revision Summary Sheet is a required element that tracks \nall changes made to plans after they were originally completed. Each revision entry \nshows the date, the affected sheet numbers, and a description of the change.\n\nThese organizational tools are essential for navigating construction plans effectively \nand ensuring you're working with the most current information. \nIn the next chapter, we'll explore Typical Sections.",
+      "tts_file_path": "audio/ch02_scene04.wav",
+      "expected_duration": 45.8625
+    }
+  ],
+  "total_expected_duration": 211.8625
+}

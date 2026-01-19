@@ -1,6 +1,7 @@
 # Environment
 .env
 *.env.local
+config.json
 
 # Python
 __pycache__/
@@ -65,8 +66,9 @@ test_output/
 media/
 temp_*/
 
-# Documentation (except README and requirements)
+# Documentation (except README, docs/, and requirements)
 *.md
 !README.md
+!docs/*.md
 *.txt
 !requirements.txt

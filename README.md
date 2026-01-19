@@ -1,146 +1,375 @@
-# GDOT Educational Video Generator
+# Highway Plan Reading: Pages 5-7 Explainer Video
 
-A full-stack Python application that converts Markdown documents into professional educational videos with narration, visuals, and animations using an 11-step AI-powered workflow.
+## 📚 Project Overview
 
-## Features
+This project creates a professional 60-65 second educational video explaining pages 5, 6, and 7 of the **Basic Highway Plan Reading** manual published by the Georgia Department of Transportation.
 
-- **Streamlit Dashboard**: Clean UI with real-time progress tracking
-- **11-Step Workflow**: From MD parsing to final video with checkpoints
-- **Resilience**: Automatic retries, rollbacks, and degraded mode
-- **Live Updates**: Mermaid flowchart showing step progress
-- **Error Tracking**: Detailed error logging to JSON per job
-- **Job History**: SQLite database with downloadable results
+**Topics Covered:**
+- Project Location Sketch
+- Layout View  
+- Sheet Identification Box
+- Engineering Scale
 
-## Prerequisites
+---
 
-Before running the application, install:
+## 📦 Deliverables
 
-1. **Python 3.10+** with pip
+### Core Files
 
-2. **FFmpeg** (required by Manim and MoviePy):
-   - Windows: Download from https://ffmpeg.org/download.html
-   - Linux: `sudo apt install ffmpeg`
-   - macOS: `brew install ffmpeg`
+| File | Description | Size |
+|------|-------------|------|
+| `page5_7_explainer.py` | Main Manim script with 6 animated scenes | ~12 KB |
+| `narration_script.txt` | Timestamped voiceover script (~137 words) | ~3 KB |
+| `INSTALLATION_AND_USAGE.md` | Complete installation guide and render commands | ~8 KB |
+| `TROUBLESHOOTING.md` | Common issues and solutions (12 scenarios) | ~15 KB |
+| `ALTERNATIVE_APPROACHES.md` | Two alternative video creation methods | ~18 KB |
 
-3. **OpenAI API Key** (Required):
-   - Get API key: https://platform.openai.com/api-keys
-   - Costs: ~$0.02-0.05 per video (GPT-4o-mini)
-   - Add billing info to your OpenAI account
+### Generated Assets (after first run)
 
-## Installation
+| File/Directory | Description |
+|----------------|-------------|
+| `assets/images/` | 4 downloaded JPG images from markdown |
+| `media/videos/page5_7_explainer/1080p60/` | Rendered video output |
+| `page5_7_explainer.mp4` | Final video (15-25 MB) |
 
-1. Clone the repository:
-   ```bash
-   git clone <repo-url>
-   cd coursemaker
-   ```
+---
 
-2. Install Python dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 🚀 Quick Start
 
-3. Create `.env` file from template:
-   ```bash
-   cp .env.example .env
-   ```
+### Prerequisites
 
-4. Edit `.env` and add your OpenAI API key:
-   ```env
-   OPENAI_API_KEY=sk-your-actual-key-here
-   ```
-   
-   Optional: Add SerpAPI key for images
-   ```env
-   SERPAPI_KEY=your-serpapi-key
-   ```
-   Get SerpAPI key from https://serpapi.com
+✅ Python 3.8+ (3.10 recommended)  
+✅ FFmpeg installed and in PATH  
+✅ Internet connection (for image downloads)
 
-## Usage
-
-### Run Streamlit App
+### Installation (5 minutes)
 
 ```bash
-streamlit run app.py
+# 1. Install Python dependencies
+pip install manim requests Pillow
+
+# 2. Verify installations
+python --version    # Should be 3.8+
+manim --version     # Should be v0.18.0+
+ffmpeg -version     # Should be 4.4+
+
+# 3. Run the script
+manim -pqh page5_7_explainer.py ExplainerScene
 ```
 
-Navigate to http://localhost:8501 in your browser.
+**Output Location:**  
+`./media/videos/page5_7_explainer/1080p60/ExplainerScene.mp4`
 
-### Run with FastAPI Backend (Optional)
+---
 
-In a separate terminal:
+## 📖 Documentation Structure
+
+```
+.
+├── README.md                          ← You are here
+├── page5_7_explainer.py              ← Main Manim script
+├── narration_script.txt               ← Voiceover text with timestamps
+├── INSTALLATION_AND_USAGE.md          ← Detailed setup guide
+├── TROUBLESHOOTING.md                 ← Error solutions
+├── ALTERNATIVE_APPROACHES.md          ← Non-Manim alternatives
+│
+├── assets/images/                     ← Downloaded images (auto-created)
+│   ├── figure_1_3.jpg
+│   ├── figure_1_4.jpg
+│   ├── figure_1_9.jpg
+│   └── figure_1_10.jpg
+│
+├── media/videos/page5_7_explainer/    ← Rendered output (auto-created)
+│   └── 1080p60/
+│       └── ExplainerScene.mp4
+│
+└── test_workflow/                     ← Source data
+    └── MinerU_markdown_BasicHiwyPlanReading (1)_*.md
+```
+
+---
+
+## 🎬 Video Specifications
+
+| Specification | Value |
+|---------------|-------|
+| Duration | 60-65 seconds |
+| Resolution | 1920x1080 (Full HD) |
+| Frame Rate | 60 fps |
+| Codec | H.264 (MP4) |
+| File Size | 15-25 MB |
+| Audio | None (add separately using narration script) |
+
+### Scene Breakdown
+
+| Scene | Duration | Content |
+|-------|----------|---------|
+| 1. Title | 0-5s | Introduction with title and subtitle |
+| 2. Location Sketch | 5-18s | Figure 1-3 with bullet points |
+| 3. Layout View | 18-30s | Figure 1-4 with annotations |
+| 4. Sheet ID Box | 30-43s | Table with identification data |
+| 5. Scale | 43-58s | Figures 1-9 & 1-10 with explanations |
+| 6. Summary | 58-65s | Recap checklist with "Thank You" |
+
+---
+
+## 🎨 Customization Guide
+
+### Change Colors
+
+Edit `page5_7_explainer.py`:
+
+```python
+# Line ~220: Title color
+color=BLUE  # Change to RED, GREEN, YELLOW, etc.
+
+# Line ~240: Heading color
+color=YELLOW  # Change to ORANGE, PURPLE, etc.
+```
+
+### Adjust Timing
+
+```python
+# Line ~230: Scene duration
+self.wait(2)  # Change to 3, 4, etc. for longer pauses
+```
+
+### Modify Text
+
+```python
+# Line ~215: Change title
+title = Text("Your Custom Title", font_size=56, weight=BOLD)
+```
+
+### Scale Images
+
+```python
+# Line ~275: Image size
+location_img.scale(0.6)  # Increase to 0.8 for larger, 0.4 for smaller
+```
+
+---
+
+## 🎤 Adding Voiceover
+
+### Option 1: Manual Recording
+
+1. Read `narration_script.txt` aloud
+2. Record using Audacity, GarageBand, or phone
+3. Save as `narration.mp3`
+4. Combine with video:
 
 ```bash
-uvicorn api:app --reload
+ffmpeg -i media/videos/page5_7_explainer/1080p60/ExplainerScene.mp4 \
+       -i narration.mp3 \
+       -c:v copy -c:a aac \
+       page5_7_explainer_with_audio.mp4
 ```
 
-Then access API at http://localhost:8000/docs
+### Option 2: Text-to-Speech (TTS)
 
-## Workflow Steps
-
-0. **Load System Prompts**: GDOT-DOT professional style
-1. **Input MD & Pre-Validate**: Chunk large documents
-2. **LLM: Generate Summary**: 100-word overview
-3. **LLM: Generate Base Script**: Manim animation code
-4. **LLM: Suggest Images & Layouts**: Visual content planning
-5. **Fetch Images**: Download via SerpAPI, resize to 16:9
-6. **Inject Images & Layouts**: Merge visuals into script
-7. **Validate & Render**: Generate silent video (MP4)
-8. **LLM: Generate Narration**: Per-slide voice script
-9. **TTS & Audio Padding**: edge-tts synthesis
-10. **Merge, Report & Cleanup**: Final video with audio
-
-## Resilience Features
-
-- **Per-step retries**: Up to 3 attempts with exponential backoff
-- **Checkpoints**: JSON snapshots after each step
-- **Rollback**: Restore previous checkpoint on failure
-- **Fallbacks**: Degraded functionality (e.g., shapes instead of images)
-- **Error logging**: Detailed JSON logs per job
-- **Degraded mode**: Continue with >5 errors, mark status
-
-## Project Structure
-
-```
-coursemaker/
-├── app.py              # Streamlit UI entry point
-├── api.py              # FastAPI endpoints (optional)
-├── workflow.py         # 11-step resilient workflow
-├── prompts.py          # GDOT-DOT system prompts
-├── db.py               # SQLAlchemy models
-├── logger.py           # Error logging utilities
-├── requirements.txt    # Python dependencies
-├── .env.example        # Environment template
-├── .env                # Your config (create this)
-└── data/               # Created at runtime
-    ├── md_videos.db    # SQLite database
-    ├── checkpoints/    # Step checkpoints
-    ├── errors.json     # Error logs
-    └── outputs/        # Generated videos
-```
-
-## Troubleshooting
-
-### Manim not found
-Ensure Manim is installed and in PATH:
 ```bash
-manim --version
+# Install gTTS
+pip install gTTS
+
+# Generate audio
+python -c "
+from gtts import gTTS
+text = open('narration_script.txt').read()
+tts = gTTS(text, lang='en', slow=False)
+tts.save('narration.mp3')
+"
+
+# Combine with video (same FFmpeg command as above)
 ```
 
-### FFmpeg errors
-Install FFmpeg and verify:
+---
+
+## 🔧 Common Issues
+
+| Issue | Quick Fix | Details |
+|-------|-----------|---------|
+| **FFmpeg not found** | `brew install ffmpeg` (macOS) | See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) #1 |
+| **Wrong Manim version** | `pip install manim==0.18.0` | See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) #2 |
+| **Image download fails** | Download manually | See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) #3 |
+| **Font errors** | Use `font="DejaVu Sans"` | See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) #4 |
+| **Slow rendering** | Use `-ql` flag for testing | See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) #10 |
+
+📘 **Full troubleshooting guide:** [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
+
+---
+
+## 🔄 Alternative Approaches
+
+If Manim is not available or you prefer different tools:
+
+### 1. Static Slides + FFmpeg
+- Uses Pillow to generate PNG frames
+- Assembles with FFmpeg
+- ✅ No Manim dependency
+- ❌ No smooth animations
+
+### 2. Reveal.js + Screen Recording
+- HTML presentation framework
+- Record screen to create video
+- ✅ Very easy to set up
+- ⚠️ Requires screen recording software
+
+📘 **Full alternative guides:** [ALTERNATIVE_APPROACHES.md](ALTERNATIVE_APPROACHES.md)
+
+---
+
+## 📊 Render Quality Options
+
+| Command | Quality | Resolution | FPS | Render Time | File Size |
+|---------|---------|------------|-----|-------------|-----------|
+| `manim -pql` | Low (preview) | 480p | 15 | ~30-60s | ~5 MB |
+| `manim -pqm` | Medium | 720p | 30 | ~1-2 min | ~10 MB |
+| `manim -pqh` | **High** ⭐ | 1080p | 60 | ~2-5 min | ~20 MB |
+| `manim -pqp` | Production | 1440p | 60 | ~5-10 min | ~35 MB |
+| `manim -pqk` | 4K | 2160p | 60 | ~10-15 min | ~60 MB |
+
+**Recommended:** Use `-pql` for testing, `-pqh` for final render.
+
+---
+
+## 🎯 Workflow Recommendations
+
+### For Rapid Iteration
+
 ```bash
-ffmpeg -version
+# Edit script
+nano page5_7_explainer.py
+
+# Quick preview (low quality)
+manim -pql page5_7_explainer.py ExplainerScene
+
+# If satisfied, render final
+manim -qh page5_7_explainer.py ExplainerScene
 ```
 
-### API key errors
-Check `.env` file has valid keys without quotes:
+### For Production
+
+```bash
+# Final high-quality render
+manim -qh page5_7_explainer.py ExplainerScene
+
+# Add voiceover
+ffmpeg -i media/videos/page5_7_explainer/1080p60/ExplainerScene.mp4 \
+       -i narration.mp3 -c:v copy -c:a aac \
+       final_output.mp4
+
+# Verify output
+ffprobe final_output.mp4
 ```
-GROQ_API_KEY=gsk_...
-SERPAPI_KEY=...
-```
 
-## License
+---
 
-MIT License
+## 📚 Additional Resources
 
+### Manim Documentation
+- **Official Docs:** https://docs.manim.community/
+- **Tutorial:** https://docs.manim.community/en/stable/tutorials.html
+- **Discord Community:** https://discord.gg/manim
+- **Example Gallery:** https://docs.manim.community/en/stable/examples.html
+
+### FFmpeg Resources
+- **Official Site:** https://ffmpeg.org/
+- **Documentation:** https://ffmpeg.org/documentation.html
+- **Cheat Sheet:** https://github.com/yuanqing/ffmpeg-cheatsheet
+
+### Python Libraries Used
+- **Manim:** https://github.com/ManimCommunity/manim
+- **Requests:** https://requests.readthedocs.io/
+- **Pillow:** https://pillow.readthedocs.io/
+
+---
+
+## 🤝 Contributing & Customization
+
+### Want to Extend This Project?
+
+**Add More Pages:**
+1. Identify new page ranges in the markdown file
+2. Create new scene methods in `page5_7_explainer.py`
+3. Add to `construct()` method
+4. Update narration script
+
+**Change Visual Style:**
+- Edit color schemes (lines with `color=BLUE`, `color=YELLOW`)
+- Modify fonts (add `font="Your Font"` to `Text()` calls)
+- Adjust layouts (change positioning with `.shift()`, `.to_edge()`)
+
+**Add New Animations:**
+- Check Manim documentation for animation types
+- Examples: `FadeIn`, `GrowFromCenter`, `Indicate`, `Flash`
+
+---
+
+## 📝 License & Attribution
+
+### Source Material
+- **Manual:** "Basic Highway Plan Reading" by Georgia DOT
+- **Revised:** October 1, 2020
+- **Copyright:** Georgia Department of Transportation
+
+### This Script
+- **Created:** December 24, 2024
+- **License:** Educational use only
+- **Tools:** Manim Community Edition (MIT License)
+
+---
+
+## ✅ Success Checklist
+
+Before considering the project complete:
+
+- [ ] Python 3.8+ installed
+- [ ] FFmpeg installed and working
+- [ ] Manim v0.18.0+ installed
+- [ ] All 4 images downloaded successfully
+- [ ] Video renders without errors
+- [ ] Output is 60-65 seconds long
+- [ ] Resolution is 1920x1080 @ 60fps
+- [ ] All 6 scenes display correctly
+- [ ] Text is readable and properly aligned
+- [ ] Images appear at correct sizes
+- [ ] Transitions are smooth
+- [ ] (Optional) Voiceover added and synced
+
+---
+
+## 🆘 Need Help?
+
+1. **Check Troubleshooting Guide:** [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
+2. **Review Installation Guide:** [INSTALLATION_AND_USAGE.md](INSTALLATION_AND_USAGE.md)
+3. **Try Alternative Approaches:** [ALTERNATIVE_APPROACHES.md](ALTERNATIVE_APPROACHES.md)
+4. **Search Manim Discord:** https://discord.gg/manim
+5. **Post Issue with Details:**
+   - Python version (`python --version`)
+   - Manim version (`manim --version`)
+   - FFmpeg version (`ffmpeg -version`)
+   - Full error traceback
+
+---
+
+## 🎉 Final Notes
+
+This project demonstrates how to create educational technical videos programmatically using Manim. The same approach can be scaled to:
+
+- Create series of videos for entire chapters
+- Automate video generation from documentation
+- Build interactive learning materials
+- Generate consistent branded content
+
+**Estimated Total Time:**
+- Setup: 5-10 minutes
+- First render: 2-5 minutes
+- Adding voiceover: 10-15 minutes
+- **Total:** ~20-30 minutes from scratch to finished video
+
+---
+
+**Last Updated:** December 24, 2024  
+**Version:** 1.0  
+**Compatibility:** Manim Community v0.18.0+, Python 3.8+, FFmpeg 4.4+

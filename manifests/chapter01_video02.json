@@ -1,0 +1,108 @@
+{
+  "chapter": 1,
+  "video": 2,
+  "pages": "2-4",
+  "title": "The Cover Sheet",
+  "topics": [
+    "What the Cover Sheet is",
+    "Information contained on the Cover Sheet",
+    "Project description and P.I. Numbers"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Title/Introduction",
+      "source_pages": "2",
+      "source_text": "Chapter 1, Video 2: The Cover Sheet",
+      "image_paths": [],
+      "bullets": [
+        "Cover Sheet overview",
+        "Essential project information",
+        "Front page of plans"
+      ],
+      "narration_text": "Welcome back to Basic Highway Plan Reading. In this video, we'll take a detailed look at the Cover Sheet, which is the front page of any set of construction plans. The Cover Sheet contains essential project information that you'll reference throughout your work. Let's explore what you'll find there.",
+      "tts_file": "audio/ch1_v2_scene_01.wav",
+      "duration": null
+    },
+    {
+      "index": 2,
+      "title": "What is a Cover Sheet",
+      "source_pages": "2-3",
+      "source_text": "The Cover Sheet is the first sheet in any set of highway construction plans.",
+      "image_paths": ["assets/images/chapter1/figure_1_1.jpg"],
+      "bullets": [
+        "First sheet in plans",
+        "Project overview at glance",
+        "Title page and summary"
+      ],
+      "narration_text": "The Cover Sheet is the first sheet in any set of highway construction plans. As you can see in the image on screen, it provides a comprehensive overview of the entire project at a glance.\n\nThink of the Cover Sheet as the title page and summary combined. It contains identification information, location details, and key project parameters that set the context for everything that follows in the plan set.",
+      "tts_file": "audio/ch1_v2_scene_02.wav",
+      "duration": null
+    },
+    {
+      "index": 3,
+      "title": "Cover Sheet Elements",
+      "source_pages": "3",
+      "source_text": "The Cover Sheet contains numerous important elements.",
+      "image_paths": ["assets/images/chapter1/figure_1_2.jpg"],
+      "bullets": [
+        "Project name and number",
+        "Location sketch and layout",
+        "Signature and revision boxes"
+      ],
+      "narration_text": "The Cover Sheet contains numerous important elements. Let's walk through them as shown on screen.\n\nYou'll find the Project name, Project number, and Project Identification Number, also known as the P.I. Number. The County and Congressional district are listed, along with a standard note directing attention to the Georgia DOT Standard Specification Book.\n\nAdditional elements include the Project location sketch, a box containing revisions, and the project limits shown in large scale. You'll also see the Length of Project box, Federal and State Route Numbers when applicable, and signature boxes for those responsible for the design.\n\nIf space permits, the Cover Sheet may also include a Legend, a Sheet Layout Diagram, and an Index for smaller projects.",
+      "tts_file": "audio/ch1_v2_scene_03.wav",
+      "duration": null
+    },
+    {
+      "index": 4,
+      "title": "Project Description",
+      "source_pages": "3-4",
+      "source_text": "The Project Description tells you exactly what the project involves.",
+      "image_paths": [],
+      "bullets": [
+        "Project scope and location",
+        "Geographic context",
+        "Route identification"
+      ],
+      "narration_text": "Now let's look at the Project Description in detail. As displayed on screen, this section tells you exactly what the project involves and where it's located.\n\nIn our example, the project is for construction of State Route 16 in Spalding and Butts Counties. The description provides the geographic context you need to understand the project's scope and location.\n\nThe Project Identification Number, or P.I. Number, is a unique identifier assigned to each project. In this example, the Program Identification Number is 332520.",
+      "tts_file": "audio/ch1_v2_scene_04.wav",
+      "duration": null
+    },
+    {
+      "index": 5,
+      "title": "P.I. Numbers and Project Numbers",
+      "source_pages": "4",
+      "source_text": "Some projects may have multiple P.I. Numbers.",
+      "image_paths": [],
+      "bullets": [
+        "Unique project identifiers",
+        "Multiple P.I. Numbers possible",
+        "Federal and State routes"
+      ],
+      "narration_text": "Let's discuss Project Numbers in more detail. Some projects, like this example, may have multiple P.I. Numbers if they involve different funding sources or project components.\n\nThe project number for P.I. Number 332520 is STP-IM-022-1(26). There's also a second P.I. Number for an interstate bridge widening component. However, not all projects will have multiple P.I. Numbers.\n\nAlso note whether the project has a Federal Route Number, a State Route Number, or both. This project has only a State Route Number of 16. These identifiers help track and organize the project within the state's transportation system.",
+      "tts_file": "audio/ch1_v2_scene_05.wav",
+      "duration": null
+    },
+    {
+      "index": 6,
+      "title": "Summary",
+      "source_pages": "4",
+      "source_text": "Summary of Cover Sheet basics",
+      "image_paths": [],
+      "bullets": [
+        "Starting point for projects",
+        "Key identification info",
+        "Route and P.I. Numbers"
+      ],
+      "narration_text": "To summarize, the Cover Sheet is your starting point for understanding any highway construction project.\n\nYou've learned that it contains project identification information, location details, route numbers, and references to specifications. You now know how to find the project description and interpret P.I. Numbers and Project Numbers.\n\nIn the next video, we'll explore additional Cover Sheet elements including the location sketch, layout view, and identification boxes.",
+      "tts_file": "audio/ch1_v2_scene_06.wav",
+      "duration": null
+    }
+  ],
+  "images": {
+    "figure_1_1": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/ddb56e09976ec69fdd20ab21dc84e58d5b4028f35fb851299a574d24508fc150.jpg",
+    "figure_1_2": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/58966cfcfe9fd560a7a2c4cfc8772c8239f36114ab22e616e7797f8de01c9cf4.jpg"
+  },
+  "total_duration": null
+}
