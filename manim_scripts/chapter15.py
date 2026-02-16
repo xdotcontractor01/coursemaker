@@ -29,7 +29,7 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 MANIFEST_PATH = PROJECT_ROOT / "manifests/chapter15.json"
 AUDIO_DIR = PROJECT_ROOT / "audio"
 ASSETS_DIR = PROJECT_ROOT / "assets/images"
-LOGO_PATH = PROJECT_ROOT / "test_workflow/GDOT LOGO For Video watermark - 200x110.svg"
+LOGO_PATH = PROJECT_ROOT / "assets/logo/gdot_watermark.svg"
 AUDIO_BUFFER = 0.12
 IMAGE_SCALE_FACTOR = 0.55
 

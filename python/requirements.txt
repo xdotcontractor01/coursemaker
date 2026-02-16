@@ -1,7 +1,0 @@
-manim
-edge-tts
-moviepy
-
-
-
-

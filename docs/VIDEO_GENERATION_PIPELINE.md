@@ -164,7 +164,7 @@ These rules are enforced programmatically in the Manim scripts and must be prese
 | **Color scheme** | Dark-on-light for readability on white: titles in `#1565C0` (blue), headings in `#2E7D32` (green), body in `#212121` (dark gray), accents in `#C62828` (red), muted in `#616161` | Constants block in each script |
 | **Font sizes** | Main title: 52pt, section title: 44pt, subtitle: 30pt, body/bullet: 28pt | `MAIN_TITLE_FONT_SIZE`, `TITLE_FONT_SIZE`, `SUBTITLE_FONT_SIZE`, `BULLET_FONT_SIZE` |
 | **Line spacing** | 0.35 Manim units between bullet lines | `LINE_SPACING = 0.35` |
-| **Logo watermark** | GDOT SVG logo placed statically on each scene | `LOGO_PATH = PROJECT_ROOT / "test_workflow/GDOT LOGO For Video watermark - 200x110.svg"` |
+| **Logo watermark** | GDOT SVG logo placed statically on each scene | `LOGO_PATH = PROJECT_ROOT / "assets/logo/gdot_watermark.svg"` |
 | **Image scaling** | Downloaded images scaled to 55% by default | `IMAGE_SCALE_FACTOR = 0.55` |
 
 ### Audio Synchronization Rules
@@ -474,7 +474,7 @@ The following files and directories are **excluded from Git** via `.gitignore`. 
 | **Workflow data** | `data/` | Per-job working directories, checkpoints, SQLite database |
 | **Archive bundles** | `*.zip` | Convenience snapshots of generated outputs; not source |
 | **Virtual environments** | `venv/`, `coqui_test_env/` | Local Python environments; platform-specific |
-| **Test outputs** | `test_output/`, `test_output_aligned/`, `test_coqui_output/` | Scratch directories from development experiments |
+| **Test outputs** | `test_output/`, `test_coqui_output/` | Scratch directories from development experiments |
 | **OS files** | `.DS_Store`, `Thumbs.db` | Operating system metadata |
 | **IDE config** | `.vscode/`, `.idea/` | Per-developer editor settings |
 
@@ -487,10 +487,10 @@ The following files and directories are **excluded from Git** via `.gitignore`. 
 | **Core application** | `api.py`, `app.py`, `workflow.py`, `db.py`, `logger.py`, `prompts.py`, `smart_content_injector.py`, `setup.py`, `run.py` |
 | **Manifest JSON** | `manifests/chapter*.json`, `manifests/sanitization_map_chapter*.json` |
 | **Narration source** | `narration/*.py`, `narration/narration_script.txt` |
-| **Frontend** | `src/`, `package.json`, `vite.config.js`, `tailwind.config.js`, `postcss.config.js` |
-| **Tests** | `tests/` |
+| **Logo asset** | `assets/logo/gdot_watermark.svg` |
+| **Config** | `env.example`, `LICENSE`, `.gitignore` |
 | **Documentation** | `docs/*.md`, `unified_lessons/README.md`, `unified_lessons/CONTENT_SOURCE_REFERENCE.md`, `README.md` |
-| **Config** | `requirements.txt`, `env.example`, `LICENSE`, `.gitignore` |
+| **Dependencies** | `requirements.txt` |
 
 ---
 
@@ -592,6 +592,6 @@ This documentation was generated based on code inspection. The following enginee
 
 1. **Chapter 1 manifests are considered source** because they use a separate per-video file pattern and appear to have been manually curated, unlike the generated `course_content/` JSON.
 2. **Sanitization maps in `manifests/`** (`sanitization_map_chapter05.json` through `sanitization_map_chapter07.json`) are treated as tracked source because they were created during the extraction phase for chapters 5–7 and stored alongside manifests — distinct from the `sanitization/` directory which holds generated maps for later chapters.
-3. **The `test_workflow/` directory** contains source reference material (including the GDOT logo SVG and source Markdown) and is assumed to be tracked.
+3. **The GDOT logo SVG** has been relocated from the former `test_workflow/` directory to `assets/logo/gdot_watermark.svg` and is tracked.
 4. **The `narration/` directory** contains Python source files for Chapter 1 narration and is treated as tracked source code.
 5. **Unified lesson JSON files** are treated as generated artifacts because they are the output of `build_unified_lessons.py`, but the accompanying Markdown files (`README.md`, `CONTENT_SOURCE_REFERENCE.md`) are tracked documentation.

@@ -65,7 +65,7 @@ coqui_test_env/
 *.webp
 
 # Exception: keep the GDOT logo SVG used as a watermark
-!test_workflow/GDOT LOGO For Video watermark - 200x110.svg
+!assets/logo/gdot_watermark.svg
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -199,9 +199,8 @@ node_modules/
 !unified_lessons/README.md
 !unified_lessons/CONTENT_SOURCE_REFERENCE.md
 
-# Requirements / dependency manifests
+# Requirements
 !requirements.txt
-!python/requirements.txt
 
 # The narration script text file (source, not generated)
 !narration/narration_script.txt

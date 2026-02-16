@@ -17,9 +17,9 @@ def check_feasibility():
     results = {}
     
     # Check source files
-    markdown_path = PROJECT_ROOT / "test_workflow/MinerU_markdown_BasicHiwyPlanReading (1)_20251224155959_2003737404334637056.md"
-    pdf_path = PROJECT_ROOT / "test_workflow/BasicHiwyPlanReading (1).pdf"
-    logo_path = PROJECT_ROOT / "test_workflow/GDOT LOGO For Video watermark - 200x110.svg"
+    markdown_path = PROJECT_ROOT / "docs/MinerU_markdown_BasicHiwyPlanReading (1)_20260129005532_2016555753310150656.md"
+    pdf_path = PROJECT_ROOT / "docs/BasicHiwyPlanReading (1).pdf"
+    logo_path = PROJECT_ROOT / "assets/logo/gdot_watermark.svg"
     
     # Check markdown
     if markdown_path.exists():

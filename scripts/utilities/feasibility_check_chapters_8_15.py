@@ -24,7 +24,7 @@ def check_feasibility():
     issues = []
     
     # 1. Check markdown file
-    markdown_path = PROJECT_ROOT / "test_workflow/MinerU_markdown_BasicHiwyPlanReading (1)_20251224155959_2003737404334637056.md"
+    markdown_path = PROJECT_ROOT / "docs/MinerU_markdown_BasicHiwyPlanReading (1)_20260129005532_2016555753310150656.md"
     print(f"\n[1] Checking markdown file...")
     if markdown_path.exists():
         size_kb = markdown_path.stat().st_size / 1024
@@ -35,7 +35,7 @@ def check_feasibility():
         all_passed = False
     
     # 2. Check PDF file
-    pdf_path = PROJECT_ROOT / "test_workflow/BasicHiwyPlanReading (1).pdf"
+    pdf_path = PROJECT_ROOT / "docs/BasicHiwyPlanReading (1).pdf"
     print(f"\n[2] Checking PDF file...")
     if pdf_path.exists():
         size_mb = pdf_path.stat().st_size / (1024 * 1024)
@@ -46,7 +46,7 @@ def check_feasibility():
         all_passed = False
     
     # 3. Check logo file (SVG)
-    logo_path = PROJECT_ROOT / "test_workflow/GDOT LOGO For Video watermark - 200x110.svg"
+    logo_path = PROJECT_ROOT / "assets/logo/gdot_watermark.svg"
     print(f"\n[3] Checking logo file...")
     if logo_path.exists():
         print(f"    OK: Logo SVG exists")

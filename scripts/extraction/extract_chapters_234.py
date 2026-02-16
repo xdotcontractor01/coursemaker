@@ -11,7 +11,7 @@ from pathlib import Path
 # Get the project root (two levels up from this script)
 SCRIPT_DIR = Path(__file__).parent.resolve()
 PROJECT_ROOT = SCRIPT_DIR.parent.parent
-MARKDOWN_FILE = str(PROJECT_ROOT / "test_workflow/MinerU_markdown_BasicHiwyPlanReading (1)_20251224155959_2003737404334637056.md")
+MARKDOWN_FILE = str(PROJECT_ROOT / "docs/MinerU_markdown_BasicHiwyPlanReading (1)_20260129005532_2016555753310150656.md")
 MANIFESTS_DIR = PROJECT_ROOT / "manifests"
 
 # Image URLs extracted from markdown

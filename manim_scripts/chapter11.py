@@ -28,7 +28,7 @@ SCRIPT_DIR = Path(__file__).parent.resolve()
 PROJECT_ROOT = SCRIPT_DIR.parent
 MANIFEST_PATH = PROJECT_ROOT / "manifests/chapter11.json"
 AUDIO_DIR = PROJECT_ROOT / "audio"
-LOGO_PATH = PROJECT_ROOT / "test_workflow/GDOT LOGO For Video watermark - 200x110.svg"
+LOGO_PATH = PROJECT_ROOT / "assets/logo/gdot_watermark.svg"
 AUDIO_BUFFER = 0.12
 
 # Layout constants
