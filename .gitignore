@@ -1,74 +1,207 @@
-# Environment
+# ==============================================================================
+# .gitignore — coursemaker (GDOT Educational Video Generator)
+# ==============================================================================
+# Philosophy: Only source code, manifests, and documentation belong in Git.
+# All media (video, audio, images), generated JSON outputs, logs, caches,
+# virtual environments, and temporary files are reproduced locally from the
+# tracked code + manifests.  Keep this file in sync with any new pipeline steps.
+# ==============================================================================
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 1. ENVIRONMENT & SECRETS
+# ─────────────────────────────────────────────────────────────────────────────
+# API keys and local config — never commit secrets.
 .env
 *.env.local
 config.json
 
-# Python
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 2. PYTHON RUNTIME ARTIFACTS
+# ─────────────────────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
-venv/
-ENV/
 *.egg-info/
 dist/
 build/
 
-# Data and outputs
+# Virtual environments (including coqui_test_env created locally)
+env/
+venv/
+ENV/
+coqui_test_env/
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 3. GENERATED MEDIA — Videos, Audio, Images
+# ─────────────────────────────────────────────────────────────────────────────
+# These are the primary outputs of the pipeline and are fully reproducible
+# from manifests + scripts.  They can be tens of GB combined.
+
+# Video files (Manim renders, final outputs)
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.webm
+
+# Audio files (OpenAI TTS output)
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# Image assets downloaded from CDN URLs during the pipeline
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.webp
+
+# Exception: keep the GDOT logo SVG used as a watermark
+!test_workflow/GDOT LOGO For Video watermark - 200x110.svg
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 4. GENERATED ASSET DIRECTORIES
+# ─────────────────────────────────────────────────────────────────────────────
+# These entire directories are populated by pipeline scripts.
+
+# TTS audio output (generate_audio.py, generate_chapters_*_audio.py)
+audio/
+
+# Downloaded chapter images (download_chapters_*_images.py)
+assets/images/
+
+# Manim render cache and intermediate frames
+media/
+
+# Final rendered video outputs (render_chapters_*.py)
+outputs/
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 5. GENERATED JSON / DATA OUTPUTS
+# ─────────────────────────────────────────────────────────────────────────────
+# These directories contain JSON produced by the content-generation and quiz
+# pipeline (generate_course_content_quizzes.py, build_unified_lessons.py).
+# They are fully reproducible from manifests + markdown source.
+
+# Course content JSON per lesson (manifests/course_content/ChapterXX_videoYY/)
+manifests/course_content/
+
+# Quiz JSON per lesson (quizzes/ChapterXX_videoYY/)
+quizzes/
+
+# Unified lesson JSON files (merged course content + quizzes)
+unified_lessons/*.json
+
+# Sanitization maps generated during extraction
+sanitization/
+
+# Review CSVs for low-confidence quiz questions
+review/
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 6. WORKFLOW DATA & DATABASE
+# ─────────────────────────────────────────────────────────────────────────────
+# The Streamlit/FastAPI workflow engine stores per-job working files here.
 data/
 *.db
 *.sqlite
 *.sqlite3
 
-# IDE
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 7. LOGS & TEMPORARY FILES
+# ─────────────────────────────────────────────────────────────────────────────
+# Logs are written by logger.py and the backend.
+*.log
+logs/
+app.log
+
+# Temporary directories
+tmp/
+temp/
+*.tmp
+temp_*/
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 8. TEST & SCRATCH OUTPUTS
+# ─────────────────────────────────────────────────────────────────────────────
+# Test render outputs and experiment directories.
+test_output/
+test_output_aligned/
+test_coqui_output/
+checkpoints/
+
+# Verification scripts (one-off checks, not part of main pipeline)
+verify_*.py
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 9. ARCHIVES / LARGE BINARY BUNDLES
+# ─────────────────────────────────────────────────────────────────────────────
+# Zipped snapshots of generated outputs — not source code.
+*.zip
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 10. IDE & EDITOR FILES
+# ─────────────────────────────────────────────────────────────────────────────
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+.cursor/
 
-# OS
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 11. OS-SPECIFIC FILES
+# ─────────────────────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
+Desktop.ini
+ehthumbs.db
 
-# Logs
-*.log
-logs/
 
-# Temporary files
-tmp/
-temp/
-*.tmp
-
-# Media files (outputs)
-*.mp4
-*.mp3
-*.wav
-*.png
-*.jpg
-*.jpeg
-*.gif
-
-# Checkpoints
-checkpoints/
-
-# Jupyter
+# ─────────────────────────────────────────────────────────────────────────────
+# 12. JUPYTER NOTEBOOKS
+# ─────────────────────────────────────────────────────────────────────────────
 .ipynb_checkpoints/
 *.ipynb
 
-# Test files
-verify_*.py
 
-# Test outputs
-test_output/
-media/
-temp_*/
+# ─────────────────────────────────────────────────────────────────────────────
+# 13. NODE / FRONTEND BUILD ARTIFACTS
+# ─────────────────────────────────────────────────────────────────────────────
+node_modules/
 
-# Documentation (except README, docs/, and requirements)
-*.md
+
+# ─────────────────────────────────────────────────────────────────────────────
+# EXPLICIT INCLUSIONS (override patterns above)
+# ─────────────────────────────────────────────────────────────────────────────
+# These files MUST be tracked despite matching an ignore pattern above.
+
+# Documentation (Markdown is the primary documentation format)
 !README.md
+!docs/**/*.md
 !docs/*.md
-*.txt
+!unified_lessons/README.md
+!unified_lessons/CONTENT_SOURCE_REFERENCE.md
+
+# Requirements / dependency manifests
 !requirements.txt
+!python/requirements.txt
+
+# The narration script text file (source, not generated)
+!narration/narration_script.txt

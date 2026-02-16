@@ -1,0 +1,95 @@
+{
+  "chapter": 10,
+  "pages": "69-70",
+  "title": "Signing, Pavement Markings, Signals, Lighting, Landscaping",
+  "lessons": 1,
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Introduction",
+      "source_pages": "69",
+      "source_text": "Plans are also prepared consisting of signs and pavement markings.",
+      "image_paths": [],
+      "bullets": [
+        "Signs and pavement markings",
+        "Traffic signals and lighting",
+        "Landscaping plans"
+      ],
+      "narration_text": "Welcome to Chapter Ten of Basic Highway Plan Reading. \nThis chapter covers Signing and Pavement Markings, Traffic Signals, Highway Lighting, and Landscaping. \nThese elements are critical for driver safety and guidance. \nSign and pavement marking plans are normally in the same general format as roadway plans. \nAll permanent roadway signs and pavement markings are placed on the plans \nas they should appear upon completion of the project.",
+      "narration_sanitized": "Welcome to Chapter Ten of Basic Highway Plan Reading. \nThis chapter covers Signing and Pavement Markings, Traffic Signals, Highway Lighting, and Landscaping. \nThese elements are critical for driver safety and guidance. \nSign and pavement marking plans are normally in the same general format as roadway plans. \nAll permanent roadway signs and pavement markings are placed on the plans \nas they should appear upon completion of the project.",
+      "narration_raw": "Welcome to Chapter Ten of Basic Highway Plan Reading. \nThis chapter covers Signing and Pavement Markings, Traffic Signals, Highway Lighting, and Landscaping. \nThese elements are critical for driver safety and guidance. \nSign and pavement marking plans are normally in the same general format as roadway plans. \nAll permanent roadway signs and pavement markings are placed on the plans \nas they should appear upon completion of the project.",
+      "tts_file": "audio/ch10_scene01.wav",
+      "duration": 27.2125
+    },
+    {
+      "index": 2,
+      "title": "Pavement Markings",
+      "source_pages": "69",
+      "source_text": "All required pavement markings are depicted on the plans including the color, width, and spacing.",
+      "image_paths": [],
+      "bullets": [
+        "Color, width, and spacing",
+        "Arrows and hatching",
+        "Reference standards noted"
+      ],
+      "narration_text": "All required pavement markings are depicted on the plans including color, width, and spacing. \nCall-outs may identify the type of each line on plan sheets. \nAll required arrows and hatching in accordance with Department Standards are included. \nWhile each arrow may not be labeled, at least one note referencing the applicable standard \nis included on each sheet. A summary of quantities for overhead signs typically follows \nthe sign and pavement marking plans.",
+      "narration_sanitized": "All required pavement markings are depicted on the plans including color, width, and spacing. \nCall-outs may identify the type of each line on plan sheets. \nAll required arrows and hatching in accordance with Department Standards are included. \nWhile each arrow may not be labeled, at least one note referencing the applicable standard \nis included on each sheet. A summary of quantities for overhead signs typically follows \nthe sign and pavement marking plans.",
+      "narration_raw": "All required pavement markings are depicted on the plans including color, width, and spacing. \nCall-outs may identify the type of each line on plan sheets. \nAll required arrows and hatching in accordance with Department Standards are included. \nWhile each arrow may not be labeled, at least one note referencing the applicable standard \nis included on each sheet. A summary of quantities for overhead signs typically follows \nthe sign and pavement marking plans.",
+      "tts_file": "audio/ch10_scene02.wav",
+      "duration": 28.2
+    },
+    {
+      "index": 3,
+      "title": "Traffic Signals",
+      "source_pages": "69",
+      "source_text": "The signalization plans will show the complete site layout, equipment details, electrical circuitry, signal phasing.",
+      "image_paths": [],
+      "bullets": [
+        "Complete site layout",
+        "Electrical circuitry",
+        "Signal phasing details"
+      ],
+      "narration_text": "Traffic signal plans show the complete site layout, equipment details, \nelectrical circuitry, signal phasing, and other relevant data. \nA separate plan sheet is provided for each intersection requiring signalization. \nA summary table shows the items needed for each intersection, including the name of the item, \nmethod of payment, and quantity to be used for each installation.",
+      "narration_sanitized": "Traffic signal plans show the complete site layout, equipment details, \nelectrical circuitry, signal phasing, and other relevant data. \nA separate plan sheet is provided for each intersection requiring signalization. \nA summary table shows the items needed for each intersection, including the name of the item, \nmethod of payment, and quantity to be used for each installation.",
+      "narration_raw": "Traffic signal plans show the complete site layout, equipment details, \nelectrical circuitry, signal phasing, and other relevant data. \nA separate plan sheet is provided for each intersection requiring signalization. \nA summary table shows the items needed for each intersection, including the name of the item, \nmethod of payment, and quantity to be used for each installation.",
+      "tts_file": "audio/ch10_scene03.wav",
+      "duration": 23.275
+    },
+    {
+      "index": 4,
+      "title": "Lighting and Landscaping",
+      "source_pages": "69-70",
+      "source_text": "Highway lighting plans are required when a project involves lighting improvements.",
+      "image_paths": [],
+      "bullets": [
+        "Lighting construction details",
+        "High mast requirements",
+        "Landscape planting plans"
+      ],
+      "narration_text": "Highway lighting plans are required when a project involves lighting improvements. \nThese plans provide construction details, electrical circuit tabulations, pole data summaries, \nluminaire type and intensity, foundations, and other lighting-related data. \nFor high mast lighting, soil survey and foundation design are required. \nLandscaping plans, when required, include an overall site plan, planting plans, \nplanting details, and irrigation plans.",
+      "narration_sanitized": "Highway lighting plans are required when a project involves lighting improvements. \nThese plans provide construction details, electrical circuit tabulations, pole data summaries, \nluminaire type and intensity, foundations, and other lighting-related data. \nFor high mast lighting, soil survey and foundation design are required. \nLandscaping plans, when required, include an overall site plan, planting plans, \nplanting details, and irrigation plans.",
+      "narration_raw": "Highway lighting plans are required when a project involves lighting improvements. \nThese plans provide construction details, electrical circuit tabulations, pole data summaries, \nluminaire type and intensity, foundations, and other lighting-related data. \nFor high mast lighting, soil survey and foundation design are required. \nLandscaping plans, when required, include an overall site plan, planting plans, \nplanting details, and irrigation plans.",
+      "tts_file": "audio/ch10_scene04.wav",
+      "duration": 26.925
+    },
+    {
+      "index": 5,
+      "title": "Summary",
+      "source_pages": "70",
+      "source_text": "Summary of Chapter 10",
+      "image_paths": [],
+      "bullets": [
+        "Markings show details",
+        "Signal plans per intersection",
+        "Lighting and landscaping"
+      ],
+      "narration_text": "Let's review Chapter Ten. Sign and pavement marking plans follow the same format as roadway plans. \nPavement markings show color, width, and spacing. Traffic signal plans include complete layouts \nand electrical details for each intersection. Lighting plans cover all electrical and foundation requirements. \nLandscaping plans include site plans, planting plans, and irrigation details. \nIn the next chapter, we'll cover maintenance of traffic and staging.",
+      "narration_sanitized": "Let's review Chapter Ten. Sign and pavement marking plans follow the same format as roadway plans. \nPavement markings show color, width, and spacing. Traffic signal plans include complete layouts \nand electrical details for each intersection. Lighting plans cover all electrical and foundation requirements. \nLandscaping plans include site plans, planting plans, and irrigation details. \nIn the next chapter, we'll cover maintenance of traffic and staging.",
+      "narration_raw": "Let's review Chapter Ten. Sign and pavement marking plans follow the same format as roadway plans. \nPavement markings show color, width, and spacing. Traffic signal plans include complete layouts \nand electrical details for each intersection. Lighting plans cover all electrical and foundation requirements. \nLandscaping plans include site plans, planting plans, and irrigation details. \nIn the next chapter, we'll cover maintenance of traffic and staging.",
+      "tts_file": "audio/ch10_scene05.wav",
+      "duration": 28.0875
+    }
+  ],
+  "images": {},
+  "total_duration": 133.7
+}

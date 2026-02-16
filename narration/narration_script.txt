@@ -1,0 +1,121 @@
+HIGHWAY PLAN READING: PAGES 5-7 EXPLAINER
+Narration Script with Timestamps
+================================================================================
+
+SCENE 1: TITLE/INTRO
+[0:00-0:05]
+"Let's explore the essential elements of a highway cover sheet."
+
+--------------------------------------------------------------------------------
+
+SCENE 2: PROJECT LOCATION SKETCH
+[0:05-0:18]
+"The location sketch provides a bird's-eye view of where the project is 
+situated. It shows the approximate project limits on a geographical map, and 
+you'll find it in the upper left corner of the cover sheet."
+
+--------------------------------------------------------------------------------
+
+SCENE 3: LAYOUT VIEW
+[0:18-0:30]
+"The layout view is what you'd see if you were flying over the project looking 
+down. This plan view marks the beginning and ending stations of the roadway, 
+giving you a clear picture of the project's extent."
+
+--------------------------------------------------------------------------------
+
+SCENE 4: SHEET IDENTIFICATION
+[0:30-0:43]
+"Every sheet in a plan set has an identification box in the upper right corner. 
+This box lists the state, the unique project number, the current sheet number, 
+and the total number of sheets in the entire plan set."
+
+--------------------------------------------------------------------------------
+
+SCENE 5: ENGINEERING SCALE
+[0:43-0:58]
+"Plans use engineer's scales to fit large highway projects onto manageable 
+sheets. Each scale division represents a specific distance, like 10 or 20 feet 
+per inch. Common scales include 1 inch equals 10 feet, 1 inch equals 20 feet, 
+or even larger multiples like 100 feet."
+
+--------------------------------------------------------------------------------
+
+SCENE 6: SUMMARY/OUTRO
+[0:58-0:65]
+"Now you understand the key elements found on pages 5 through 7 of highway plan 
+cover sheets."
+
+================================================================================
+TOTAL WORD COUNT: ~137 words
+TOTAL RUNTIME: 65 seconds
+AVERAGE PACE: ~126 words per minute (conversational pace)
+
+================================================================================
+TIPS FOR RECORDING VOICEOVER:
+
+1. PACING: Speak clearly and at a moderate pace. These timings assume 
+   conversational speed (~120-140 words/minute).
+
+2. PAUSES: Add natural pauses after each sentence, especially before 
+   transitioning between concepts.
+
+3. EMPHASIS: Emphasize key terms like "location sketch," "layout view," 
+   "sheet identification box," and "engineer's scale."
+
+4. TONE: Keep tone educational but friendly - you're teaching someone who 
+   may have no prior knowledge of highway plans.
+
+5. PRONUNCIATION:
+   - "Stationing" = STAY-shun-ing
+   - "Engineer's scale" = en-juh-NEERZ skayl
+
+6. TECHNICAL TERMS TO DEFINE BRIEFLY (already included in script):
+   - Plan view: "looking down from above"
+   - Stations: "project measurement points"
+   - Scale: "how much real distance each inch represents"
+
+================================================================================
+ALTERNATIVE TTS OPTIONS:
+
+If using Text-to-Speech instead of human recording:
+
+1. Google Cloud TTS (recommended):
+   - Voice: en-US-Neural2-J (male) or en-US-Neural2-C (female)
+   - Speaking rate: 0.95x (slightly slower than normal)
+   
+2. Amazon Polly:
+   - Voice: Matthew (male) or Joanna (female)
+   - Engine: Neural
+   
+3. Open Source (gTTS):
+   - Language: en
+   - Slow: False
+   - Note: Quality is lower but free
+
+================================================================================
+TIMING SYNC WITH MANIM:
+
+The Manim script includes wait() calls that align with these timestamps.
+Each scene's wait time is calibrated to match the narration duration.
+
+If you record your own voiceover:
+1. Import audio file in video editing software
+2. Align audio with the rendered Manim video
+3. Trim/adjust timing as needed
+
+Alternatively, add audio to Manim using:
+   self.add_sound("narration.mp3", time_offset=0)
+
+================================================================================
+
+
+
+
+
+
+
+
+
+
+

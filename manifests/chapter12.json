@@ -1,0 +1,114 @@
+{
+  "chapter": 12,
+  "pages": "73-76",
+  "title": "Erosion, Sedimentation, and Pollution Control Plans (ESPCP)",
+  "lessons": 1,
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Introduction to ESPCP",
+      "source_pages": "73",
+      "source_text": "Steep embankments, ditches, or other exposed surfaces require erosion control.",
+      "image_paths": [],
+      "bullets": [
+        "Prevent soil erosion",
+        "Wind, water, freeze-thaw",
+        "Various control measures"
+      ],
+      "narration_text": "Welcome to Chapter Twelve of Basic Highway Plan Reading. \nThis chapter covers Erosion, Sedimentation, and Pollution Control Plans, often abbreviated ESPCP. \nSteep embankments, ditches, or other exposed surfaces adjacent to a roadway require erosion control \nto prevent soil from eroding due to wind, water, and freeze-thaw action. \nMeasures such as grassing, silt fence, paved ditches, straw mulch, silt gates, \nand soil reinforcing mats may be used depending on the need.",
+      "narration_sanitized": "Welcome to Chapter Twelve of Basic Highway Plan Reading. \nThis chapter covers Erosion, Sedimentation, and Pollution Control Plans, often abbreviated ESPCP. \nSteep embankments, ditches, or other exposed surfaces adjacent to a roadway require erosion control \nto prevent soil from eroding due to wind, water, and freeze-thaw action. \nMeasures such as grassing, silt fence, paved ditches, straw mulch, silt gates, \nand soil reinforcing mats may be used depending on the need.",
+      "narration_raw": "Welcome to Chapter Twelve of Basic Highway Plan Reading. \nThis chapter covers Erosion, Sedimentation, and Pollution Control Plans, often abbreviated ESPCP. \nSteep embankments, ditches, or other exposed surfaces adjacent to a roadway require erosion control \nto prevent soil from eroding due to wind, water, and freeze-thaw action. \nMeasures such as grassing, silt fence, paved ditches, straw mulch, silt gates, \nand soil reinforcing mats may be used depending on the need.",
+      "tts_file": "audio/ch12_scene01.wav",
+      "duration": 28.75
+    },
+    {
+      "index": 2,
+      "title": "When ESPCP is Required",
+      "source_pages": "73",
+      "source_text": "If the total project disturbs less than one (1) acres only a set of BMP Location Details are prepared.",
+      "image_paths": [
+        "assets/images/chapter12/figure_12_1.jpg"
+      ],
+      "bullets": [
+        "Less than 1 acre: BMP only",
+        "1 acre or more: full ESPCP",
+        "Structural or vegetative BMPs"
+      ],
+      "narration_text": "ESPCP requirements depend on project size. \nIf the total project disturbs less than one acre, only a set of Best Management Practices, \nor BMP Location Details, are prepared and included in construction plans. \nBMPs are either structural, like rip-rap or paved ditches, or vegetative, like grassing or sod. \nIf the project disturbs one acre or more, a standalone erosion control package is required, \nplaced at the back of the final construction plans.",
+      "narration_sanitized": "ESPCP requirements depend on project size. \nIf the total project disturbs less than one acre, only a set of Best Management Practices, \nor BMP Location Details, are prepared and included in construction plans. \nBMPs are either structural, like rip-rap or paved ditches, or vegetative, like grassing or sod. \nIf the project disturbs one acre or more, a standalone erosion control package is required, \nplaced at the back of the final construction plans.",
+      "narration_raw": "ESPCP requirements depend on project size. \nIf the total project disturbs less than one acre, only a set of Best Management Practices, \nor BMP Location Details, are prepared and included in construction plans. \nBMPs are either structural, like rip-rap or paved ditches, or vegetative, like grassing or sod. \nIf the project disturbs one acre or more, a standalone erosion control package is required, \nplaced at the back of the final construction plans.",
+      "tts_file": "audio/ch12_scene02.wav",
+      "duration": 27.575
+    },
+    {
+      "index": 3,
+      "title": "ESPCP Contents",
+      "source_pages": "74",
+      "source_text": "Included in ESPCP standalone package you should find: Cover Sheet, General Note Sheet, Drainage Area Map, BMP Plan Sheets.",
+      "image_paths": [
+        "assets/images/chapter12/figure_12_2.jpg"
+      ],
+      "bullets": [
+        "Cover and note sheets",
+        "Drainage area map",
+        "BMP plan sheets"
+      ],
+      "narration_text": "The ESPCP standalone package includes several sheets: a Cover Sheet, General Note Sheet, \nDrainage Area Map, and BMP Plan Sheets. As shown in Figure 12-2, these sheets use the same scale \nand matchlines as the construction plans. Erosion control measures are identified by standard symbols. \nExamples include CO for construction exit, SD for temporary sediment basin, \nand CH for channel stabilization. All required measures are found in construction details.",
+      "narration_sanitized": "The ESPCP standalone package includes several sheets: a Cover Sheet, General Note Sheet, \nDrainage Area Map, and BMP Plan Sheets. As shown in Figure 12-2, these sheets use the same scale \nand matchlines as the construction plans. Erosion control measures are identified by standard symbols. \nExamples include CO for construction exit, SD for temporary sediment basin, \nand CH for channel stabilization. All required measures are found in construction details.",
+      "narration_raw": "The ESPCP standalone package includes several sheets: a Cover Sheet, General Note Sheet, \nDrainage Area Map, and BMP Plan Sheets. As shown in Figure 12-2, these sheets use the same scale \nand matchlines as the construction plans. Erosion control measures are identified by standard symbols. \nExamples include CO for construction exit, SD for temporary sediment basin, \nand CH for channel stabilization. All required measures are found in construction details.",
+      "tts_file": "audio/ch12_scene03.wav",
+      "duration": 28.4625
+    },
+    {
+      "index": 4,
+      "title": "Contractor Responsibilities",
+      "source_pages": "74-75",
+      "source_text": "The contractor is responsible for revising the plans if there are changes to staging.",
+      "image_paths": [],
+      "bullets": [
+        "Revise plans for changes",
+        "Responsible for borrow pits",
+        "Haul roads and waste pits"
+      ],
+      "narration_text": "While the Department of Transportation provides the erosion control plans, \ncontractors have specific responsibilities. If there are any changes to staging, \nthe contractor is responsible for revising the plans. \nAdditionally, contractors are responsible for ESPCP for borrow pits, haul roads, and waste pits. \nBerm ditches may require concrete ditch paving as erosion control measures, \nwith limits and quantities noted in the Summary of Quantities.",
+      "narration_sanitized": "While the Department of Transportation provides the erosion control plans, \ncontractors have specific responsibilities. If there are any changes to staging, \nthe contractor is responsible for revising the plans. \nAdditionally, contractors are responsible for ESPCP for borrow pits, haul roads, and waste pits. \nBerm ditches may require concrete ditch paving as erosion control measures, \nwith limits and quantities noted in the Summary of Quantities.",
+      "narration_raw": "While the Department of Transportation provides the erosion control plans, \ncontractors have specific responsibilities. If there are any changes to staging, \nthe contractor is responsible for revising the plans. \nAdditionally, contractors are responsible for ESPCP for borrow pits, haul roads, and waste pits. \nBerm ditches may require concrete ditch paving as erosion control measures, \nwith limits and quantities noted in the Summary of Quantities.",
+      "tts_file": "audio/ch12_scene04.wav",
+      "duration": 27.4
+    },
+    {
+      "index": 5,
+      "title": "Summary",
+      "source_pages": "75-76",
+      "source_text": "Summary of Chapter 12: ESPCP",
+      "image_paths": [],
+      "bullets": [
+        "Required for 1+ acres",
+        "Specification Section 161",
+        "Contractor responsibilities"
+      ],
+      "narration_text": "To summarize Chapter Twelve, ESPCP are required when a project disturbs one acre or more. \nThese plans follow Department Specification Section 161. Erosion control measures include grassing, \nsilt fence, paved ditches, straw mulch, and many others. \nContractors must revise plans when staging changes and are responsible for erosion control \nat borrow pits, haul roads, and waste pits. \nIn the next chapter, we'll cover Cross Sections.",
+      "narration_sanitized": "To summarize Chapter Twelve, ESPCP are required when a project disturbs one acre or more. \nThese plans follow Department Specification Section 161. Erosion control measures include grassing, \nsilt fence, paved ditches, straw mulch, and many others. \nContractors must revise plans when staging changes and are responsible for erosion control \nat borrow pits, haul roads, and waste pits. \nIn the next chapter, we'll cover Cross Sections.",
+      "narration_raw": "To summarize Chapter Twelve, ESPCP are required when a project disturbs one acre or more. \nThese plans follow Department Specification Section 161. Erosion control measures include grassing, \nsilt fence, paved ditches, straw mulch, and many others. \nContractors must revise plans when staging changes and are responsible for erosion control \nat borrow pits, haul roads, and waste pits. \nIn the next chapter, we'll cover Cross Sections.",
+      "tts_file": "audio/ch12_scene05.wav",
+      "duration": 27.1375
+    }
+  ],
+  "images": {
+    "figure_12_1": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/9ec25266da8ac3fbe34df8fef2f794392cc50ddb484d274e47539d5e8d9381a5.jpg",
+        "local_path": "assets/images/chapter12/figure_12_1.jpg"
+      },
+      "local_path": "assets/images/chapter12/figure_12_1.jpg"
+    },
+    "figure_12_2": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/a0fd1a3827f9255319af2d8a3f443dad97ed5f83eda2189c499642c20e2d28c8.jpg",
+        "local_path": "assets/images/chapter12/figure_12_2.jpg"
+      },
+      "local_path": "assets/images/chapter12/figure_12_2.jpg"
+    }
+  },
+  "total_duration": 139.325
+}

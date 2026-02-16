@@ -1,0 +1,257 @@
+{
+  "chapter": 13,
+  "pages": "77-84",
+  "title": "Cross Sections",
+  "lessons": 2,
+  "lesson_boundaries": {
+    "lesson_01": {
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "title": "Cross Sections and Earthwork"
+    },
+    "lesson_02": {
+      "scenes": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "title": "Grade, Slopes, and Slope Stakes"
+    }
+  },
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Introduction to Cross Sections",
+      "source_pages": "77",
+      "source_text": "Cross Sections depict the existing ground conditions as sections perpendicular to the construction centerline.",
+      "image_paths": [],
+      "bullets": [
+        "Perpendicular to centerline",
+        "Existing and proposed shown",
+        "Scale 1 inch = 100 feet"
+      ],
+      "narration_text": "Welcome to Chapter Thirteen of Basic Highway Plan Reading. \nThis chapter covers Cross Sections, which depict existing ground conditions \nas sections perpendicular to the construction centerline. \nThe proposed cross-sectional outline of the new roadway with all its elements is also shown. \nStandard Cross Section Plan Sheets use a recommended scale of 1 inch equals 100 feet \nor 1 inch equals 200 feet. Understanding cross sections is essential for earthwork calculations.",
+      "narration_sanitized": "Welcome to Chapter Thirteen of Basic Highway Plan Reading. \nThis chapter covers Cross Sections, which depict existing ground conditions \nas sections perpendicular to the construction centerline. \nThe proposed cross-sectional outline of the new roadway with all its elements is also shown. \nStandard Cross Section Plan Sheets use a recommended scale of 1 inch equals 100 feet \nor 1 inch equals 200 feet. Understanding cross sections is essential for earthwork calculations.",
+      "narration_raw": "Welcome to Chapter Thirteen of Basic Highway Plan Reading. \nThis chapter covers Cross Sections, which depict existing ground conditions \nas sections perpendicular to the construction centerline. \nThe proposed cross-sectional outline of the new roadway with all its elements is also shown. \nStandard Cross Section Plan Sheets use a recommended scale of 1 inch equals 100 feet \nor 1 inch equals 200 feet. Understanding cross sections is essential for earthwork calculations.",
+      "tts_file": "audio/ch13_scene01.wav",
+      "duration": 30.075
+    },
+    {
+      "index": 2,
+      "title": "Cross Section Elements",
+      "source_pages": "77",
+      "source_text": "Existing ground lines are shown with a dashed line. The proposed roadway template is shown with a solid line.",
+      "image_paths": [],
+      "bullets": [
+        "Dashed for existing",
+        "Solid for proposed",
+        "Station numbers in heavy type"
+      ],
+      "narration_text": "Existing ground lines are shown with a dashed line, while proposed roadway templates \nuse solid lines. The existing ground elevation at the profile grade line is noted below the ground line. \nExisting construction such as pavements, curbs, and sidewalks are shown with dashed lines. \nThe station number is normally shown in heavy numbers to the right of or below the cross section. \nProfile grade elevations are shown vertically above the profile grade line.",
+      "narration_sanitized": "Existing ground lines are shown with a dashed line, while proposed roadway templates \nuse solid lines. The existing ground elevation at the profile grade line is noted below the ground line. \nExisting construction such as pavements, curbs, and sidewalks are shown with dashed lines. \nThe station number is normally shown in heavy numbers to the right of or below the cross section. \nProfile grade elevations are shown vertically above the profile grade line.",
+      "narration_raw": "Existing ground lines are shown with a dashed line, while proposed roadway templates \nuse solid lines. The existing ground elevation at the profile grade line is noted below the ground line. \nExisting construction such as pavements, curbs, and sidewalks are shown with dashed lines. \nThe station number is normally shown in heavy numbers to the right of or below the cross section. \nProfile grade elevations are shown vertically above the profile grade line.",
+      "tts_file": "audio/ch13_scene02.wav",
+      "duration": 28.5625
+    },
+    {
+      "index": 3,
+      "title": "Earthwork",
+      "source_pages": "77-78",
+      "source_text": "Earthwork is usually a costly item in highway construction.",
+      "image_paths": [
+        "assets/images/chapter13/figure_13_1.jpg",
+        "assets/images/chapter13/figure_13_2.jpg"
+      ],
+      "bullets": [
+        "Cubic yards of dirt",
+        "Cut and fill sections",
+        "Costly item in construction"
+      ],
+      "narration_text": "Figure 13-1 illustrates typical terrain for a two-lane roadway, conveying depth \nthat a plan view cannot show. Earthwork, measured in cubic yards, changes from station to station. \nBecause earthwork is costly, it must be carefully estimated using cross section plan sheets. \nFigure 13-2 shows examples of cut and fill cross sections. A cross section may be all cut, all fill, \nor part cut and part fill. The designer combines the typical section with the existing ground \nto determine cut and fill areas.",
+      "narration_sanitized": "Figure 13-1 illustrates typical terrain for a two-lane roadway, conveying depth \nthat a plan view cannot show. Earthwork, measured in cubic yards, changes from station to station. \nBecause earthwork is costly, it must be carefully estimated using cross section plan sheets. \nFigure 13-2 shows examples of cut and fill cross sections. A cross section may be all cut, all fill, \nor part cut and part fill. The designer combines the typical section with the existing ground \nto determine cut and fill areas.",
+      "narration_raw": "Figure 13-1 illustrates typical terrain for a two-lane roadway, conveying depth \nthat a plan view cannot show. Earthwork, measured in cubic yards, changes from station to station. \nBecause earthwork is costly, it must be carefully estimated using cross section plan sheets. \nFigure 13-2 shows examples of cut and fill cross sections. A cross section may be all cut, all fill, \nor part cut and part fill. The designer combines the typical section with the existing ground \nto determine cut and fill areas.",
+      "tts_file": "audio/ch13_scene03.wav",
+      "duration": 31.625
+    },
+    {
+      "index": 4,
+      "title": "Typical Sections and Volume",
+      "source_pages": "78-79",
+      "source_text": "The typical section represents an end view of the pavement necessary to carry the type and volume of traffic.",
+      "image_paths": [
+        "assets/images/chapter13/figure_13_3.jpg",
+        "assets/images/chapter13/figure_13_4.jpg",
+        "assets/images/chapter13/figure_13_6.jpg"
+      ],
+      "bullets": [
+        "Typical section for traffic",
+        "Combine with ground section",
+        "Volume by end area method"
+      ],
+      "narration_text": "As shown in Figures 13-3 and 13-4, the typical section represents an end view \nof the pavement necessary for the designed traffic volume. The cross section of the original ground \nis distinctive for every location along the centerline. By combining the typical section \nwith the original ground cross section, you can determine cut and fill areas. \nFigure 13-6 shows how volume is calculated by multiplying depth by the average of end areas.",
+      "narration_sanitized": "As shown in Figures 13-3 and 13-4, the typical section represents an end view \nof the pavement necessary for the designed traffic volume. The cross section of the original ground \nis distinctive for every location along the centerline. By combining the typical section \nwith the original ground cross section, you can determine cut and fill areas. \nFigure 13-6 shows how volume is calculated by multiplying depth by the average of end areas.",
+      "narration_raw": "As shown in Figures 13-3 and 13-4, the typical section represents an end view \nof the pavement necessary for the designed traffic volume. The cross section of the original ground \nis distinctive for every location along the centerline. By combining the typical section \nwith the original ground cross section, you can determine cut and fill areas. \nFigure 13-6 shows how volume is calculated by multiplying depth by the average of end areas.",
+      "tts_file": "audio/ch13_scene04.wav",
+      "duration": 28.425
+    },
+    {
+      "index": 5,
+      "title": "Grade",
+      "source_pages": "80",
+      "source_text": "The profile grade elevation listed for a station is the top elevation.",
+      "image_paths": [],
+      "bullets": [
+        "Profile grade is top elevation",
+        "Ditch grade shown below",
+        "Verify with plan sheets"
+      ],
+      "narration_text": "The profile grade elevation is the top elevation listed on cross sections. \nThe lower elevation shows the finished grade for the ditch. The smaller elevation shown \njust below the profile grade is the existing grade. You can verify elevations by comparing \nthe cross section sheet with the plan and profile sheets. \nThe profile grade is typically at the center of the median for divided highways.",
+      "narration_sanitized": "The profile grade elevation is the top elevation listed on cross sections. \nThe lower elevation shows the finished grade for the ditch. The smaller elevation shown \njust below the profile grade is the existing grade. You can verify elevations by comparing \nthe cross section sheet with the plan and profile sheets. \nThe profile grade is typically at the center of the median for divided highways.",
+      "narration_raw": "The profile grade elevation is the top elevation listed on cross sections. \nThe lower elevation shows the finished grade for the ditch. The smaller elevation shown \njust below the profile grade is the existing grade. You can verify elevations by comparing \nthe cross section sheet with the plan and profile sheets. \nThe profile grade is typically at the center of the median for divided highways.",
+      "tts_file": "audio/ch13_scene05.wav",
+      "duration": 24.05
+    },
+    {
+      "index": 6,
+      "title": "Slopes",
+      "source_pages": "80-81",
+      "source_text": "Slopes are usually referred to as cut slopes, fill slopes, and side slopes.",
+      "image_paths": [
+        "assets/images/chapter13/figure_13_7.jpg",
+        "assets/images/chapter13/figure_13_8.jpg"
+      ],
+      "bullets": [
+        "Cut, fill, and side slopes",
+        "Ratio horizontal to vertical",
+        "2:1 slope common"
+      ],
+      "narration_text": "Slopes are referred to as cut slopes or back slopes, fill slopes, and side slopes \nor front slopes. A cut slope runs from the drainage ditch to the top of the cut. \nA fill slope runs from the shoulder point to the toe of the fill. \nSlopes are measured as a ratio of horizontal distance versus vertical distance. \nA 2:1 slope means for every 2 feet horizontal, the elevation changes 1 foot vertical. \nFigure 13-7 shows various slope configurations used on cross sections.",
+      "narration_sanitized": "Slopes are referred to as cut slopes or back slopes, fill slopes, and side slopes \nor front slopes. A cut slope runs from the drainage ditch to the top of the cut. \nA fill slope runs from the shoulder point to the toe of the fill. \nSlopes are measured as a ratio of horizontal distance versus vertical distance. \nA 2:1 slope means for every 2 feet horizontal, the elevation changes 1 foot vertical. \nFigure 13-7 shows various slope configurations used on cross sections.",
+      "narration_raw": "Slopes are referred to as cut slopes or back slopes, fill slopes, and side slopes \nor front slopes. A cut slope runs from the drainage ditch to the top of the cut. \nA fill slope runs from the shoulder point to the toe of the fill. \nSlopes are measured as a ratio of horizontal distance versus vertical distance. \nA 2:1 slope means for every 2 feet horizontal, the elevation changes 1 foot vertical. \nFigure 13-7 shows various slope configurations used on cross sections.",
+      "tts_file": "audio/ch13_scene06.wav",
+      "duration": 30.375
+    },
+    {
+      "index": 7,
+      "title": "Slope Stakes",
+      "source_pages": "81-83",
+      "source_text": "Slope stakes contain information that tells the Contractor how much cut or fill is required.",
+      "image_paths": [
+        "assets/images/chapter13/figure_13_10.jpg",
+        "assets/images/chapter13/figure_13_11.jpg"
+      ],
+      "bullets": [
+        "Cut or fill amount",
+        "Distance to centerline",
+        "Station on back of stake"
+      ],
+      "narration_text": "Slope stakes contain information telling the contractor how much cut or fill is required \nfrom the stake to the ditch line or shoulder point. They are placed at the intersection \nof the cut or fill slope with the natural ground line. As shown in Figures 13-9 through 13-11, \nthe front of the stake shows cut or fill indicator, amount of cut or fill, \ndistance to centerline, rate of slope, and superelevation rate if in a curve. \nThe station number appears on the back of the stake.",
+      "narration_sanitized": "Slope stakes contain information telling the contractor how much cut or fill is required \nfrom the stake to the ditch line or shoulder point. They are placed at the intersection \nof the cut or fill slope with the natural ground line. As shown in Figures 13-9 through 13-11, \nthe front of the stake shows cut or fill indicator, amount of cut or fill, \ndistance to centerline, rate of slope, and superelevation rate if in a curve. \nThe station number appears on the back of the stake.",
+      "narration_raw": "Slope stakes contain information telling the contractor how much cut or fill is required \nfrom the stake to the ditch line or shoulder point. They are placed at the intersection \nof the cut or fill slope with the natural ground line. As shown in Figures 13-9 through 13-11, \nthe front of the stake shows cut or fill indicator, amount of cut or fill, \ndistance to centerline, rate of slope, and superelevation rate if in a curve. \nThe station number appears on the back of the stake.",
+      "tts_file": "audio/ch13_scene07.wav",
+      "duration": 30.0
+    },
+    {
+      "index": 8,
+      "title": "Summary",
+      "source_pages": "83-84",
+      "source_text": "Summary of Chapter 13: Cross Sections",
+      "image_paths": [],
+      "bullets": [
+        "Existing vs proposed lines",
+        "End area volume method",
+        "Slope stake information"
+      ],
+      "narration_text": "Let's review Chapter Thirteen on Cross Sections. \nCross sections depict both existing ground and proposed roadway perpendicular to the centerline. \nExisting features use dashed lines while proposed uses solid lines. \nEarthwork volumes are calculated using the end area method from cross sections. \nSlopes are expressed as ratios of horizontal to vertical distance. \nSlope stakes provide cut and fill information at specific locations. \nIn the next chapter, we'll cover Standards and Details.",
+      "narration_sanitized": "Let's review Chapter Thirteen on Cross Sections. \nCross sections depict both existing ground and proposed roadway perpendicular to the centerline. \nExisting features use dashed lines while proposed uses solid lines. \nEarthwork volumes are calculated using the end area method from cross sections. \nSlopes are expressed as ratios of horizontal to vertical distance. \nSlope stakes provide cut and fill information at specific locations. \nIn the next chapter, we'll cover Standards and Details.",
+      "narration_raw": "Let's review Chapter Thirteen on Cross Sections. \nCross sections depict both existing ground and proposed roadway perpendicular to the centerline. \nExisting features use dashed lines while proposed uses solid lines. \nEarthwork volumes are calculated using the end area method from cross sections. \nSlopes are expressed as ratios of horizontal to vertical distance. \nSlope stakes provide cut and fill information at specific locations. \nIn the next chapter, we'll cover Standards and Details.",
+      "tts_file": "audio/ch13_scene08.wav",
+      "duration": 29.675
+    }
+  ],
+  "images": {
+    "figure_13_1": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/852e96733fdf325eb4b6943b315d92033028130c0500155133bfffa2af1add63.jpg",
+        "local_path": "assets/images/chapter13/figure_13_1.jpg"
+      },
+      "local_path": "assets/images/chapter13/figure_13_1.jpg"
+    },
+    "figure_13_2": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/312ac2236c505eee59b847d1b2c1a30e892cd0808bd82e1bc4a5035548952ce5.jpg",
+        "local_path": "assets/images/chapter13/figure_13_2.jpg"
+      },
+      "local_path": "assets/images/chapter13/figure_13_2.jpg"
+    },
+    "figure_13_3": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/a9052e717436eed508312b1b4c3befb328664fb948bb1b4ba9fcddca2e92bddc.jpg",
+        "local_path": "assets/images/chapter13/figure_13_3.jpg"
+      },
+      "local_path": "assets/images/chapter13/figure_13_3.jpg"
+    },
+    "figure_13_4": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/92e81ce0cbdbd77511780d2db10ba47ae565b32788568f3874ef01110fa9e2a4.jpg",
+        "local_path": "assets/images/chapter13/figure_13_4.jpg"
+      },
+      "local_path": "assets/images/chapter13/figure_13_4.jpg"
+    },
+    "figure_13_5": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/6469bba3d96229502ca95c420bb3e3f98ae644242a6d0f6b50ed8a64eb9cfdd3.jpg",
+        "local_path": "assets/images/chapter13/figure_13_5.jpg"
+      },
+      "local_path": "assets/images/chapter13/figure_13_5.jpg"
+    },
+    "figure_13_6": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/8572d4f6bb2099bdc70c90d6b4f822d5f073bb9838843a8730e179c344fc4d54.jpg",
+        "local_path": "assets/images/chapter13/figure_13_6.jpg"
+      },
+      "local_path": "assets/images/chapter13/figure_13_6.jpg"
+    },
+    "figure_13_7": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/cd00551920c41de5e77b0ce2f753e6718eda5a7bbe6b07502e95bb05f8b63f07.jpg",
+        "local_path": "assets/images/chapter13/figure_13_7.jpg"
+      },
+      "local_path": "assets/images/chapter13/figure_13_7.jpg"
+    },
+    "figure_13_8": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/0e404dee5ba2f2ac17c5720687f1dbc6b3289bc126d27d5425d16382f2416240.jpg",
+        "local_path": "assets/images/chapter13/figure_13_8.jpg"
+      },
+      "local_path": "assets/images/chapter13/figure_13_8.jpg"
+    },
+    "figure_13_9": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/b371cd49ceb49d2eb58894e8051eb91e7f5d0de00e7fbff86f4ebbb3b547c9fe.jpg",
+        "local_path": "assets/images/chapter13/figure_13_9.jpg"
+      },
+      "local_path": "assets/images/chapter13/figure_13_9.jpg"
+    },
+    "figure_13_10": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/8121b25ce112bf78a37b06d0b9b271c7fd0c450a0f07b1c33edb11924b79a6c2.jpg",
+        "local_path": "assets/images/chapter13/figure_13_10.jpg"
+      },
+      "local_path": "assets/images/chapter13/figure_13_10.jpg"
+    },
+    "figure_13_11": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/8cefae52eab9fde386c0c377504681b2d22b3ce5f85bab08fa0a83102d3d9e3c.jpg",
+        "local_path": "assets/images/chapter13/figure_13_11.jpg"
+      },
+      "local_path": "assets/images/chapter13/figure_13_11.jpg"
+    }
+  },
+  "total_duration": 232.78750000000002
+}

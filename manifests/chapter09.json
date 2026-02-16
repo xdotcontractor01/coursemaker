@@ -1,0 +1,61 @@
+{
+  "chapter": 9,
+  "pages": "67-68",
+  "title": "Utility Plans",
+  "lessons": 1,
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Introduction to Utility Plans",
+      "source_pages": "67",
+      "source_text": "Utility plans are used primarily to facilitate coordination between the construction contractor and utility companies.",
+      "image_paths": [],
+      "bullets": [
+        "Coordination with utilities",
+        "Existing and proposed locations",
+        "Avoid conflicts and damage"
+      ],
+      "narration_text": "Welcome to Chapter Nine of Basic Highway Plan Reading. \nThis chapter covers Utility Plans, which are used primarily to facilitate coordination \nbetween the construction contractor and utility companies having facilities in the roadway corridor. \nThe Department of Transportation is not involved in the relocation of utilities \nunless done under a Force Account. Utility plans show the contractor the approximate locations \nof existing, relocated, and proposed new utilities, helping identify and avoid conflicts or damage.",
+      "narration_sanitized": "Welcome to Chapter Nine of Basic Highway Plan Reading. \nThis chapter covers Utility Plans, which are used primarily to facilitate coordination \nbetween the construction contractor and utility companies having facilities in the roadway corridor. \nThe Department of Transportation is not involved in the relocation of utilities \nunless done under a Force Account. Utility plans show the contractor the approximate locations \nof existing, relocated, and proposed new utilities, helping identify and avoid conflicts or damage.",
+      "narration_raw": "Welcome to Chapter Nine of Basic Highway Plan Reading. \nThis chapter covers Utility Plans, which are used primarily to facilitate coordination \nbetween the construction contractor and utility companies having facilities in the roadway corridor. \nThe Department of Transportation is not involved in the relocation of utilities \nunless done under a Force Account. Utility plans show the contractor the approximate locations \nof existing, relocated, and proposed new utilities, helping identify and avoid conflicts or damage.",
+      "tts_file": "audio/ch09_scene01.wav",
+      "duration": 31.9
+    },
+    {
+      "index": 2,
+      "title": "Utility Plan Content",
+      "source_pages": "67",
+      "source_text": "These plans show the contractor the approximate locations of existing, relocated, and proposed new utilities.",
+      "image_paths": [],
+      "bullets": [
+        "Existing utility locations",
+        "Relocated and new utilities",
+        "Dig notification requirements"
+      ],
+      "narration_text": "Utility plans show the contractor the approximate locations of existing utilities, \nrelocated utilities, and proposed new utilities. This helps designers and contractors identify \npotential conflicts and avoid damage to facilities. Information is typically obtained from \nfield survey data or from the affected utility owner. \nAn example utility plan might show gas lines where one is being relocated \nwhile another remains in its original location. \nPipeline dig notification requirements are also noted on these plans.",
+      "narration_sanitized": "Utility plans show the contractor the approximate locations of existing utilities, \nrelocated utilities, and proposed new utilities. This helps designers and contractors identify \npotential conflicts and avoid damage to facilities. Information is typically obtained from \nfield survey data or from the affected utility owner. \nAn example utility plan might show gas lines where one is being relocated \nwhile another remains in its original location. \nPipeline dig notification requirements are also noted on these plans.",
+      "narration_raw": "Utility plans show the contractor the approximate locations of existing utilities, \nrelocated utilities, and proposed new utilities. This helps designers and contractors identify \npotential conflicts and avoid damage to facilities. Information is typically obtained from \nfield survey data or from the affected utility owner. \nAn example utility plan might show gas lines where one is being relocated \nwhile another remains in its original location. \nPipeline dig notification requirements are also noted on these plans.",
+      "tts_file": "audio/ch09_scene02.wav",
+      "duration": 31.2875
+    },
+    {
+      "index": 3,
+      "title": "Summary",
+      "source_pages": "67-68",
+      "source_text": "Summary of Chapter 9: Utility Plans",
+      "image_paths": [],
+      "bullets": [
+        "Approximate utility locations",
+        "Coordination is key",
+        "Protect existing utilities"
+      ],
+      "narration_text": "To summarize Chapter Nine, utility plans are essential for coordinating construction \nwith utility companies. These plans show approximate, not exact, locations of utilities. \nThe information comes from field surveys and utility owners. \nAs a contractor, you must use these plans to identify potential conflicts \nand protect existing utility infrastructure during construction. \nIn the next chapter, we'll cover signing, pavement markings, signals, lighting, and landscaping.",
+      "narration_sanitized": "To summarize Chapter Nine, utility plans are essential for coordinating construction \nwith utility companies. These plans show approximate, not exact, locations of utilities. \nThe information comes from field surveys and utility owners. \nAs a contractor, you must use these plans to identify potential conflicts \nand protect existing utility infrastructure during construction. \nIn the next chapter, we'll cover signing, pavement markings, signals, lighting, and landscaping.",
+      "narration_raw": "To summarize Chapter Nine, utility plans are essential for coordinating construction \nwith utility companies. These plans show approximate, not exact, locations of utilities. \nThe information comes from field surveys and utility owners. \nAs a contractor, you must use these plans to identify potential conflicts \nand protect existing utility infrastructure during construction. \nIn the next chapter, we'll cover signing, pavement markings, signals, lighting, and landscaping.",
+      "tts_file": "audio/ch09_scene03.wav",
+      "duration": 28.425
+    }
+  ],
+  "images": {},
+  "total_duration": 91.6125
+}

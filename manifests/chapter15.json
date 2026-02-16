@@ -1,0 +1,155 @@
+{
+  "chapter": 15,
+  "pages": "87-94",
+  "title": "Right of Way",
+  "lessons": 2,
+  "lesson_boundaries": {
+    "lesson_01": {
+      "scenes": [
+        1,
+        2,
+        3
+      ],
+      "title": "Introduction and Terms"
+    },
+    "lesson_02": {
+      "scenes": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "title": "Plan Sheets and Symbols"
+    }
+  },
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Introduction to Right of Way",
+      "source_pages": "87",
+      "source_text": "In order to construct any highway, the Right of Way Office must be successful in securing the needed land.",
+      "image_paths": [],
+      "bullets": [
+        "Secure land for highway",
+        "First contact with owners",
+        "Interpret plans for owners"
+      ],
+      "narration_text": "Welcome to Chapter Fifteen, the final chapter of Basic Highway Plan Reading. \nThis chapter covers Right of Way. To construct any highway, the Right of Way Office must secure \nthe needed land. Right of Way personnel are often the first official contact property owners have \nwith the Department. It's essential that they be competent in plan reading \nso they can properly interpret highway plans for property owners.",
+      "narration_sanitized": "Welcome to Chapter Fifteen, the final chapter of Basic Highway Plan Reading. \nThis chapter covers Right of Way. To construct any highway, the Right of Way Office must secure \nthe needed land. Right of Way personnel are often the first official contact property owners have \nwith the Department. It's essential that they be competent in plan reading \nso they can properly interpret highway plans for property owners.",
+      "narration_raw": "Welcome to Chapter Fifteen, the final chapter of Basic Highway Plan Reading. \nThis chapter covers Right of Way. To construct any highway, the Right of Way Office must secure \nthe needed land. Right of Way personnel are often the first official contact property owners have \nwith the Department. It's essential that they be competent in plan reading \nso they can properly interpret highway plans for property owners.",
+      "tts_file": "audio/ch15_scene01.wav",
+      "duration": 25.8
+    },
+    {
+      "index": 2,
+      "title": "Property Owner Concerns",
+      "source_pages": "87-88",
+      "source_text": "Property owners will ask questions regarding ingress and egress of a proposed highway.",
+      "image_paths": [],
+      "bullets": [
+        "Ingress and egress questions",
+        "Cuts and fills impact",
+        "Farm operation concerns"
+      ],
+      "narration_text": "Property owners have many concerns about highway projects. \nThey ask about ingress and egress, how cuts and fills affect their property, \nand how their residence or business will be impacted. Farmers are particularly interested \nin how fields and pastures will be divided, access to water, fencing relocation, \nlivestock movement, and construction timing relative to planting and harvest seasons. \nThe Right of Way Specialist must be able to answer these questions confidently.",
+      "narration_sanitized": "Property owners have many concerns about highway projects. \nThey ask about ingress and egress, how cuts and fills affect their property, \nand how their residence or business will be impacted. Farmers are particularly interested \nin how fields and pastures will be divided, access to water, fencing relocation, \nlivestock movement, and construction timing relative to planting and harvest seasons. \nThe Right of Way Specialist must be able to answer these questions confidently.",
+      "narration_raw": "Property owners have many concerns about highway projects. \nThey ask about ingress and egress, how cuts and fills affect their property, \nand how their residence or business will be impacted. Farmers are particularly interested \nin how fields and pastures will be divided, access to water, fencing relocation, \nlivestock movement, and construction timing relative to planting and harvest seasons. \nThe Right of Way Specialist must be able to answer these questions confidently.",
+      "tts_file": "audio/ch15_scene02.wav",
+      "duration": 29.35
+    },
+    {
+      "index": 3,
+      "title": "Right of Way Terms",
+      "source_pages": "88-91",
+      "source_text": "RIGHT OF WAY - this is a term denoting land, interest therein, or property which is acquired for highway purposes.",
+      "image_paths": [],
+      "bullets": [
+        "Partial vs total take",
+        "Types of easements",
+        "Limited access defined"
+      ],
+      "narration_text": "Right of Way has many specialized terms. Right of Way itself denotes land or interest \nacquired for highway purposes. A partial take means acquiring only a portion of a property, \nwhile a total take acquires the entire property. Easements grant the Department rights \nto use property for specific purposes and durations. Construction easements extend \nto the farthest limits of construction beyond right of way limits. \nLimited access means ingress and egress only at designated points.",
+      "narration_sanitized": "Right of Way has many specialized terms. Right of Way itself denotes land or interest \nacquired for highway purposes. A partial take means acquiring only a portion of a property, \nwhile a total take acquires the entire property. Easements grant the Department rights \nto use property for specific purposes and durations. Construction easements extend \nto the farthest limits of construction beyond right of way limits. \nLimited access means ingress and egress only at designated points.",
+      "narration_raw": "Right of Way has many specialized terms. Right of Way itself denotes land or interest \nacquired for highway purposes. A partial take means acquiring only a portion of a property, \nwhile a total take acquires the entire property. Easements grant the Department rights \nto use property for specific purposes and durations. Construction easements extend \nto the farthest limits of construction beyond right of way limits. \nLimited access means ingress and egress only at designated points.",
+      "tts_file": "audio/ch15_scene03.wav",
+      "duration": 30.2875
+    },
+    {
+      "index": 4,
+      "title": "Right of Way Plan Sheets",
+      "source_pages": "91",
+      "source_text": "Right of Way Plans are a separate set of plans from the construction Plans.",
+      "image_paths": [
+        "assets/images/chapter15/figure_15_1.jpg"
+      ],
+      "bullets": [
+        "Separate from construction",
+        "Two cover sheets",
+        "Shows property owners"
+      ],
+      "narration_text": "Right of Way Plans are separate from Construction Plans. As shown in Figure 15-1, \nthey include two cover sheets with sheet number differences from construction plans. \nSimilar to construction plans, a revision summary sheet is included. \nThe cover sheets show property owners instead of an index, with parcels identified \nby rectangular boxes with numbers. The plan view shows the project in relationship \nto property lines rather than topographical landmarks.",
+      "narration_sanitized": "Right of Way Plans are separate from Construction Plans. As shown in Figure 15-1, \nthey include two cover sheets with sheet number differences from construction plans. \nSimilar to construction plans, a revision summary sheet is included. \nThe cover sheets show property owners instead of an index, with parcels identified \nby rectangular boxes with numbers. The plan view shows the project in relationship \nto property lines rather than topographical landmarks.",
+      "narration_raw": "Right of Way Plans are separate from Construction Plans. As shown in Figure 15-1, \nthey include two cover sheets with sheet number differences from construction plans. \nSimilar to construction plans, a revision summary sheet is included. \nThe cover sheets show property owners instead of an index, with parcels identified \nby rectangular boxes with numbers. The plan view shows the project in relationship \nto property lines rather than topographical landmarks.",
+      "tts_file": "audio/ch15_scene04.wav",
+      "duration": 29.075
+    },
+    {
+      "index": 5,
+      "title": "Conventional Symbols",
+      "source_pages": "91-93",
+      "source_text": "Conventional Symbols - notice the slight variations among the various types of lines.",
+      "image_paths": [
+        "assets/images/chapter15/figure_15_2.jpg",
+        "assets/images/chapter15/figure_15_3.jpg"
+      ],
+      "bullets": [
+        "Line type variations",
+        "Land lot lines: LLL",
+        "Property lines: PL"
+      ],
+      "narration_text": "Right of Way plans use conventional symbols that differ from construction plans. \nAs shown in Figure 15-2, pay close attention to variations among line types. \nLand lot lines are thin dashed lines marked with LLL. Required Right of Way and Limit of Access lines \nare thicker than land lot lines. Property lines are thin solid lines broken by a single dash, \nmarked with PL. Existing right of way uses the same symbol as property lines but without the PL marking.",
+      "narration_sanitized": "Right of Way plans use conventional symbols that differ from construction plans. \nAs shown in Figure 15-2, pay close attention to variations among line types. \nLand lot lines are thin dashed lines marked with LLL. Required Right of Way and Limit of Access lines \nare thicker than land lot lines. Property lines are thin solid lines broken by a single dash, \nmarked with PL. Existing right of way uses the same symbol as property lines but without the PL marking.",
+      "narration_raw": "Right of Way plans use conventional symbols that differ from construction plans. \nAs shown in Figure 15-2, pay close attention to variations among line types. \nLand lot lines are thin dashed lines marked with LLL. Required Right of Way and Limit of Access lines \nare thicker than land lot lines. Property lines are thin solid lines broken by a single dash, \nmarked with PL. Existing right of way uses the same symbol as property lines but without the PL marking.",
+      "tts_file": "audio/ch15_scene05.wav",
+      "duration": 29.25
+    },
+    {
+      "index": 6,
+      "title": "Property Information",
+      "source_pages": "93-94",
+      "source_text": "Property information that details the right of way taking is shown on the plan sheet.",
+      "image_paths": [
+        "assets/images/chapter15/figure_15_4.jpg"
+      ],
+      "bullets": [
+        "Point, offset, distance",
+        "Station and bearing",
+        "Easements with diagonal shading"
+      ],
+      "narration_text": "Property information details are shown either on the same plan sheet as the property \nor on a separate sheet. As shown in Figure 15-4, the taking is described by point, offset and distance, \nstation and bearing, and alignment. The offset is from centerline, and distance is to the next \nright of way point. The alignment indicates which construction centerline is being used. \nConstruction and drive easements are marked with diagonal shadings on the plan sheets.",
+      "narration_sanitized": "Property information details are shown either on the same plan sheet as the property \nor on a separate sheet. As shown in Figure 15-4, the taking is described by point, offset and distance, \nstation and bearing, and alignment. The offset is from centerline, and distance is to the next \nright of way point. The alignment indicates which construction centerline is being used. \nConstruction and drive easements are marked with diagonal shadings on the plan sheets.",
+      "narration_raw": "Property information details are shown either on the same plan sheet as the property \nor on a separate sheet. As shown in Figure 15-4, the taking is described by point, offset and distance, \nstation and bearing, and alignment. The offset is from centerline, and distance is to the next \nright of way point. The alignment indicates which construction centerline is being used. \nConstruction and drive easements are marked with diagonal shadings on the plan sheets.",
+      "tts_file": "audio/ch15_scene06.wav",
+      "duration": 29.225
+    },
+    {
+      "index": 7,
+      "title": "Course Summary",
+      "source_pages": "94",
+      "source_text": "Summary of Chapter 15 and complete course",
+      "image_paths": [],
+      "bullets": [
+        "Course completion",
+        "Essential plan reading skills",
+        "Ready for highway work"
+      ],
+      "narration_text": "Congratulations! You've completed Basic Highway Plan Reading. \nThroughout this course, you've learned to read cover sheets, understand indexes and revisions, \ninterpret typical sections, read views and profiles, understand stationing and symbols, \nwork with drainage and cross sections, and understand right of way plans. \nThese skills are essential for anyone working in highway construction. \nThank you for completing this course, and best of luck in your career.",
+      "narration_sanitized": "Congratulations! You've completed Basic Highway Plan Reading. \nThroughout this course, you've learned to read cover sheets, understand indexes and revisions, \ninterpret typical sections, read views and profiles, understand stationing and symbols, \nwork with drainage and cross sections, and understand right of way plans. \nThese skills are essential for anyone working in highway construction. \nThank you for completing this course, and best of luck in your career.",
+      "narration_raw": "Congratulations! You've completed Basic Highway Plan Reading. \nThroughout this course, you've learned to read cover sheets, understand indexes and revisions, \ninterpret typical sections, read views and profiles, understand stationing and symbols, \nwork with drainage and cross sections, and understand right of way plans. \nThese skills are essential for anyone working in highway construction. \nThank you for completing this course, and best of luck in your career.",
+      "tts_file": "audio/ch15_scene07.wav",
+      "duration": 28.0875
+    }
+  ],
+  "images": {},
+  "total_duration": 201.075
+}

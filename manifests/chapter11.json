@@ -1,0 +1,78 @@
+{
+  "chapter": 11,
+  "pages": "71-72",
+  "title": "Maintenance of Traffic, Sequence of Operations, and Staging",
+  "lessons": 1,
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Introduction",
+      "source_pages": "71",
+      "source_text": "Special attention is given to constructability, traffic handling, detours, restrictions to traffic.",
+      "image_paths": [],
+      "bullets": [
+        "Traffic handling and detours",
+        "Hours of closure",
+        "Contractor responsibility"
+      ],
+      "narration_text": "Welcome to Chapter Eleven of Basic Highway Plan Reading. \nThis chapter covers Maintenance of Traffic, Sequence of Operations, and Staging. \nSpecial attention is given to constructability, traffic handling, detours, \nrestrictions to traffic, hours of closure or lane loss, and contractor responsibility. \nThe Traffic Control Plan complements the Traffic Control Specifications \nand the Manual of Uniform Traffic Control Devices.",
+      "narration_sanitized": "Welcome to Chapter Eleven of Basic Highway Plan Reading. \nThis chapter covers Maintenance of Traffic, Sequence of Operations, and Staging. \nSpecial attention is given to constructability, traffic handling, detours, \nrestrictions to traffic, hours of closure or lane loss, and contractor responsibility. \nThe Traffic Control Plan complements the Traffic Control Specifications \nand the Manual of Uniform Traffic Control Devices.",
+      "narration_raw": "Welcome to Chapter Eleven of Basic Highway Plan Reading. \nThis chapter covers Maintenance of Traffic, Sequence of Operations, and Staging. \nSpecial attention is given to constructability, traffic handling, detours, \nrestrictions to traffic, hours of closure or lane loss, and contractor responsibility. \nThe Traffic Control Plan complements the Traffic Control Specifications \nand the Manual of Uniform Traffic Control Devices.",
+      "tts_file": "audio/ch11_scene01.wav",
+      "duration": 26.025
+    },
+    {
+      "index": 2,
+      "title": "Traffic Control Plans",
+      "source_pages": "71",
+      "source_text": "Traffic Control Plan sheets for each stage of construction are prepared.",
+      "image_paths": [],
+      "bullets": [
+        "Stage-by-stage planning",
+        "Traffic flow patterns",
+        "Temporary barriers and pavements"
+      ],
+      "narration_text": "Traffic Control Plan sheets are prepared for each stage of construction \nusing information from plan sheets and intersection layouts. \nFor each construction stage, plans show roadway areas and major drainage structures to be constructed, \nalong with traffic flow patterns including lane widths. \nPlans indicate areas of temporary pavement, locations of temporary barriers, \nand any temporary drainage structures. \nA narrative of the sequence of construction and traffic handling for each stage is also included.",
+      "narration_sanitized": "Traffic Control Plan sheets are prepared for each stage of construction \nusing information from plan sheets and intersection layouts. \nFor each construction stage, plans show roadway areas and major drainage structures to be constructed, \nalong with traffic flow patterns including lane widths. \nPlans indicate areas of temporary pavement, locations of temporary barriers, \nand any temporary drainage structures. \nA narrative of the sequence of construction and traffic handling for each stage is also included.",
+      "narration_raw": "Traffic Control Plan sheets are prepared for each stage of construction \nusing information from plan sheets and intersection layouts. \nFor each construction stage, plans show roadway areas and major drainage structures to be constructed, \nalong with traffic flow patterns including lane widths. \nPlans indicate areas of temporary pavement, locations of temporary barriers, \nand any temporary drainage structures. \nA narrative of the sequence of construction and traffic handling for each stage is also included.",
+      "tts_file": "audio/ch11_scene02.wav",
+      "duration": 31.35
+    },
+    {
+      "index": 3,
+      "title": "Detour Plans",
+      "source_pages": "71-72",
+      "source_text": "If an on-site detour is required, detour plans with cross sections and signing are included.",
+      "image_paths": [],
+      "bullets": [
+        "On-site detour details",
+        "Off-site detour routes",
+        "Road closure points"
+      ],
+      "narration_text": "If an on-site detour is required, detour plans with cross sections and signing are included. \nThese show the detour centerline with curve and alignment data, detour profile, pavement edges and width, \nconstruction limits, required right-of-way and easements, temporary drainage, and temporary barriers. \nIf a road closing and off-site detour is required, a plan shows the layout of local roads \nwith road closure points and the detour route.",
+      "narration_sanitized": "If an on-site detour is required, detour plans with cross sections and signing are included. \nThese show the detour centerline with curve and alignment data, detour profile, pavement edges and width, \nconstruction limits, required right-of-way and easements, temporary drainage, and temporary barriers. \nIf a road closing and off-site detour is required, a plan shows the layout of local roads \nwith road closure points and the detour route.",
+      "narration_raw": "If an on-site detour is required, detour plans with cross sections and signing are included. \nThese show the detour centerline with curve and alignment data, detour profile, pavement edges and width, \nconstruction limits, required right-of-way and easements, temporary drainage, and temporary barriers. \nIf a road closing and off-site detour is required, a plan shows the layout of local roads \nwith road closure points and the detour route.",
+      "tts_file": "audio/ch11_scene03.wav",
+      "duration": 26.7625
+    },
+    {
+      "index": 4,
+      "title": "Summary",
+      "source_pages": "72",
+      "source_text": "Summary of Chapter 11",
+      "image_paths": [],
+      "bullets": [
+        "Project-specific plans",
+        "Detour attention required",
+        "Stage cross sections"
+      ],
+      "narration_text": "To summarize Chapter Eleven, Traffic Control Plans are developed specifically for each project, \nnot used generically from project to project. Detours receive significant attention in traffic control planning. \nCross sections of construction stages may be included where necessary. \nUnderstanding these plans ensures safe and efficient traffic flow during construction. \nIn the next chapter, we'll cover Erosion, Sedimentation, and Pollution Control Plans.",
+      "narration_sanitized": "To summarize Chapter Eleven, Traffic Control Plans are developed specifically for each project, \nnot used generically from project to project. Detours receive significant attention in traffic control planning. \nCross sections of construction stages may be included where necessary. \nUnderstanding these plans ensures safe and efficient traffic flow during construction. \nIn the next chapter, we'll cover Erosion, Sedimentation, and Pollution Control Plans.",
+      "narration_raw": "To summarize Chapter Eleven, Traffic Control Plans are developed specifically for each project, \nnot used generically from project to project. Detours receive significant attention in traffic control planning. \nCross sections of construction stages may be included where necessary. \nUnderstanding these plans ensures safe and efficient traffic flow during construction. \nIn the next chapter, we'll cover Erosion, Sedimentation, and Pollution Control Plans.",
+      "tts_file": "audio/ch11_scene04.wav",
+      "duration": 28.25
+    }
+  ],
+  "images": {},
+  "total_duration": 112.3875
+}

@@ -1,0 +1,88 @@
+{
+  "chapter": 14,
+  "pages": "85-86",
+  "title": "Standards & Details",
+  "lessons": 1,
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Introduction",
+      "source_pages": "85",
+      "source_text": "Georgia Construction Standard Drawings or Standards are generalized construction drawings.",
+      "image_paths": [],
+      "bullets": [
+        "Standards: generalized drawings",
+        "Details: specialized methods",
+        "Special Details: project-specific"
+      ],
+      "narration_text": "Welcome to Chapter Fourteen of Basic Highway Plan Reading. \nThis chapter covers Standards and Details. Georgia Construction Standard Drawings, or Standards, \nare generalized construction drawings applicable to most projects. \nThink of Standards as drawings showing the normal way the Department of Transportation \nwants something built. Georgia Construction Detail Drawings, or Details, \nare more specific and specialized, showing methods not common to all projects.",
+      "narration_sanitized": "Welcome to Chapter Fourteen of Basic Highway Plan Reading. \nThis chapter covers Standards and Details. Georgia Construction Standard Drawings, or Standards, \nare generalized construction drawings applicable to most projects. \nThink of Standards as drawings showing the normal way the Department of Transportation \nwants something built. Georgia Construction Detail Drawings, or Details, \nare more specific and specialized, showing methods not common to all projects.",
+      "narration_raw": "Welcome to Chapter Fourteen of Basic Highway Plan Reading. \nThis chapter covers Standards and Details. Georgia Construction Standard Drawings, or Standards, \nare generalized construction drawings applicable to most projects. \nThink of Standards as drawings showing the normal way the Department of Transportation \nwants something built. Georgia Construction Detail Drawings, or Details, \nare more specific and specialized, showing methods not common to all projects.",
+      "tts_file": "audio/ch14_scene01.wav",
+      "duration": 28.4625
+    },
+    {
+      "index": 2,
+      "title": "Types of Drawings",
+      "source_pages": "85",
+      "source_text": "Georgia Special Construction Details are drawings that are specific to that project only.",
+      "image_paths": [],
+      "bullets": [
+        "Standard Drawings: general",
+        "Detail Drawings: specialized",
+        "Special Details: one project"
+      ],
+      "narration_text": "There are three types of drawings you'll encounter. Georgia Construction Standard Drawings \nare general drawings used on most projects. Georgia Construction Detail Drawings show specialized methods \nnot commonly used on all projects. Georgia Special Construction Details are specific to one project only. \nOn the Index Sheet, you'll find which sheets are Construction Details and which are Construction Standards, \nall to be used on the job.",
+      "narration_sanitized": "There are three types of drawings you'll encounter. Georgia Construction Standard Drawings \nare general drawings used on most projects. Georgia Construction Detail Drawings show specialized methods \nnot commonly used on all projects. Georgia Special Construction Details are specific to one project only. \nOn the Index Sheet, you'll find which sheets are Construction Details and which are Construction Standards, \nall to be used on the job.",
+      "narration_raw": "There are three types of drawings you'll encounter. Georgia Construction Standard Drawings \nare general drawings used on most projects. Georgia Construction Detail Drawings show specialized methods \nnot commonly used on all projects. Georgia Special Construction Details are specific to one project only. \nOn the Index Sheet, you'll find which sheets are Construction Details and which are Construction Standards, \nall to be used on the job.",
+      "tts_file": "audio/ch14_scene02.wav",
+      "duration": 26.725
+    },
+    {
+      "index": 3,
+      "title": "Intersection Details",
+      "source_pages": "85-86",
+      "source_text": "Intersection details are larger scale views showing detailed information.",
+      "image_paths": [
+        "assets/images/chapter14/figure_14_1.jpg"
+      ],
+      "bullets": [
+        "Larger scale views",
+        "Ramps identified by letters",
+        "Loops use subscripts"
+      ],
+      "narration_text": "Intersection details are larger scale views showing information that couldn't be clearly shown \non smaller scale plan sheets. As shown in Figure 14-1, each ramp in an interchange is identified \nby a letter designation, usually assigned starting from the upper left moving clockwise. \nInterior ramps or loops are designated with subscripts like A1, A2, or as Loop A, Loop B. \nRamps constructed under a previous contract are shown with dashed lines indicating existing conditions.",
+      "narration_sanitized": "Intersection details are larger scale views showing information that couldn't be clearly shown \non smaller scale plan sheets. As shown in Figure 14-1, each ramp in an interchange is identified \nby a letter designation, usually assigned starting from the upper left moving clockwise. \nInterior ramps or loops are designated with subscripts like A1, A2, or as Loop A, Loop B. \nRamps constructed under a previous contract are shown with dashed lines indicating existing conditions.",
+      "narration_raw": "Intersection details are larger scale views showing information that couldn't be clearly shown \non smaller scale plan sheets. As shown in Figure 14-1, each ramp in an interchange is identified \nby a letter designation, usually assigned starting from the upper left moving clockwise. \nInterior ramps or loops are designated with subscripts like A1, A2, or as Loop A, Loop B. \nRamps constructed under a previous contract are shown with dashed lines indicating existing conditions.",
+      "tts_file": "audio/ch14_scene03.wav",
+      "duration": 30.1125
+    },
+    {
+      "index": 4,
+      "title": "Summary",
+      "source_pages": "86",
+      "source_text": "Summary of Chapter 14: Standards & Details",
+      "image_paths": [],
+      "bullets": [
+        "Three types of drawings",
+        "Intersection detail views",
+        "Ramp letter designations"
+      ],
+      "narration_text": "To summarize Chapter Fourteen, remember that Georgia Construction Standard Drawings \nare generally used drawings showing the normal construction method. \nGeorgia Construction Detail Drawings show methods not common to all projects. \nGeorgia Special Construction Details are project-specific. \nIntersection details provide enlarged views of complex areas. \nRamp identification uses letter designations with loops using subscripts. \nIn the final chapter, we'll cover Right of Way.",
+      "narration_sanitized": "To summarize Chapter Fourteen, remember that Georgia Construction Standard Drawings \nare generally used drawings showing the normal construction method. \nGeorgia Construction Detail Drawings show methods not common to all projects. \nGeorgia Special Construction Details are project-specific. \nIntersection details provide enlarged views of complex areas. \nRamp identification uses letter designations with loops using subscripts. \nIn the final chapter, we'll cover Right of Way.",
+      "narration_raw": "To summarize Chapter Fourteen, remember that Georgia Construction Standard Drawings \nare generally used drawings showing the normal construction method. \nGeorgia Construction Detail Drawings show methods not common to all projects. \nGeorgia Special Construction Details are project-specific. \nIntersection details provide enlarged views of complex areas. \nRamp identification uses letter designations with loops using subscripts. \nIn the final chapter, we'll cover Right of Way.",
+      "tts_file": "audio/ch14_scene04.wav",
+      "duration": 28.9125
+    }
+  ],
+  "images": {
+    "figure_14_1": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/c2299c8a2fe8c8e90276d6cfa764b142f7a829c8ba60415336a0444b74fbd788.jpg",
+        "local_path": "assets/images/chapter14/figure_14_1.jpg"
+      },
+      "local_path": "assets/images/chapter14/figure_14_1.jpg"
+    }
+  },
+  "total_duration": 114.2125
+}

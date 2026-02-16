@@ -1,0 +1,316 @@
+{
+  "chapter": 8,
+  "pages": "53-65",
+  "title": "Drainage",
+  "lessons": 3,
+  "lesson_boundaries": {
+    "lesson_01": {
+      "scenes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "title": "Introduction and Pipe Culverts"
+    },
+    "lesson_02": {
+      "scenes": [
+        5,
+        6,
+        7
+      ],
+      "title": "Box Culverts and Wing Walls"
+    },
+    "lesson_03": {
+      "scenes": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "title": "Bridges and Utilities"
+    }
+  },
+  "scenes": [
+    {
+      "index": 1,
+      "title": "Introduction to Drainage",
+      "source_pages": "53",
+      "source_text": "Project drainage is accomplished by means of ditches, pipe culverts, box culverts, bridges and minor drainage structures.",
+      "image_paths": [],
+      "bullets": [
+        "Drainage structures overview",
+        "Culverts vs bridges distinction",
+        "Types of drainage structures"
+      ],
+      "narration_text": "Welcome to Chapter Eight of Basic Highway Plan Reading. \nThis chapter covers Drainage, one of the most important aspects of highway construction. \nProject drainage is accomplished through ditches, pipe culverts, box culverts, bridges, \nand minor drainage structures such as drop inlets, junction boxes, manholes, and endwalls. \nThe amount of water to be drained determines the type of drainage structure to be built. \nLet's begin by understanding the difference between culverts and bridges.",
+      "narration_sanitized": "Welcome to Chapter Eight of Basic Highway Plan Reading. \nThis chapter covers Drainage, one of the most important aspects of highway construction. \nProject drainage is accomplished through ditches, pipe culverts, box culverts, bridges, \nand minor drainage structures such as drop inlets, junction boxes, manholes, and endwalls. \nThe amount of water to be drained determines the type of drainage structure to be built. \nLet's begin by understanding the difference between culverts and bridges.",
+      "narration_raw": "Welcome to Chapter Eight of Basic Highway Plan Reading. \nThis chapter covers Drainage, one of the most important aspects of highway construction. \nProject drainage is accomplished through ditches, pipe culverts, box culverts, bridges, \nand minor drainage structures such as drop inlets, junction boxes, manholes, and endwalls. \nThe amount of water to be drained determines the type of drainage structure to be built. \nLet's begin by understanding the difference between culverts and bridges.",
+      "tts_file": "audio/ch08_scene01.wav",
+      "duration": 29.45
+    },
+    {
+      "index": 2,
+      "title": "Culverts vs Bridges",
+      "source_pages": "53",
+      "source_text": "A culvert is a structure not classified as a bridge. A bridge is a structure having a length of over 20 feet.",
+      "image_paths": [
+        "assets/images/chapter08/figure_8_2.jpg"
+      ],
+      "bullets": [
+        "Culvert: 20 feet or less",
+        "Bridge: over 20 feet span",
+        "Drainage table on Plan Sheets"
+      ],
+      "narration_text": "Let's clarify the difference between culverts and bridges. \nA culvert is a structure not classified as a bridge that provides an opening under a roadway, \nusually for water drainage. According to Standard Specifications, a culvert has a clear opening \nof 20 feet or less. A bridge, on the other hand, is a structure having a length of over 20 feet \nthat is erected over a roadway, stream, railroad, depression, or combination of these. \nEach drainage structure is pictured in the Plan Sheets, as shown in Figure 8-1, \nwhich displays a drainage table showing culvert locations, stations, sizes, and receiving streams.",
+      "narration_sanitized": "Let's clarify the difference between culverts and bridges. \nA culvert is a structure not classified as a bridge that provides an opening under a roadway, \nusually for water drainage. According to Standard Specifications, a culvert has a clear opening \nof 20 feet or less. A bridge, on the other hand, is a structure having a length of over 20 feet \nthat is erected over a roadway, stream, railroad, depression, or combination of these. \nEach drainage structure is pictured in the Plan Sheets, as shown in Figure 8-1, \nwhich displays a drainage table showing culvert locations, stations, sizes, and receiving streams.",
+      "narration_raw": "Let's clarify the difference between culverts and bridges. \nA culvert is a structure not classified as a bridge that provides an opening under a roadway, \nusually for water drainage. According to Standard Specifications, a culvert has a clear opening \nof 20 feet or less. A bridge, on the other hand, is a structure having a length of over 20 feet \nthat is erected over a roadway, stream, railroad, depression, or combination of these. \nEach drainage structure is pictured in the Plan Sheets, as shown in Figure 8-1, \nwhich displays a drainage table showing culvert locations, stations, sizes, and receiving streams.",
+      "tts_file": "audio/ch08_scene02.wav",
+      "duration": 38.6
+    },
+    {
+      "index": 3,
+      "title": "Pipe Culverts",
+      "source_pages": "53-54",
+      "source_text": "Several examples of pipe culverts are found on Sheet 62. Look near station 192+50.",
+      "image_paths": [],
+      "bullets": [
+        "Slope drain pipe culverts",
+        "Median drop inlet integration",
+        "Drainage profiles show details"
+      ],
+      "narration_text": "Now let's examine pipe culverts. Several examples of pipe culverts can be found \non construction plan sheets. A slope drain pipe culvert may be used to drain a portion of the median \nand incorporate a median drop inlet. The pipe flows to a flared end section at the outfall. \nThe drainage profiles show pipe details including elevation and flow direction. \nOn the drainage map plan sheets, you'll find culvert details including station location, \nskew angle, size, drainage area, water flow rate, and the receiving stream. \nThis information is critical for understanding drainage design.",
+      "narration_sanitized": "Now let's examine pipe culverts. Several examples of pipe culverts can be found \non construction plan sheets. A slope drain pipe culvert may be used to drain a portion of the median \nand incorporate a median drop inlet. The pipe flows to a flared end section at the outfall. \nThe drainage profiles show pipe details including elevation and flow direction. \nOn the drainage map plan sheets, you'll find culvert details including station location, \nskew angle, size, drainage area, water flow rate, and the receiving stream. \nThis information is critical for understanding drainage design.",
+      "narration_raw": "Now let's examine pipe culverts. Several examples of pipe culverts can be found \non construction plan sheets. A slope drain pipe culvert may be used to drain a portion of the median \nand incorporate a median drop inlet. The pipe flows to a flared end section at the outfall. \nThe drainage profiles show pipe details including elevation and flow direction. \nOn the drainage map plan sheets, you'll find culvert details including station location, \nskew angle, size, drainage area, water flow rate, and the receiving stream. \nThis information is critical for understanding drainage design.",
+      "tts_file": "audio/ch08_scene03.wav",
+      "duration": 35.225
+    },
+    {
+      "index": 4,
+      "title": "Box Culvert Parts",
+      "source_pages": "54-55",
+      "source_text": "You need to know the names of the different box culvert parts.",
+      "image_paths": [
+        "assets/images/chapter08/figure_8_2.jpg",
+        "assets/images/chapter08/figure_8_3_b.jpg"
+      ],
+      "bullets": [
+        "Barrel, wing walls, parapet",
+        "Top slab, bottom slab, walls",
+        "Span x height dimensions"
+      ],
+      "narration_text": "Box culverts have several major parts you need to know. \nAs shown in Figure 8-2, a box culvert consists of three main components: \nthe barrel, the wing walls, and the parapet. The barrel has a top slab, bottom slab, and barrel walls. \nA cutoff wall hangs down below the bottom slab at each end. \nThe barrel walls become wing walls at each end of the barrel. \nCulverts can be built with more than one barrel, creating double or triple culverts. \nThe dimensions are expressed as span by height, where span is the horizontal distance \nand height is the vertical distance.",
+      "narration_sanitized": "Box culverts have several major parts you need to know. \nAs shown in Figure 8-2, a box culvert consists of three main components: \nthe barrel, the wing walls, and the parapet. The barrel has a top slab, bottom slab, and barrel walls. \nA cutoff wall hangs down below the bottom slab at each end. \nThe barrel walls become wing walls at each end of the barrel. \nCulverts can be built with more than one barrel, creating double or triple culverts. \nThe dimensions are expressed as span by height, where span is the horizontal distance \nand height is the vertical distance.",
+      "narration_raw": "Box culverts have several major parts you need to know. \nAs shown in Figure 8-2, a box culvert consists of three main components: \nthe barrel, the wing walls, and the parapet. The barrel has a top slab, bottom slab, and barrel walls. \nA cutoff wall hangs down below the bottom slab at each end. \nThe barrel walls become wing walls at each end of the barrel. \nCulverts can be built with more than one barrel, creating double or triple culverts. \nThe dimensions are expressed as span by height, where span is the horizontal distance \nand height is the vertical distance.",
+      "tts_file": "audio/ch08_scene04.wav",
+      "duration": 34.575
+    },
+    {
+      "index": 5,
+      "title": "Longitudinal Section",
+      "source_pages": "56",
+      "source_text": "Shown above is a longitudinal section of a box culvert.",
+      "image_paths": [
+        "assets/images/chapter08/figure_8_4.jpg"
+      ],
+      "bullets": [
+        "Inlet higher than outlet",
+        "Centerline flowline (invert)",
+        "Construction joints shown"
+      ],
+      "narration_text": "Figure 8-4 shows a longitudinal section of a box culvert. \nNotice these important features: The inlet end where water enters is always higher than the outlet end. \nThe centerline flowline, also known as the invert, is the elevation of the top of the bottom slab \nat the roadway centerline. The percent of slope for the culvert barrel is established from the inlet \nand outlet elevations. Construction joints show where one concrete pour may end and another begins. \nUnderstanding these elements helps you interpret drainage cross section sheets accurately.",
+      "narration_sanitized": "Figure 8-4 shows a longitudinal section of a box culvert. \nNotice these important features: The inlet end where water enters is always higher than the outlet end. \nThe centerline flowline, also known as the invert, is the elevation of the top of the bottom slab \nat the roadway centerline. The percent of slope for the culvert barrel is established from the inlet \nand outlet elevations. Construction joints show where one concrete pour may end and another begins. \nUnderstanding these elements helps you interpret drainage cross section sheets accurately.",
+      "narration_raw": "Figure 8-4 shows a longitudinal section of a box culvert. \nNotice these important features: The inlet end where water enters is always higher than the outlet end. \nThe centerline flowline, also known as the invert, is the elevation of the top of the bottom slab \nat the roadway centerline. The percent of slope for the culvert barrel is established from the inlet \nand outlet elevations. Construction joints show where one concrete pour may end and another begins. \nUnderstanding these elements helps you interpret drainage cross section sheets accurately.",
+      "tts_file": "audio/ch08_scene05.wav",
+      "duration": 33.6
+    },
+    {
+      "index": 6,
+      "title": "Plan View and Skew Angles",
+      "source_pages": "57",
+      "source_text": "This plan view shows the culvert from the top. The SKEW ANGLE is the angle that the centerline of the culvert makes with the roadway.",
+      "image_paths": [
+        "assets/images/chapter08/figure_8_5.jpg",
+        "assets/images/chapter08/figure_8_6.jpg"
+      ],
+      "bullets": [
+        "Plan view shows top-down",
+        "Skew angle measurement",
+        "90 degrees is perpendicular"
+      ],
+      "narration_text": "The plan view shows the culvert from the top, as seen in Figures 8-5 and 8-6. \nNotice the centerline of the roadway. The skew angle is the angle that the centerline of the culvert \nmakes with the centerline of the roadway. A culvert perpendicular to the roadway is on a 90 degree skew. \nAs shown in Figure 8-6, a 45 degree skew means the culvert crosses at an angle. \nThe skew angle affects how the culvert is designed and constructed, \nparticularly the wing wall lengths on each end.",
+      "narration_sanitized": "The plan view shows the culvert from the top, as seen in Figures 8-5 and 8-6. \nNotice the centerline of the roadway. The skew angle is the angle that the centerline of the culvert \nmakes with the centerline of the roadway. A culvert perpendicular to the roadway is on a 90 degree skew. \nAs shown in Figure 8-6, a 45 degree skew means the culvert crosses at an angle. \nThe skew angle affects how the culvert is designed and constructed, \nparticularly the wing wall lengths on each end.",
+      "narration_raw": "The plan view shows the culvert from the top, as seen in Figures 8-5 and 8-6. \nNotice the centerline of the roadway. The skew angle is the angle that the centerline of the culvert \nmakes with the centerline of the roadway. A culvert perpendicular to the roadway is on a 90 degree skew. \nAs shown in Figure 8-6, a 45 degree skew means the culvert crosses at an angle. \nThe skew angle affects how the culvert is designed and constructed, \nparticularly the wing wall lengths on each end.",
+      "tts_file": "audio/ch08_scene06.wav",
+      "duration": 31.2
+    },
+    {
+      "index": 7,
+      "title": "Wing Walls",
+      "source_pages": "58-59",
+      "source_text": "Wing walls are extensions of the barrel walls that flare out away from the stream.",
+      "image_paths": [
+        "assets/images/chapter08/figure_8_7.jpg",
+        "assets/images/chapter08/figure_8_8.jpg",
+        "assets/images/chapter08/figure_8_9.jpg"
+      ],
+      "bullets": [
+        "Keep fill from stream",
+        "Vary with skew angle",
+        "Bisect interior corners"
+      ],
+      "narration_text": "Wing walls are extensions of the barrel walls that flare out away from the stream. \nAs shown in Figures 8-7 and 8-8, the purpose of wing walls is to keep the earth fill above the culvert \nfrom spilling into the stream bed. When a culvert is built on a skew, one wing is shorter than the other. \nThe wing lengths vary depending on the height of the culvert, the slope of the fill, \nand the skew angle. The wings are parallel to lines that bisect the interior corner angles \nof the culvert, which is the standard method for establishing wing direction.",
+      "narration_sanitized": "Wing walls are extensions of the barrel walls that flare out away from the stream. \nAs shown in Figures 8-7 and 8-8, the purpose of wing walls is to keep the earth fill above the culvert \nfrom spilling into the stream bed. When a culvert is built on a skew, one wing is shorter than the other. \nThe wing lengths vary depending on the height of the culvert, the slope of the fill, \nand the skew angle. The wings are parallel to lines that bisect the interior corner angles \nof the culvert, which is the standard method for establishing wing direction.",
+      "narration_raw": "Wing walls are extensions of the barrel walls that flare out away from the stream. \nAs shown in Figures 8-7 and 8-8, the purpose of wing walls is to keep the earth fill above the culvert \nfrom spilling into the stream bed. When a culvert is built on a skew, one wing is shorter than the other. \nThe wing lengths vary depending on the height of the culvert, the slope of the fill, \nand the skew angle. The wings are parallel to lines that bisect the interior corner angles \nof the culvert, which is the standard method for establishing wing direction.",
+      "tts_file": "audio/ch08_scene07.wav",
+      "duration": 34.15
+    },
+    {
+      "index": 8,
+      "title": "Bridge Structure Overview",
+      "source_pages": "60",
+      "source_text": "A bridge is constructed over a roadway, stream, or railroad. Refer to Figure 8-11 for two views of a three span bridge.",
+      "image_paths": [
+        "assets/images/chapter08/figure_8_11_b.jpg"
+      ],
+      "bullets": [
+        "Spans, beams, and deck",
+        "Superstructure above bent caps",
+        "Substructure below bent caps"
+      ],
+      "narration_text": "A bridge is constructed over a roadway, stream, or railroad, or a combination of these. \nFigure 8-11 shows plan and elevation views of a three-span bridge. The spans consist of a reinforced \nconcrete deck supported on steel or concrete beams or girders. These beams are placed lengthwise \nalong the bridge, parallel to the centerline, with each end resting on a bent cap. \nThe superstructure is everything above the bent caps, while the substructure includes the bent caps, \ncolumns, footings, and piles below.",
+      "narration_sanitized": "A bridge is constructed over a roadway, stream, or railroad, or a combination of these. \nFigure 8-11 shows plan and elevation views of a three-span bridge. The spans consist of a reinforced \nconcrete deck supported on steel or concrete beams or girders. These beams are placed lengthwise \nalong the bridge, parallel to the centerline, with each end resting on a bent cap. \nThe superstructure is everything above the bent caps, while the substructure includes the bent caps, \ncolumns, footings, and piles below.",
+      "narration_raw": "A bridge is constructed over a roadway, stream, or railroad, or a combination of these. \nFigure 8-11 shows plan and elevation views of a three-span bridge. The spans consist of a reinforced \nconcrete deck supported on steel or concrete beams or girders. These beams are placed lengthwise \nalong the bridge, parallel to the centerline, with each end resting on a bent cap. \nThe superstructure is everything above the bent caps, while the substructure includes the bent caps, \ncolumns, footings, and piles below.",
+      "tts_file": "audio/ch08_scene08.wav",
+      "duration": 31.5625
+    },
+    {
+      "index": 9,
+      "title": "Bridge Bents",
+      "source_pages": "62",
+      "source_text": "The following are views of the most common types of Interior and End Bents.",
+      "image_paths": [
+        "assets/images/chapter08/figure_8_12.jpg"
+      ],
+      "bullets": [
+        "Bent cap, columns, footings",
+        "Steel or concrete piles",
+        "Support for beams"
+      ],
+      "narration_text": "Bents are the supporting structures for bridges. As shown in Figure 8-12, \na bent is composed of the bent cap, columns, footings, and piles beneath. \nEnd bents normally use piles for support. The bent cap is constructed of reinforced concrete \nand supports the beams. Footings support the columns and may rest on piles or firm soil. \nPiles are used when firm material is not available. Steel piles are used in rocky areas, \nwhile concrete piles are used in coastal areas where steel would corrode.",
+      "narration_sanitized": "Bents are the supporting structures for bridges. As shown in Figure 8-12, \na bent is composed of the bent cap, columns, footings, and piles beneath. \nEnd bents normally use piles for support. The bent cap is constructed of reinforced concrete \nand supports the beams. Footings support the columns and may rest on piles or firm soil. \nPiles are used when firm material is not available. Steel piles are used in rocky areas, \nwhile concrete piles are used in coastal areas where steel would corrode.",
+      "narration_raw": "Bents are the supporting structures for bridges. As shown in Figure 8-12, \na bent is composed of the bent cap, columns, footings, and piles beneath. \nEnd bents normally use piles for support. The bent cap is constructed of reinforced concrete \nand supports the beams. Footings support the columns and may rest on piles or firm soil. \nPiles are used when firm material is not available. Steel piles are used in rocky areas, \nwhile concrete piles are used in coastal areas where steel would corrode.",
+      "tts_file": "audio/ch08_scene09.wav",
+      "duration": 30.625
+    },
+    {
+      "index": 10,
+      "title": "Utility Accommodations",
+      "source_pages": "64-65",
+      "source_text": "Often it is necessary for UTILITIES to cross the roadway spanned by a bridge.",
+      "image_paths": [
+        "assets/images/chapter08/figure_8_13.jpg"
+      ],
+      "bullets": [
+        "Utilities below bridge slab",
+        "Concrete inserts and hangers",
+        "Pass through end walls"
+      ],
+      "narration_text": "Often utilities such as water lines, gas lines, telephone lines, and power lines \nmust cross roadways spanned by bridges. Figure 8-13 shows how utilities are supported below a bridge slab. \nConcrete inserts are placed in the slab when concrete is poured. Hangers are then screwed into \nthe bottom of the insert when utilities are installed. Utilities are normally placed inside \nthe exterior beams and above the bottom of the beam so they cannot be seen from below. \nFigure 8-14 shows how utilities pass through the end wall at the end of a bridge.",
+      "narration_sanitized": "Often utilities such as water lines, gas lines, telephone lines, and power lines \nmust cross roadways spanned by bridges. Figure 8-13 shows how utilities are supported below a bridge slab. \nConcrete inserts are placed in the slab when concrete is poured. Hangers are then screwed into \nthe bottom of the insert when utilities are installed. Utilities are normally placed inside \nthe exterior beams and above the bottom of the beam so they cannot be seen from below. \nFigure 8-14 shows how utilities pass through the end wall at the end of a bridge.",
+      "narration_raw": "Often utilities such as water lines, gas lines, telephone lines, and power lines \nmust cross roadways spanned by bridges. Figure 8-13 shows how utilities are supported below a bridge slab. \nConcrete inserts are placed in the slab when concrete is poured. Hangers are then screwed into \nthe bottom of the insert when utilities are installed. Utilities are normally placed inside \nthe exterior beams and above the bottom of the beam so they cannot be seen from below. \nFigure 8-14 shows how utilities pass through the end wall at the end of a bridge.",
+      "tts_file": "audio/ch08_scene10.wav",
+      "duration": 34.9
+    },
+    {
+      "index": 11,
+      "title": "Summary",
+      "source_pages": "65",
+      "source_text": "Summary of Chapter 8: Drainage",
+      "image_paths": [],
+      "bullets": [
+        "Culverts vs bridges",
+        "Box culvert components",
+        "Bridge structure elements"
+      ],
+      "narration_text": "Let's review what we've covered in this chapter on Drainage. \nYou've learned the difference between culverts and bridges based on their span length. \nYou understand the parts of box culverts including barrels, wing walls, and the significance of skew angles. \nYou know how to read longitudinal sections and plan views of culverts. \nYou've learned about bridge components including the superstructure and substructure, \nbents, and how utilities are accommodated. \nThis knowledge is essential for reading drainage plans on highway construction projects.",
+      "narration_sanitized": "Let's review what we've covered in this chapter on Drainage. \nYou've learned the difference between culverts and bridges based on their span length. \nYou understand the parts of box culverts including barrels, wing walls, and the significance of skew angles. \nYou know how to read longitudinal sections and plan views of culverts. \nYou've learned about bridge components including the superstructure and substructure, \nbents, and how utilities are accommodated. \nThis knowledge is essential for reading drainage plans on highway construction projects.",
+      "narration_raw": "Let's review what we've covered in this chapter on Drainage. \nYou've learned the difference between culverts and bridges based on their span length. \nYou understand the parts of box culverts including barrels, wing walls, and the significance of skew angles. \nYou know how to read longitudinal sections and plan views of culverts. \nYou've learned about bridge components including the superstructure and substructure, \nbents, and how utilities are accommodated. \nThis knowledge is essential for reading drainage plans on highway construction projects.",
+      "tts_file": "audio/ch08_scene11.wav",
+      "duration": 34.1
+    }
+  ],
+  "images": {
+    "figure_8_3": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/a078bf69ac0635393a7978410fc19ada2766cac2af83512cf40781a7260331e7.jpg",
+        "local_path": "assets/images/chapter08/figure_8_3.jpg"
+      },
+      "local_path": "assets/images/chapter08/figure_8_3.jpg"
+    },
+    "figure_8_4": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/8c2bec15859273b4b615512b12442158d8359f7f8e628a159c34aafb08a8bd6f.jpg",
+        "local_path": "assets/images/chapter08/figure_8_4.jpg"
+      },
+      "local_path": "assets/images/chapter08/figure_8_4.jpg"
+    },
+    "figure_8_5": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/6f05ee6bb5d5115855c1e01ce294f3ea1da9890f31a22ebb97f758febb8c1556.jpg",
+        "local_path": "assets/images/chapter08/figure_8_5.jpg"
+      },
+      "local_path": "assets/images/chapter08/figure_8_5.jpg"
+    },
+    "figure_8_6": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/88208580c2906a67eec5f46fc0d7630ed1e0cc5e0e0c21fa0411eb9e227eb4d3.jpg",
+        "local_path": "assets/images/chapter08/figure_8_6.jpg"
+      },
+      "local_path": "assets/images/chapter08/figure_8_6.jpg"
+    },
+    "figure_8_7": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/e1005b57f7c54b6d8661f50fe55ab9198faca26600d0072e4c894dfea73eedb1.jpg",
+        "local_path": "assets/images/chapter08/figure_8_7.jpg"
+      },
+      "local_path": "assets/images/chapter08/figure_8_7.jpg"
+    },
+    "figure_8_8": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/90c150059d516e1d0073b2069664873e1b99c5cd8936c2c661951dbcaf909884.jpg",
+        "local_path": "assets/images/chapter08/figure_8_8.jpg"
+      },
+      "local_path": "assets/images/chapter08/figure_8_8.jpg"
+    },
+    "figure_8_9": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/f5fd468448959b3bab4650b52c07e5f03aaa146afead73447a3160daf44018b5.jpg",
+        "local_path": "assets/images/chapter08/figure_8_9.jpg"
+      },
+      "local_path": "assets/images/chapter08/figure_8_9.jpg"
+    },
+    "figure_8_11": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/9301104cdc9401f9ccc48b137e8394dc128b8e4f82ea8a775ae646ab4e59d528.jpg",
+        "local_path": "assets/images/chapter08/figure_8_11.jpg"
+      },
+      "local_path": "assets/images/chapter08/figure_8_11.jpg"
+    },
+    "figure_8_12": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/55ad90bb14d9cc95cbc46586325dbcce47e8f5abcf3eae52d76dc52a902e1a06.jpg",
+        "local_path": "assets/images/chapter08/figure_8_12.jpg"
+      },
+      "local_path": "assets/images/chapter08/figure_8_12.jpg"
+    },
+    "figure_8_13": {
+      "cdn_url": {
+        "cdn_url": "https://cdn-mineru.openxlab.org.cn/result/2025-12-24/d749dbdf-4f40-47d0-9280-402a52c61f01/5f0bc865a4c50d0a2bbe3b7d8c4f578e571f17709691a41a7ec5107c8418b46e.jpg",
+        "local_path": "assets/images/chapter08/figure_8_13.jpg"
+      },
+      "local_path": "assets/images/chapter08/figure_8_13.jpg"
+    }
+  },
+  "total_duration": 367.9875
+}
